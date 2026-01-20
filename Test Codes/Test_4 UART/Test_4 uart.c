@@ -9,7 +9,7 @@
 #include "miv_rv32_hal/miv_rv32_hal.h"
 
 /* --------------------------------------------------
- * UART test messages (same style as your example)
+ * UART test messages
  * -------------------------------------------------- */
 const uint8_t uart_test_start_message[] =
         "\r\n\r\n\r\n **** UART TEST START ****\r\n\r\n\r\n";
