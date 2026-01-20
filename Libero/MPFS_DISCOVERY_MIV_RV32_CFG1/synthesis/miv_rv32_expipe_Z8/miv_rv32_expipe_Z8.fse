@@ -1,0 +1,86 @@
+
+fsm_encoding {38147360147367} onehot
+
+fsm_state_encoding {38147360147367} INIT_DBG {000001}
+
+fsm_state_encoding {38147360147367} RUNNING {000010}
+
+fsm_state_encoding {38147360147367} HALT_WAIT_ACK {000100}
+
+fsm_state_encoding {38147360147367} HALT_STATE {001000}
+
+fsm_state_encoding {38147360147367} COMMAND_ACCESS_STATE {010000}
+
+fsm_state_encoding {38147360147367} RESUME_WAIT_ACT {100000}
+
+fsm_registers {38147360147367} {debug_state[5]}  {debug_state[4]}  {debug_state[3]}  {debug_state[2]}  {debug_state[1]}  {debug_state[0]} 
+
+fsm_encoding {38110562110563} sequential
+
+fsm_state_encoding {38110562110563} BH_INIT {00}
+
+fsm_state_encoding {38110562110563} BH_READ {01}
+
+fsm_state_encoding {38110562110563} BH_WRITE {10}
+
+fsm_registers {38110562110563} {cpu_d_wr_rd_state[1]}  {cpu_d_wr_rd_state[0]} 
+
+fsm_encoding {38103912103916} sequential
+
+fsm_state_encoding {38103912103916} 01 {00}
+
+fsm_state_encoding {38103912103916} 10 {01}
+
+fsm_state_encoding {38103912103916} 11 {10}
+
+fsm_registers {38103912103916} {hipri_req_ptr[1]}  {hipri_req_ptr[0]} 
+
+fsm_encoding {385938259382} sequential
+
+fsm_state_encoding {385938259382} ADDR_ST {00}
+
+fsm_state_encoding {385938259382} DATA_ST {01}
+
+fsm_state_encoding {385938259382} WAIT_ST {10}
+
+fsm_registers {385938259382} {ahb_st[1]}  {ahb_st[0]} 
+
+fsm_encoding {38103912103914} onehot
+
+fsm_state_encoding {38103912103914} 001 {0000001}
+
+fsm_state_encoding {38103912103914} 010 {0000010}
+
+fsm_state_encoding {38103912103914} 011 {0000100}
+
+fsm_state_encoding {38103912103914} 100 {0001000}
+
+fsm_state_encoding {38103912103914} 101 {0010000}
+
+fsm_state_encoding {38103912103914} 110 {0100000}
+
+fsm_state_encoding {38103912103914} 111 {1000000}
+
+fsm_registers {38103912103914} {hipri_req_ptr[6]}  {hipri_req_ptr[5]}  {hipri_req_ptr[4]}  {hipri_req_ptr[3]}  {hipri_req_ptr[2]}  {hipri_req_ptr[1]}  {hipri_req_ptr[0]} 
+
+fsm_encoding {38151920151928} sequential
+
+fsm_state_encoding {38151920151928} IDLE {00}
+
+fsm_state_encoding {38151920151928} START {01}
+
+fsm_state_encoding {38151920151928} BUSTFR {10}
+
+fsm_state_encoding {38151920151928} RETN {11}
+
+fsm_registers {38151920151928} {sba_state[1]}  {sba_state[0]} 
+
+fsm_encoding {38103912103916} sequential
+
+fsm_state_encoding {38103912103916} 01 {00}
+
+fsm_state_encoding {38103912103916} 10 {01}
+
+fsm_state_encoding {38103912103916} 11 {10}
+
+fsm_registers {38103912103916} {hipri_req_ptr[1]}  {hipri_req_ptr[0]} 

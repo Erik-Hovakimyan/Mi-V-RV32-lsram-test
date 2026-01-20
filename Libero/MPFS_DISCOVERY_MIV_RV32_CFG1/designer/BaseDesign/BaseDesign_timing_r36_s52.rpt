@@ -1,0 +1,1368 @@
+Timing Report Max Delay Analysis
+
+SmartTime Version 2025.2
+Microchip Technology Inc. - Microchip Libero Software Release 2025.2 (Version 2025.2.0.14)
+Date: Sun Jan 18 23:38:46 2026
+
+
+Design: BaseDesign
+Family: PolarFireSoC
+Die: MPFS095T
+Package: FCSG325
+Temperature Range: 0 - 100 C
+Voltage Range: 0.97 - 1.03 V
+Speed Grade: -1
+Design State: Post-Layout
+Data source: Production
+Multi Corner Report Operating Conditions: slow_lv_lt,fast_hv_lt,slow_lv_ht
+
+
+-----------------------------------------------------
+SUMMARY
+
+Clock Domain:               PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0
+Required Period (ns):       20.000
+Required Frequency (MHz):   50.000
+Worst Slack (ns):           8.869
+Operating Conditions:       slow_lv_ht
+
+Clock Domain:               REF_CLK
+Required Period (ns):       20.000
+Required Frequency (MHz):   50.000
+Worst Slack (ns):           
+Operating Conditions:       
+
+Clock Domain:               TCK
+Required Period (ns):       166.670
+Required Frequency (MHz):   6.000
+Worst Slack (ns):           68.268
+Operating Conditions:       slow_lv_ht
+
+                            Input to Output
+Max Delay (ns):             N/A
+
+END SUMMARY
+-----------------------------------------------------
+
+Clock Domain PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0
+
+SET Register to Register
+
+Path 1
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R26C0/INST_RAM1K20_IP:A_BLK_EN[2]
+  Delay (ns):             10.336
+  Slack (ns):              8.869
+  Arrival (ns):           13.858
+  Required (ns):          22.727
+  Setup (ns):              0.607
+  Minimum Period (ns):    10.996
+  Operating Conditions: slow_lv_ht
+
+Path 2
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R21C0/INST_RAM1K20_IP:A_BLK_EN[2]
+  Delay (ns):             10.308
+  Slack (ns):              8.890
+  Arrival (ns):           13.830
+  Required (ns):          22.720
+  Setup (ns):              0.607
+  Minimum Period (ns):    10.975
+  Operating Conditions: slow_lv_ht
+
+Path 3
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R25C0/INST_RAM1K20_IP:A_BLK_EN[2]
+  Delay (ns):             10.302
+  Slack (ns):              8.894
+  Arrival (ns):           13.824
+  Required (ns):          22.718
+  Setup (ns):              0.607
+  Minimum Period (ns):    10.971
+  Operating Conditions: slow_lv_ht
+
+Path 4
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R23C0/INST_RAM1K20_IP:A_BLK_EN[2]
+  Delay (ns):             10.307
+  Slack (ns):              8.908
+  Arrival (ns):           13.829
+  Required (ns):          22.737
+  Setup (ns):              0.607
+  Minimum Period (ns):    10.957
+  Operating Conditions: slow_lv_ht
+
+Path 5
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R26C0/INST_RAM1K20_IP:A_BLK_EN[2]
+  Delay (ns):             10.287
+  Slack (ns):              8.918
+  Arrival (ns):           13.809
+  Required (ns):          22.727
+  Setup (ns):              0.607
+  Minimum Period (ns):    10.947
+  Operating Conditions: slow_lv_ht
+
+
+Expanded Path 1
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To: PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R26C0/INST_RAM1K20_IP:A_BLK_EN[2]
+  data required time                                 22.727
+  data arrival time                          -       13.858
+  slack                                               8.869
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0
+               +     0.000          Clock source
+  0.000                        PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0:OUT0 (r)
+               +     1.336          Clock generation
+  1.336                        
+               +     0.229          net: PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0_clkint_0
+  1.565                        PF_CCC_C0_0/PF_CCC_C0_0/clkint_0_1:A (r)
+               +     0.141          cell: ADLIB:ICB_CLKINT
+  1.706                        PF_CCC_C0_0/PF_CCC_C0_0/clkint_0_1:Y (r)
+               +     0.610          net: PF_CCC_C0_0/PF_CCC_C0_0/clkint_0_NET
+  2.316                        PF_CCC_C0_0/PF_CCC_C0_0/clkint_0:A (r)
+               +     0.169          cell: ADLIB:GB
+  2.485                        PF_CCC_C0_0/PF_CCC_C0_0/clkint_0:Y (r)
+               +     0.407          net: PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_Y
+  2.892                        PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB4:A (r)
+               +     0.058          cell: ADLIB:RGB
+  2.950                        PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB4:Y (f)
+               +     0.572          net: PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB4_rgb_net_1
+  3.522                        MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK (r)
+               +     0.393          cell: ADLIB:MACC_IP
+  3.915                        MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CDOUT[24] (f)
+               +     0.010          net: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0_cas[24]
+  3.925                        MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CDIN[24] (f)
+               +     1.997          cell: ADLIB:MACC_IP
+  5.922                        MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CDOUT[21] (r)
+               +     0.011          net: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_1_cas[21]
+  5.933                        MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_1/MACC_PHYS_INST/INST_MACC_IP:CDIN[21] (r)
+               +     1.633          cell: ADLIB:MACC_IP
+  7.566                        MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_1/MACC_PHYS_INST/INST_MACC_IP:P[15] (r)
+               +     0.500          net: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/exu_alu_result_sel[32]
+  8.066                        MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/exu_alu_result_4[0]:D (r)
+               +     0.053          cell: ADLIB:CFG4
+  8.119                        MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/exu_alu_result_4[0]:Y (r)
+               +     0.056          net: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/N_687
+  8.175                        MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/exu_alu_result_6_0[0]:C (r)
+               +     0.090          cell: ADLIB:CFG4
+  8.265                        MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/exu_alu_result_6_0[0]:Y (r)
+               +     0.057          net: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/N_752
+  8.322                        MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/exu_alu_result_7[0]:A (r)
+               +     0.053          cell: ADLIB:CFG3
+  8.375                        MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/exu_alu_result_7[0]:Y (r)
+               +     0.065          net: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/N_785
+  8.440                        MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/exu_alu_result[0]:D (r)
+               +     0.053          cell: ADLIB:CFG4
+  8.493                        MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/exu_alu_result[0]:Y (r)
+               +     0.563          net: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/exu_result_flags_ex.cmp_cond
+  9.056                        MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_idecode_0/instr_inhibit_ex_i_0_o3_RNI37V5U:B (r)
+               +     0.053          cell: ADLIB:CFG4
+  9.109                        MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_idecode_0/instr_inhibit_ex_i_0_o3_RNI37V5U:Y (r)
+               +     0.083          net: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/ifu_expipe_req_branch_excpt_req_valid_net
+  9.192                        MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_fetch_unit_0/sticky_branch_reg_RNI1VG1H:B (r)
+               +     0.094          cell: ADLIB:CFG3
+  9.286                        MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_fetch_unit_0/sticky_branch_reg_RNI1VG1H:Y (f)
+               +     0.161          net: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/un5_fetch_ptr_sel_i
+  9.447                        MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_fetch_unit_0/u_miv_rv32_ifu_iab_0/gen_buff_loop[2].buff_entry_addr_req[2]_RNIJOT77L[30]:A (f)
+               +     0.052          cell: ADLIB:CFG3
+  9.499                        MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_fetch_unit_0/u_miv_rv32_ifu_iab_0/gen_buff_loop[2].buff_entry_addr_req[2]_RNIJOT77L[30]:Y (f)
+               +     0.073          net: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/N_49
+  9.572                        MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_subsys_interconnect_0/un1_m2_i_a3:B (f)
+               +     0.050          cell: ADLIB:CFG4
+  9.622                        MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_subsys_interconnect_0/un1_m2_i_a3:Y (r)
+               +     0.067          net: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_subsys_interconnect_0/un1_N_7
+  9.689                        MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_subsys_interconnect_0/un1_m1_0_a2_0:A (r)
+               +     0.053          cell: ADLIB:CFG4
+  9.742                        MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_subsys_interconnect_0/un1_m1_0_a2_0:Y (r)
+               +     0.517          net: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/un1_N_3_mux_0
+  10.259                       MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_ahb.u_subsys_ahb_0/u_ahb_req_arb/req_masked[0]:C (r)
+               +     0.053          cell: ADLIB:CFG4
+  10.312                       MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_ahb.u_subsys_ahb_0/u_ahb_req_arb/req_masked[0]:Y (r)
+               +     0.065          net: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_ahb.u_subsys_ahb_0/u_ahb_req_arb/req_masked_Z[0]
+  10.377                       MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_ahb.u_subsys_ahb_0/u_ahb_req_arb/gnt_0[1]:A (r)
+               +     0.051          cell: ADLIB:CFG3
+  10.428                       MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_ahb.u_subsys_ahb_0/u_ahb_req_arb/gnt_0[1]:Y (f)
+               +     0.084          net: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/ahb_d_req_ready_net
+  10.512                       MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_ahb.u_subsys_ahb_0/u_ahb_req_arb/sel_early[1]:A (f)
+               +     0.052          cell: ADLIB:CFG3
+  10.564                       MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_ahb.u_subsys_ahb_0/u_ahb_req_arb/sel_early[1]:Y (f)
+               +     0.121          net: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_ahb.u_subsys_ahb_0/ahb_src_sel[1]
+  10.685                       MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_ahb.u_subsys_ahb_0/un1_hwrite_reg_i_0_o3_0:C (f)
+               +     0.052          cell: ADLIB:CFG3
+  10.737                       MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_ahb.u_subsys_ahb_0/un1_hwrite_reg_i_0_o3_0:Y (f)
+               +     0.067          net: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_ahb.u_subsys_ahb_0/un1_hwrite_reg_i_0_o3_0_Z
+  10.804                       MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_ahb.u_subsys_ahb_0/un1_hwrite_reg_i_0_o3:D (f)
+               +     0.052          cell: ADLIB:CFG4
+  10.856                       MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_ahb.u_subsys_ahb_0/un1_hwrite_reg_i_0_o3:Y (f)
+               +     0.122          net: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_ahb.u_subsys_ahb_0/un1_hwrite_reg_i_0_o3_Z
+  10.978                       MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_ahb.u_subsys_ahb_0/hwrite_iv_0:D (f)
+               +     0.052          cell: ADLIB:CFG4
+  11.030                       MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_ahb.u_subsys_ahb_0/hwrite_iv_0:Y (f)
+               +     0.092          net: MIV_RV32_CFG1_C0_0_AHBL_M_TARGET_HWRITE
+  11.122                       PF_SRAM_AHB_C0_0/COREAHBLSRAM_PF_0/genblk1.genblk1.U_PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_AHBLSram/ahbsram_addr_t_cZ[13]:B (f)
+               +     0.085          cell: ADLIB:CFG3
+  11.207                       PF_SRAM_AHB_C0_0/COREAHBLSRAM_PF_0/genblk1.genblk1.U_PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_AHBLSram/ahbsram_addr_t_cZ[13]:Y (f)
+               +     0.725          net: PF_SRAM_AHB_C0_0/ahbsram_addr_t[13]
+  11.932                       PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/CFG3_1:C (f)
+               +     0.136          cell: ADLIB:CFG3
+  12.068                       PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/CFG3_1:Y (r)
+               +     0.063          net: PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/CFG3_1_Y
+  12.131                       PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/CFG2_BLKY2[6]:A (r)
+               +     0.090          cell: ADLIB:CFG2
+  12.221                       PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/CFG2_BLKY2[6]:Y (r)
+               +     1.395          net: PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/Z_BLKY2_6_
+  13.616                       PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R26C0/CFG_10:A (r)
+               +     0.078          cell: ADLIB:CFG4_IP_ABCD
+  13.694                       PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R26C0/CFG_10:Y (r)
+               +     0.164          net: PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R26C0/A_BLK_EN_net[2]
+  13.858                       PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R26C0/INST_RAM1K20_IP:A_BLK_EN[2] (r)
+                                    
+  13.858                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  20.000                       PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0
+               +     0.000          Clock source
+  20.000                       PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0:OUT0 (r)
+               +     1.211          Clock generation
+  21.211                       
+               +     0.209          net: PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0_clkint_0
+  21.420                       PF_CCC_C0_0/PF_CCC_C0_0/clkint_0_1:A (r)
+               +     0.122          cell: ADLIB:ICB_CLKINT
+  21.542                       PF_CCC_C0_0/PF_CCC_C0_0/clkint_0_1:Y (r)
+               +     0.554          net: PF_CCC_C0_0/PF_CCC_C0_0/clkint_0_NET
+  22.096                       PF_CCC_C0_0/PF_CCC_C0_0/clkint_0:A (r)
+               +     0.154          cell: ADLIB:GB
+  22.250                       PF_CCC_C0_0/PF_CCC_C0_0/clkint_0:Y (r)
+               +     0.365          net: PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_Y
+  22.615                       PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB7:A (r)
+               +     0.052          cell: ADLIB:RGB
+  22.667                       PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB7:Y (f)
+               +     0.563          net: PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB7_rgb_net_1
+  23.230                       PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R26C0/INST_RAM1K20_IP:A_CLK (r)
+               +     0.239          
+  23.469                       clock reconvergence pessimism
+               -     0.135          
+  23.334                       clock jitter
+               -     0.607          Library setup time: ADLIB:RAM1K20_IP
+  22.727                       PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R26C0/INST_RAM1K20_IP:A_BLK_EN[2]
+                                    
+  22.727                       data required time
+
+
+Operating Conditions : slow_lv_ht
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+Path 1
+  From: RX
+  To:   MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_RX/samples_2[0]:D
+  Delay (ns):              1.571
+  Arrival (ns):            1.571
+  Setup (ns):              0.000
+  External Setup (ns):    -0.239
+  Operating Conditions: fast_hv_lt
+
+Path 2
+  From: INT_2
+  To:   MIV_ESS_C0_0/CoreGPIO_0/xhdl1.GEN_BITS[2].gpin1[2]:D
+  Delay (ns):              1.509
+  Arrival (ns):            1.509
+  Setup (ns):              0.000
+  External Setup (ns):    -0.329
+  Operating Conditions: fast_hv_lt
+
+
+Expanded Path 1
+  From: RX
+  To: MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_RX/samples_2[0]:D
+  data required time                                    N/C
+  data arrival time                          -        1.571
+  slack                                                 N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        RX (f)
+               +     0.000          net: RX
+  0.000                        RX_ibuf/U_IOPAD:PAD (f)
+               +     0.644          cell: ADLIB:IOPAD_IN
+  0.644                        RX_ibuf/U_IOPAD:Y (f)
+               +     0.000          net: RX_ibuf/YIN
+  0.644                        RX_ibuf/U_IOIN:YIN (f)
+               +     0.131          cell: ADLIB:IOIN_IB_E
+  0.775                        RX_ibuf/U_IOIN:Y (f)
+               +     0.796          net: RX_c
+  1.571                        MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_RX/samples_2[0]:D (f)
+                                    
+  1.571                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0
+               +     0.000          Clock source
+  N/C                          PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0:OUT0 (r)
+               +     0.680          Clock generation
+  N/C                          
+               +     0.131          net: PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0_clkint_0
+  N/C                          PF_CCC_C0_0/PF_CCC_C0_0/clkint_0_1:A (r)
+               +     0.087          cell: ADLIB:ICB_CLKINT
+  N/C                          PF_CCC_C0_0/PF_CCC_C0_0/clkint_0_1:Y (r)
+               +     0.388          net: PF_CCC_C0_0/PF_CCC_C0_0/clkint_0_NET
+  N/C                          PF_CCC_C0_0/PF_CCC_C0_0/clkint_0:A (r)
+               +     0.116          cell: ADLIB:GB
+  N/C                          PF_CCC_C0_0/PF_CCC_C0_0/clkint_0:Y (r)
+               +     0.256          net: PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_Y
+  N/C                          PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB0:A (r)
+               +     0.038          cell: ADLIB:RGB
+  N/C                          PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB0:Y (f)
+               +     0.249          net: PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB0_rgb_net_1
+  N/C                          MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_RX/samples_2[0]:CLK (r)
+               -     0.135          
+  N/C                          clock jitter
+               -     0.000          Library setup time: ADLIB:SLE
+  N/C                          MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_RX/samples_2[0]:D
+
+
+Operating Conditions : fast_hv_lt
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From: MIV_ESS_C0_0/CoreGPIO_0/xhdl1.GEN_BITS[2].APB_32.GPOUT_reg[2]:CLK
+  To:   LED_3
+  Delay (ns):              4.755
+  Arrival (ns):            8.185
+  Clock to Out (ns):       8.185
+  Operating Conditions: slow_lv_ht
+
+Path 2
+  From: MIV_ESS_C0_0/CoreGPIO_0/xhdl1.GEN_BITS[3].APB_32.GPOUT_reg[3]:CLK
+  To:   LED_4
+  Delay (ns):              4.677
+  Arrival (ns):            8.107
+  Clock to Out (ns):       8.107
+  Operating Conditions: slow_lv_ht
+
+Path 3
+  From: MIV_ESS_C0_0/CoreGPIO_0/xhdl1.GEN_BITS[0].APB_32.GPOUT_reg[0]:CLK
+  To:   LED_1
+  Delay (ns):              4.605
+  Arrival (ns):            8.023
+  Clock to Out (ns):       8.023
+  Operating Conditions: slow_lv_ht
+
+Path 4
+  From: MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_TX/tx:CLK
+  To:   TX
+  Delay (ns):              4.477
+  Arrival (ns):            7.879
+  Clock to Out (ns):       7.879
+  Operating Conditions: slow_lv_ht
+
+Path 5
+  From: MIV_ESS_C0_0/CoreGPIO_0/xhdl1.GEN_BITS[1].APB_32.GPOUT_reg[1]:CLK
+  To:   LED_2
+  Delay (ns):              4.233
+  Arrival (ns):            7.663
+  Clock to Out (ns):       7.663
+  Operating Conditions: slow_lv_ht
+
+
+Expanded Path 1
+  From: MIV_ESS_C0_0/CoreGPIO_0/xhdl1.GEN_BITS[2].APB_32.GPOUT_reg[2]:CLK
+  To: LED_3
+  data required time                                    N/C
+  data arrival time                          -        8.185
+  slack                                                 N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0
+               +     0.000          Clock source
+  0.000                        PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0:OUT0 (r)
+               +     1.336          Clock generation
+  1.336                        
+               +     0.229          net: PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0_clkint_0
+  1.565                        PF_CCC_C0_0/PF_CCC_C0_0/clkint_0_1:A (r)
+               +     0.141          cell: ADLIB:ICB_CLKINT
+  1.706                        PF_CCC_C0_0/PF_CCC_C0_0/clkint_0_1:Y (r)
+               +     0.610          net: PF_CCC_C0_0/PF_CCC_C0_0/clkint_0_NET
+  2.316                        PF_CCC_C0_0/PF_CCC_C0_0/clkint_0:A (r)
+               +     0.169          cell: ADLIB:GB
+  2.485                        PF_CCC_C0_0/PF_CCC_C0_0/clkint_0:Y (r)
+               +     0.410          net: PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_Y
+  2.895                        PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB0:A (r)
+               +     0.058          cell: ADLIB:RGB
+  2.953                        PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB0:Y (f)
+               +     0.477          net: PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB0_rgb_net_1
+  3.430                        MIV_ESS_C0_0/CoreGPIO_0/xhdl1.GEN_BITS[2].APB_32.GPOUT_reg[2]:CLK (r)
+               +     0.190          cell: ADLIB:SLE
+  3.620                        MIV_ESS_C0_0/CoreGPIO_0/xhdl1.GEN_BITS[2].APB_32.GPOUT_reg[2]:Q (f)
+               +     1.581          net: LED_3_c
+  5.201                        LED_3_obuf/U_IOTRI:D (f)
+               +     0.918          cell: ADLIB:IOTRI_OB_EB
+  6.119                        LED_3_obuf/U_IOTRI:DOUT (f)
+               +     0.000          net: LED_3_obuf/DOUT
+  6.119                        LED_3_obuf/U_IOPAD:D (f)
+               +     2.066          cell: ADLIB:IOPAD_TRI
+  8.185                        LED_3_obuf/U_IOPAD:PAD (f)
+               +     0.000          net: LED_3
+  8.185                        LED_3 (f)
+                                    
+  8.185                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0
+                                    
+  N/C                          LED_3 (f)
+
+
+Operating Conditions : slow_lv_ht
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+Path 1
+  From: CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_15[0]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_tcm0.u_subsys_TCM_0/cpu_d_wr_rd_state_Z[0]:ALn
+  Delay (ns):              3.205
+  Slack (ns):             16.386
+  Arrival (ns):            6.620
+  Required (ns):          23.006
+  Recovery (ns):           0.196
+  Minimum Period (ns):     3.479
+  Skew (ns):               0.078
+  Operating Conditions: slow_lv_ht
+
+Path 2
+  From: CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_15[0]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_subsys_interconnect_0/u_d_trx_os_buffer/gen_buff_loop[0].buff_valid[0]:ALn
+  Delay (ns):              3.204
+  Slack (ns):             16.387
+  Arrival (ns):            6.619
+  Required (ns):          23.006
+  Recovery (ns):           0.196
+  Minimum Period (ns):     3.478
+  Skew (ns):               0.078
+  Operating Conditions: slow_lv_ht
+
+Path 3
+  From: CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_15[0]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_subsys_interconnect_0/u_d_trx_os_buffer/buff_wr_ptr[0]:ALn
+  Delay (ns):              3.204
+  Slack (ns):             16.387
+  Arrival (ns):            6.619
+  Required (ns):          23.006
+  Recovery (ns):           0.196
+  Minimum Period (ns):     3.478
+  Skew (ns):               0.078
+  Operating Conditions: slow_lv_ht
+
+Path 4
+  From: CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_15[0]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_subsys_interconnect_0/u_d_trx_os_buffer/buff_ready_reg:ALn
+  Delay (ns):              3.204
+  Slack (ns):             16.387
+  Arrival (ns):            6.619
+  Required (ns):          23.006
+  Recovery (ns):           0.196
+  Minimum Period (ns):     3.478
+  Skew (ns):               0.078
+  Operating Conditions: slow_lv_ht
+
+Path 5
+  From: CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_15[0]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_apb.u_apb_initiator_0/gen_apb_byte_shim.pwdata[4]:ALn
+  Delay (ns):              3.164
+  Slack (ns):             16.388
+  Arrival (ns):            6.579
+  Required (ns):          22.967
+  Recovery (ns):           0.209
+  Minimum Period (ns):     3.477
+  Skew (ns):               0.104
+  Operating Conditions: slow_lv_ht
+
+
+Expanded Path 1
+  From: CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_15[0]:CLK
+  To: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_tcm0.u_subsys_TCM_0/cpu_d_wr_rd_state_Z[0]:ALn
+  data required time                                 23.006
+  data arrival time                          -        6.620
+  slack                                              16.386
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0
+               +     0.000          Clock source
+  0.000                        PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0:OUT0 (r)
+               +     1.336          Clock generation
+  1.336                        
+               +     0.229          net: PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0_clkint_0
+  1.565                        PF_CCC_C0_0/PF_CCC_C0_0/clkint_0_1:A (r)
+               +     0.141          cell: ADLIB:ICB_CLKINT
+  1.706                        PF_CCC_C0_0/PF_CCC_C0_0/clkint_0_1:Y (r)
+               +     0.610          net: PF_CCC_C0_0/PF_CCC_C0_0/clkint_0_NET
+  2.316                        PF_CCC_C0_0/PF_CCC_C0_0/clkint_0:A (r)
+               +     0.169          cell: ADLIB:GB
+  2.485                        PF_CCC_C0_0/PF_CCC_C0_0/clkint_0:Y (r)
+               +     0.407          net: PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_Y
+  2.892                        PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB4:A (r)
+               +     0.058          cell: ADLIB:RGB
+  2.950                        PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB4:Y (f)
+               +     0.465          net: PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB4_rgb_net_1
+  3.415                        CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_15[0]:CLK (r)
+               +     0.201          cell: ADLIB:SLE
+  3.616                        CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_15[0]:Q (r)
+               +     0.727          net: CORERESET_PF_C0_0_CORERESET_PF_C0_0_dff
+  4.343                        MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/subsys_resetn:A (r)
+               +     0.053          cell: ADLIB:CFG2
+  4.396                        MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/subsys_resetn:Y (r)
+               +     2.224          net: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/subsys_resetn_Z
+  6.620                        MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_tcm0.u_subsys_TCM_0/cpu_d_wr_rd_state_Z[0]:ALn (r)
+                                    
+  6.620                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  20.000                       PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0
+               +     0.000          Clock source
+  20.000                       PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0:OUT0 (r)
+               +     1.211          Clock generation
+  21.211                       
+               +     0.209          net: PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0_clkint_0
+  21.420                       PF_CCC_C0_0/PF_CCC_C0_0/clkint_0_1:A (r)
+               +     0.122          cell: ADLIB:ICB_CLKINT
+  21.542                       PF_CCC_C0_0/PF_CCC_C0_0/clkint_0_1:Y (r)
+               +     0.554          net: PF_CCC_C0_0/PF_CCC_C0_0/clkint_0_NET
+  22.096                       PF_CCC_C0_0/PF_CCC_C0_0/clkint_0:A (r)
+               +     0.154          cell: ADLIB:GB
+  22.250                       PF_CCC_C0_0/PF_CCC_C0_0/clkint_0:Y (r)
+               +     0.370          net: PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_Y
+  22.620                       PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB4:A (r)
+               +     0.052          cell: ADLIB:RGB
+  22.672                       PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB4:Y (f)
+               +     0.387          net: PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB4_rgb_net_1
+  23.059                       MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_tcm0.u_subsys_TCM_0/cpu_d_wr_rd_state_Z[0]:CLK (r)
+               +     0.278          
+  23.337                       clock reconvergence pessimism
+               -     0.135          
+  23.202                       clock jitter
+               -     0.196          Library recovery time: ADLIB:SLE
+  23.006                       MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_tcm0.u_subsys_TCM_0/cpu_d_wr_rd_state_Z[0]:ALn
+                                    
+  23.006                       data required time
+
+
+Operating Conditions : slow_lv_ht
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+Path 1
+  From: USER_RST
+  To:   CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_14[0]:ALn
+  Delay (ns):              3.944
+  Arrival (ns):            3.944
+  Recovery (ns):           0.196
+  External Recovery (ns):   1.188
+  Operating Conditions: slow_lv_ht
+
+Path 2
+  From: USER_RST
+  To:   CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_9[0]:ALn
+  Delay (ns):              3.405
+  Arrival (ns):            3.405
+  Recovery (ns):           0.196
+  External Recovery (ns):   0.642
+  Operating Conditions: slow_lv_ht
+
+Path 3
+  From: USER_RST
+  To:   CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_11[0]:ALn
+  Delay (ns):              3.405
+  Arrival (ns):            3.405
+  Recovery (ns):           0.196
+  External Recovery (ns):   0.642
+  Operating Conditions: slow_lv_ht
+
+Path 4
+  From: USER_RST
+  To:   CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_5[0]:ALn
+  Delay (ns):              3.404
+  Arrival (ns):            3.404
+  Recovery (ns):           0.196
+  External Recovery (ns):   0.641
+  Operating Conditions: slow_lv_ht
+
+Path 5
+  From: USER_RST
+  To:   CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_10[0]:ALn
+  Delay (ns):              3.404
+  Arrival (ns):            3.404
+  Recovery (ns):           0.196
+  External Recovery (ns):   0.641
+  Operating Conditions: slow_lv_ht
+
+
+Expanded Path 1
+  From: USER_RST
+  To: CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_14[0]:ALn
+  data required time                                    N/C
+  data arrival time                          -        3.944
+  slack                                                 N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        USER_RST (r)
+               +     0.000          net: USER_RST
+  0.000                        USER_RST_ibuf/U_IOPAD:PAD (r)
+               +     0.610          cell: ADLIB:IOPAD_IN
+  0.610                        USER_RST_ibuf/U_IOPAD:Y (r)
+               +     0.000          net: USER_RST_ibuf/YIN
+  0.610                        USER_RST_ibuf/U_IOIN:YIN (r)
+               +     0.336          cell: ADLIB:IOIN_IB_E
+  0.946                        USER_RST_ibuf/U_IOIN:Y (r)
+               +     1.498          net: USER_RST_c
+  2.444                        CORERESET_PF_C0_0/CORERESET_PF_C0_0/un1_EXT_RST_N_2:A (r)
+               +     0.090          cell: ADLIB:CFG3
+  2.534                        CORERESET_PF_C0_0/CORERESET_PF_C0_0/un1_EXT_RST_N_2:Y (r)
+               +     1.410          net: CORERESET_PF_C0_0/CORERESET_PF_C0_0/un1_EXT_RST_N_2_Z
+  3.944                        CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_14[0]:ALn (r)
+                                    
+  3.944                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0
+               +     0.000          Clock source
+  N/C                          PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0:OUT0 (r)
+               +     1.211          Clock generation
+  N/C                          
+               +     0.209          net: PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0_clkint_0
+  N/C                          PF_CCC_C0_0/PF_CCC_C0_0/clkint_0_1:A (r)
+               +     0.122          cell: ADLIB:ICB_CLKINT
+  N/C                          PF_CCC_C0_0/PF_CCC_C0_0/clkint_0_1:Y (r)
+               +     0.554          net: PF_CCC_C0_0/PF_CCC_C0_0/clkint_0_NET
+  N/C                          PF_CCC_C0_0/PF_CCC_C0_0/clkint_0:A (r)
+               +     0.154          cell: ADLIB:GB
+  N/C                          PF_CCC_C0_0/PF_CCC_C0_0/clkint_0:Y (r)
+               +     0.370          net: PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_Y
+  N/C                          PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB4:A (r)
+               +     0.052          cell: ADLIB:RGB
+  N/C                          PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB4:Y (f)
+               +     0.415          net: PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB4_rgb_net_1
+  N/C                          CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_14[0]:CLK (r)
+               -     0.135          
+  N/C                          clock jitter
+               -     0.196          Library recovery time: ADLIB:SLE
+  N/C                          CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_14[0]:ALn
+
+
+Operating Conditions : slow_lv_ht
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path 
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+SET TCK to PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0
+
+No Path 
+
+END SET TCK to PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0
+
+----------------------------------------------------
+
+Clock Domain REF_CLK
+
+Info: The maximum frequency of this clock domain is limited by the minimum pulse widths of pin CLKBUF_0/U_IOPAD:PAD
+
+SET Register to Register
+
+No Path 
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path 
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path 
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path 
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path 
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path 
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain TCK
+
+SET Register to Register
+
+Path 1
+  From: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst:UDRCK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_current_state_register_active_high.gen_current_state_register_active_low.currTapState[1]:D
+  Delay (ns):             19.206
+  Slack (ns):             68.268
+  Arrival (ns):           21.765
+  Required (ns):          90.033
+  Setup (ns):              0.000
+  Minimum Period (ns):    30.104
+  Operating Conditions: slow_lv_ht
+
+Path 2
+  From: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst:UDRCK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_current_state_register_active_high.gen_current_state_register_active_low.currTapState[9]:D
+  Delay (ns):             19.192
+  Slack (ns):             68.274
+  Arrival (ns):           21.751
+  Required (ns):          90.025
+  Setup (ns):              0.000
+  Minimum Period (ns):    30.092
+  Operating Conditions: slow_lv_ht
+
+Path 3
+  From: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst:UDRCK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_current_state_register_active_high.gen_current_state_register_active_low.currTapState[8]:D
+  Delay (ns):             18.968
+  Slack (ns):             68.506
+  Arrival (ns):           21.527
+  Required (ns):          90.033
+  Setup (ns):              0.000
+  Minimum Period (ns):    29.628
+  Operating Conditions: slow_lv_ht
+
+Path 4
+  From: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst:UDRCK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_current_state_register_active_high.gen_current_state_register_active_low.currTapState[4]:D
+  Delay (ns):             18.960
+  Slack (ns):             68.514
+  Arrival (ns):           21.519
+  Required (ns):          90.033
+  Setup (ns):              0.000
+  Minimum Period (ns):    29.612
+  Operating Conditions: slow_lv_ht
+
+Path 5
+  From: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst:UDRCK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_current_state_register_active_high.gen_current_state_register_active_low.currTapState[3]:D
+  Delay (ns):             18.960
+  Slack (ns):             68.514
+  Arrival (ns):           21.519
+  Required (ns):          90.033
+  Setup (ns):              0.000
+  Minimum Period (ns):    29.612
+  Operating Conditions: slow_lv_ht
+
+
+Expanded Path 1
+  From: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst:UDRCK
+  To: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_current_state_register_active_high.gen_current_state_register_active_low.currTapState[1]:D
+  data required time                                 90.033
+  data arrival time                          -       21.765
+  slack                                              68.268
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        TCK
+               +     0.000          Clock source
+  0.000                        TCK (f)
+               +     0.000          net: TCK
+  0.000                        CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst:TCK (f)
+               +     2.559          cell: ADLIB:UJTAG_SEC
+  2.559                        CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst:UDRCK (f)
+               +     6.136          cell: ADLIB:UJTAG_SEC
+  8.695                        CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst:UTDI (r)
+               +     1.213          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/UTDIInt_UTDI
+  9.908                        CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst_UTDI:A (r)
+               +     0.200          cell: ADLIB:CFG1D
+  10.108                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst_UTDI:Y (r)
+               +     0.267          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/UTDIInt_UTDI_2
+  10.375                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst_2_UTDI:A (r)
+               +     0.200          cell: ADLIB:CFG1D
+  10.575                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst_2_UTDI:Y (r)
+               +     0.163          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/UTDIInt_UTDI_3
+  10.738                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst_3_UTDI:A (r)
+               +     0.200          cell: ADLIB:CFG1D
+  10.938                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst_3_UTDI:Y (r)
+               +     0.334          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/UTDIInt
+  11.272                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/dut_tms_int:B (r)
+               +     0.156          cell: ADLIB:CFG3
+  11.428                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/dut_tms_int:Y (r)
+               +     1.398          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/dut_tms_int_Z
+  12.826                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[0].BUFD_BLK:A (r)
+               +     0.135          cell: ADLIB:CFG1
+  12.961                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[0].BUFD_BLK:Y (r)
+               +     0.085          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[1]
+  13.046                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[1].BUFD_BLK:A (r)
+               +     0.078          cell: ADLIB:CFG1
+  13.124                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[1].BUFD_BLK:Y (r)
+               +     0.121          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[2]
+  13.245                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[2].BUFD_BLK:A (r)
+               +     0.078          cell: ADLIB:CFG1
+  13.323                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[2].BUFD_BLK:Y (r)
+               +     0.122          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[3]
+  13.445                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[3].BUFD_BLK:A (r)
+               +     0.078          cell: ADLIB:CFG1
+  13.523                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[3].BUFD_BLK:Y (r)
+               +     0.080          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[4]
+  13.603                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[4].BUFD_BLK:A (r)
+               +     0.078          cell: ADLIB:CFG1
+  13.681                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[4].BUFD_BLK:Y (r)
+               +     0.064          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[5]
+  13.745                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[5].BUFD_BLK:A (r)
+               +     0.078          cell: ADLIB:CFG1
+  13.823                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[5].BUFD_BLK:Y (r)
+               +     0.087          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[6]
+  13.910                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[6].BUFD_BLK:A (r)
+               +     0.078          cell: ADLIB:CFG1
+  13.988                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[6].BUFD_BLK:Y (r)
+               +     0.118          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[7]
+  14.106                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[7].BUFD_BLK:A (r)
+               +     0.078          cell: ADLIB:CFG1
+  14.184                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[7].BUFD_BLK:Y (r)
+               +     0.077          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[8]
+  14.261                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[8].BUFD_BLK:A (r)
+               +     0.078          cell: ADLIB:CFG1
+  14.339                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[8].BUFD_BLK:Y (r)
+               +     0.064          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[9]
+  14.403                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[9].BUFD_BLK:A (r)
+               +     0.078          cell: ADLIB:CFG1
+  14.481                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[9].BUFD_BLK:Y (r)
+               +     1.878          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[10]
+  16.359                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[10].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  16.412                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[10].BUFD_BLK:Y (r)
+               +     0.066          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[11]
+  16.478                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[11].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  16.531                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[11].BUFD_BLK:Y (r)
+               +     0.056          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[12]
+  16.587                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[12].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  16.640                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[12].BUFD_BLK:Y (r)
+               +     0.114          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[13]
+  16.754                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[13].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  16.807                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[13].BUFD_BLK:Y (r)
+               +     0.065          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[14]
+  16.872                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[14].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  16.925                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[14].BUFD_BLK:Y (r)
+               +     0.056          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[15]
+  16.981                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[15].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  17.034                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[15].BUFD_BLK:Y (r)
+               +     0.068          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[16]
+  17.102                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[16].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  17.155                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[16].BUFD_BLK:Y (r)
+               +     0.124          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[17]
+  17.279                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[17].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  17.332                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[17].BUFD_BLK:Y (r)
+               +     0.057          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[18]
+  17.389                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[18].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  17.442                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[18].BUFD_BLK:Y (r)
+               +     0.067          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[19]
+  17.509                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[19].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  17.562                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[19].BUFD_BLK:Y (r)
+               +     0.125          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[20]
+  17.687                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[20].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  17.740                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[20].BUFD_BLK:Y (r)
+               +     0.054          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[21]
+  17.794                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[21].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  17.847                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[21].BUFD_BLK:Y (r)
+               +     0.250          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[22]
+  18.097                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[22].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  18.150                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[22].BUFD_BLK:Y (r)
+               +     0.056          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[23]
+  18.206                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[23].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  18.259                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[23].BUFD_BLK:Y (r)
+               +     0.068          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[24]
+  18.327                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[24].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  18.380                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[24].BUFD_BLK:Y (r)
+               +     0.112          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[25]
+  18.492                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[25].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  18.545                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[25].BUFD_BLK:Y (r)
+               +     0.067          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[26]
+  18.612                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[26].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  18.665                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[26].BUFD_BLK:Y (r)
+               +     0.113          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[27]
+  18.778                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[27].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  18.831                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[27].BUFD_BLK:Y (r)
+               +     0.066          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[28]
+  18.897                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[28].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  18.950                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[28].BUFD_BLK:Y (r)
+               +     0.116          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[29]
+  19.066                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[29].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  19.119                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[29].BUFD_BLK:Y (r)
+               +     0.066          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[30]
+  19.185                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[30].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  19.238                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[30].BUFD_BLK:Y (r)
+               +     0.056          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[31]
+  19.294                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[31].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  19.347                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[31].BUFD_BLK:Y (r)
+               +     0.067          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[32]
+  19.414                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[32].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  19.467                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[32].BUFD_BLK:Y (r)
+               +     0.115          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/delay_sel[33]
+  19.582                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[33].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  19.635                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/BUFD_TMS/bufd_gen[33].BUFD_BLK:Y (r)
+               +     1.506          net: CoreJTAGDebug_TRSTN_C0_0_TGT_TMS_0
+  21.141                       MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_current_state_register_active_high.gen_current_state_register_active_low.currTapState_ns_i_o2[4]:B (r)
+               +     0.053          cell: ADLIB:CFG2
+  21.194                       MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_current_state_register_active_high.gen_current_state_register_active_low.currTapState_ns_i_o2[4]:Y (r)
+               +     0.299          net: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/N_117
+  21.493                       MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_current_state_register_active_high.gen_current_state_register_active_low.currTapState_ns_a2[1]:B (r)
+               +     0.247          cell: ADLIB:CFG4
+  21.740                       MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_current_state_register_active_high.gen_current_state_register_active_low.currTapState_ns_a2[1]:Y (f)
+               +     0.025          net: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/currTapState_ns[1]
+  21.765                       MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_current_state_register_active_high.gen_current_state_register_active_low.currTapState[1]:D (f)
+                                    
+  21.765                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  83.340                       TCK
+               +     0.000          Clock source
+  83.340                       TCK (r)
+               +     0.000          net: TCK
+  83.340                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst:TCK (r)
+               +     1.356          cell: ADLIB:UJTAG_SEC
+  84.696                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst:UDRCK (r)
+               +     0.271          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/N_2
+  84.967                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/N_2_inferred_clock_RNIMQNI2_1:A (r)
+               +     0.211          cell: ADLIB:ICB_CLKINT
+  85.178                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/N_2_inferred_clock_RNIMQNI2_1:Y (r)
+               +     0.128          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/N_2_inferred_clock_RNIMQNI2_NET
+  85.306                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/N_2_inferred_clock_RNIMQNI2:A (r)
+               +     0.147          cell: ADLIB:GB
+  85.453                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/N_2_inferred_clock_RNIMQNI2:Y (r)
+               +     0.355          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/N_2_inferred_clock_RNIMQNI2/U0_Y
+  85.808                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/N_2_inferred_clock_RNIMQNI2/U0_RGB1:A (r)
+               +     0.052          cell: ADLIB:RGB
+  85.860                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/N_2_inferred_clock_RNIMQNI2/U0_RGB1:Y (f)
+               +     0.459          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/iUDRCK
+  86.319                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/un1_DUT_TCK_0:A (r)
+               +     0.220          cell: ADLIB:CFG4
+  86.539                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/un1_DUT_TCK_0:Y (f)
+               +     1.231          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/un1_DUT_TCK
+  87.770                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.TGT_TCK_GLB:A (f)
+               +     0.121          cell: ADLIB:GB
+  87.891                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.TGT_TCK_GLB:Y (f)
+               +     0.371          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.TGT_TCK_GLB/U0_Y
+  88.262                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.TGT_TCK_GLB/U0_RGB1:A (f)
+               +     0.054          cell: ADLIB:RGB
+  88.316                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.TGT_TCK_GLB/U0_RGB1:Y (r)
+               +     0.420          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/TGT_TCK_GLB
+  88.736                       MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_current_state_register_active_high.gen_current_state_register_active_low.currTapState[1]:CLK (r)
+               +     1.316          
+  90.052                       clock reconvergence pessimism
+               -     0.019          
+  90.033                       clock jitter
+               -     0.000          Library setup time: ADLIB:SLE
+  90.033                       MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_current_state_register_active_high.gen_current_state_register_active_low.currTapState[1]:D
+                                    
+  90.033                       data required time
+
+
+Operating Conditions : slow_lv_ht
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path 
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path 
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+Path 1
+  From: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst:UDRCK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/genblk3.shift_active_high.shift_active_low.shiftDR_ne_0:ALn
+  Delay (ns):             14.693
+  Slack (ns):             72.355
+  Arrival (ns):           17.365
+  Required (ns):          89.720
+  Recovery (ns):           0.209
+  Minimum Period (ns):    21.913
+  Skew (ns):              -3.946
+  Operating Conditions: slow_lv_ht
+
+Path 2
+  From: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst:UDRCK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/genblk3.shift_active_high.shift_active_low.shiftBP_ne_0:ALn
+  Delay (ns):             14.692
+  Slack (ns):             72.356
+  Arrival (ns):           17.364
+  Required (ns):          89.720
+  Recovery (ns):           0.209
+  Minimum Period (ns):    21.911
+  Skew (ns):              -3.946
+  Operating Conditions: slow_lv_ht
+
+Path 3
+  From: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst:UDRCK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/genblk3.shift_active_high.shift_active_low.shiftDMI_ne_0:ALn
+  Delay (ns):             14.692
+  Slack (ns):             72.357
+  Arrival (ns):           17.364
+  Required (ns):          89.721
+  Recovery (ns):           0.209
+  Minimum Period (ns):    21.909
+  Skew (ns):              -3.947
+  Operating Conditions: slow_lv_ht
+
+Path 4
+  From: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst:UDRCK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/genblk3.shift_active_high.shift_active_low.shiftIR_ne_0:ALn
+  Delay (ns):             14.691
+  Slack (ns):             72.358
+  Arrival (ns):           17.363
+  Required (ns):          89.721
+  Recovery (ns):           0.209
+  Minimum Period (ns):    21.907
+  Skew (ns):              -3.947
+  Operating Conditions: slow_lv_ht
+
+Path 5
+  From: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst:UDRCK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/ir_and_Instruction_register.gen_ir_and_Instruction_register_active_low.irReg[0]:ALn
+  Delay (ns):             14.424
+  Slack (ns):             72.633
+  Arrival (ns):           17.096
+  Required (ns):          89.729
+  Recovery (ns):           0.209
+  Minimum Period (ns):    21.357
+  Skew (ns):              -3.955
+  Operating Conditions: slow_lv_ht
+
+
+Expanded Path 1
+  From: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst:UDRCK
+  To: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/genblk3.shift_active_high.shift_active_low.shiftDR_ne_0:ALn
+  data required time                                 89.720
+  data arrival time                          -       17.365
+  slack                                              72.355
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        TCK
+               +     0.000          Clock source
+  0.000                        TCK (r)
+               +     0.000          net: TCK
+  0.000                        CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst:TCK (r)
+               +     2.672          cell: ADLIB:UJTAG_SEC
+  2.672                        CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst:UDRCK (r)
+               +     2.400          cell: ADLIB:UJTAG_SEC
+  5.072                        CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst:URSTB (r)
+               +     1.011          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/iURSTB_URSTB
+  6.083                        CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst_URSTB:A (r)
+               +     0.238          cell: ADLIB:CFG1D
+  6.321                        CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst_URSTB:Y (r)
+               +     0.262          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/iURSTB_URSTB_2
+  6.583                        CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst_2_URSTB:A (r)
+               +     0.238          cell: ADLIB:CFG1D
+  6.821                        CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst_2_URSTB:Y (r)
+               +     0.264          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/iURSTB_URSTB_3
+  7.085                        CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst_3_URSTB:A (r)
+               +     0.238          cell: ADLIB:CFG1D
+  7.323                        CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst_3_URSTB:Y (r)
+               +     0.089          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/iURSTB
+  7.412                        CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[0].BUFD_BLK:A (r)
+               +     0.078          cell: ADLIB:CFG1
+  7.490                        CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[0].BUFD_BLK:Y (r)
+               +     0.064          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[1]
+  7.554                        CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[1].BUFD_BLK:A (r)
+               +     0.078          cell: ADLIB:CFG1
+  7.632                        CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[1].BUFD_BLK:Y (r)
+               +     0.077          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[2]
+  7.709                        CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[2].BUFD_BLK:A (r)
+               +     0.078          cell: ADLIB:CFG1
+  7.787                        CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[2].BUFD_BLK:Y (r)
+               +     0.064          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[3]
+  7.851                        CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[3].BUFD_BLK:A (r)
+               +     0.078          cell: ADLIB:CFG1
+  7.929                        CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[3].BUFD_BLK:Y (r)
+               +     0.076          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[4]
+  8.005                        CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[4].BUFD_BLK:A (r)
+               +     0.078          cell: ADLIB:CFG1
+  8.083                        CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[4].BUFD_BLK:Y (r)
+               +     0.077          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[5]
+  8.160                        CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[5].BUFD_BLK:A (r)
+               +     0.078          cell: ADLIB:CFG1
+  8.238                        CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[5].BUFD_BLK:Y (r)
+               +     2.054          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[6]
+  10.292                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[6].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  10.345                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[6].BUFD_BLK:Y (r)
+               +     0.058          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[7]
+  10.403                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[7].BUFD_BLK:A (r)
+               +     0.090          cell: ADLIB:CFG1
+  10.493                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[7].BUFD_BLK:Y (r)
+               +     0.123          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[8]
+  10.616                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[8].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  10.669                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[8].BUFD_BLK:Y (r)
+               +     0.053          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[9]
+  10.722                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[9].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  10.775                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[9].BUFD_BLK:Y (r)
+               +     0.112          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[10]
+  10.887                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[10].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  10.940                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[10].BUFD_BLK:Y (r)
+               +     1.276          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[11]
+  12.216                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[11].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  12.269                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[11].BUFD_BLK:Y (r)
+               +     0.053          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[12]
+  12.322                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[12].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  12.375                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[12].BUFD_BLK:Y (r)
+               +     0.066          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[13]
+  12.441                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[13].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  12.494                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[13].BUFD_BLK:Y (r)
+               +     0.056          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[14]
+  12.550                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[14].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  12.603                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[14].BUFD_BLK:Y (r)
+               +     0.114          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[15]
+  12.717                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[15].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  12.770                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[15].BUFD_BLK:Y (r)
+               +     0.124          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[16]
+  12.894                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[16].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  12.947                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[16].BUFD_BLK:Y (r)
+               +     0.054          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[17]
+  13.001                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[17].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  13.054                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[17].BUFD_BLK:Y (r)
+               +     0.066          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[18]
+  13.120                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[18].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  13.173                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[18].BUFD_BLK:Y (r)
+               +     0.116          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[19]
+  13.289                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[19].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  13.342                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[19].BUFD_BLK:Y (r)
+               +     0.117          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[20]
+  13.459                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[20].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  13.512                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[20].BUFD_BLK:Y (r)
+               +     0.067          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[21]
+  13.579                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[21].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  13.632                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[21].BUFD_BLK:Y (r)
+               +     1.234          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[22]
+  14.866                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[22].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  14.919                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[22].BUFD_BLK:Y (r)
+               +     0.056          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[23]
+  14.975                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[23].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  15.028                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[23].BUFD_BLK:Y (r)
+               +     0.068          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[24]
+  15.096                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[24].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  15.149                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[24].BUFD_BLK:Y (r)
+               +     0.053          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[25]
+  15.202                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[25].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  15.255                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[25].BUFD_BLK:Y (r)
+               +     0.124          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[26]
+  15.379                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[26].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  15.432                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[26].BUFD_BLK:Y (r)
+               +     0.057          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[27]
+  15.489                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[27].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  15.542                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[27].BUFD_BLK:Y (r)
+               +     0.067          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[28]
+  15.609                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[28].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  15.662                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[28].BUFD_BLK:Y (r)
+               +     0.113          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[29]
+  15.775                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[29].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  15.828                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[29].BUFD_BLK:Y (r)
+               +     0.067          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[30]
+  15.895                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[30].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  15.948                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[30].BUFD_BLK:Y (r)
+               +     0.054          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[31]
+  16.002                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[31].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  16.055                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[31].BUFD_BLK:Y (r)
+               +     0.113          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[32]
+  16.168                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[32].BUFD_BLK:A (r)
+               +     0.053          cell: ADLIB:CFG1
+  16.221                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[32].BUFD_BLK:Y (r)
+               +     0.405          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/delay_sel[33]
+  16.626                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[33].BUFD_BLK:A (r)
+               +     0.078          cell: ADLIB:CFG1
+  16.704                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk2.genblk2[0].BUFD_TRST/bufd_gen[33].BUFD_BLK:Y (r)
+               +     0.661          net: CoreJTAGDebug_TRSTN_C0_0_CoreJTAGDebug_TRSTN_C0_0_genblk2_genblk2_0__BUFD_TRST_delay_sel[34]
+  17.365                       MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/genblk3.shift_active_high.shift_active_low.shiftDR_ne_0:ALn (r)
+                                    
+  17.365                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  83.330                       TCK
+               +     0.000          Clock source
+  83.330                       TCK (f)
+               +     0.000          net: TCK
+  83.330                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst:TCK (f)
+               +     1.953          cell: ADLIB:UJTAG_SEC
+  85.283                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk1.genblk1.genblk1.UJTAG_inst:UDRCK (f)
+               +     0.281          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/N_2
+  85.564                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/N_2_inferred_clock_RNIMQNI2_1:A (f)
+               +     0.224          cell: ADLIB:ICB_CLKINT
+  85.788                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/N_2_inferred_clock_RNIMQNI2_1:Y (f)
+               +     0.122          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/N_2_inferred_clock_RNIMQNI2_NET
+  85.910                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/N_2_inferred_clock_RNIMQNI2:A (f)
+               +     0.141          cell: ADLIB:GB
+  86.051                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/N_2_inferred_clock_RNIMQNI2:Y (f)
+               +     0.357          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/N_2_inferred_clock_RNIMQNI2/U0_Y
+  86.408                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/N_2_inferred_clock_RNIMQNI2/U0_RGB1:A (f)
+               +     0.054          cell: ADLIB:RGB
+  86.462                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/N_2_inferred_clock_RNIMQNI2/U0_RGB1:Y (r)
+               +     0.465          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/iUDRCK
+  86.927                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/un1_DUT_TCK_0:A (f)
+               +     0.218          cell: ADLIB:CFG4
+  87.145                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.UJ_JTAG/un1_DUT_TCK_0:Y (r)
+               +     1.237          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/un1_DUT_TCK
+  88.382                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.TGT_TCK_GLB:A (r)
+               +     0.129          cell: ADLIB:GB
+  88.511                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.TGT_TCK_GLB:Y (r)
+               +     0.369          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.TGT_TCK_GLB/U0_Y
+  88.880                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.TGT_TCK_GLB/U0_RGB1:A (r)
+               +     0.052          cell: ADLIB:RGB
+  88.932                       CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.TGT_TCK_GLB/U0_RGB1:Y (f)
+               +     0.410          net: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/TGT_TCK_GLB
+  89.342                       MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/genblk3.shift_active_high.shift_active_low.shiftDR_ne_0:CLK (r)
+               +     0.606          
+  89.948                       clock reconvergence pessimism
+               -     0.019          
+  89.929                       clock jitter
+               -     0.209          Library recovery time: ADLIB:SLE
+  89.720                       MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/genblk3.shift_active_high.shift_active_low.shiftDR_ne_0:ALn
+                                    
+  89.720                       data required time
+
+
+Operating Conditions : slow_lv_ht
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path 
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path 
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+SET PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0 to TCK
+
+No Path 
+
+END SET PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0 to TCK
+
+----------------------------------------------------
+
+Path set Pin to Pin
+
+SET Input to Output
+
+No Path 
+
+END SET Input to Output
+
+----------------------------------------------------
+

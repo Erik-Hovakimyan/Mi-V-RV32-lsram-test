@@ -1,0 +1,16 @@
+Project Name: MPFS_DISCOVERY_MIV_RV32_CFG1
+Location: C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : MPFS095T-1FCSG325E
+Family         : PolarFireSoC
+Die            : MPFS095T
+Package        : FCSG325
+Speed          : -1
+Core Voltage   : 1.0
+Range          : EXT

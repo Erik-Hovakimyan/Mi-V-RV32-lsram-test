@@ -1,0 +1,919 @@
+Timing Violation Report Max Delay Analysis
+
+SmartTime Version 2025.1
+Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
+Date: Tue Jan  6 12:06:34 2026
+
+
+Design: BaseDesign
+Family: PolarFireSoC
+Die: MPFS095T
+Package: FCSG325
+Temperature Range: 0 - 100 C
+Voltage Range: 0.97 - 1.03 V
+Speed Grade: -1
+Design State: Post-Layout
+Data source: Production
+Multi Corner Report Operating Conditions: slow_lv_lt,fast_hv_lt,slow_lv_ht
+
+
+Path 1
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[8]:EN
+  Delay (ns):             11.440
+  Slack (ns):              8.085
+  Arrival (ns):           14.954
+  Required (ns):          23.039
+  Operating Conditions: slow_lv_ht
+
+Path 2
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[6]:EN
+  Delay (ns):             11.440
+  Slack (ns):              8.085
+  Arrival (ns):           14.954
+  Required (ns):          23.039
+  Operating Conditions: slow_lv_ht
+
+Path 3
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[5]:EN
+  Delay (ns):             11.440
+  Slack (ns):              8.085
+  Arrival (ns):           14.954
+  Required (ns):          23.039
+  Operating Conditions: slow_lv_ht
+
+Path 4
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[4]:EN
+  Delay (ns):             11.440
+  Slack (ns):              8.085
+  Arrival (ns):           14.954
+  Required (ns):          23.039
+  Operating Conditions: slow_lv_ht
+
+Path 5
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[26]:EN
+  Delay (ns):             11.440
+  Slack (ns):              8.085
+  Arrival (ns):           14.954
+  Required (ns):          23.039
+  Operating Conditions: slow_lv_ht
+
+Path 6
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[14]:EN
+  Delay (ns):             11.439
+  Slack (ns):              8.086
+  Arrival (ns):           14.953
+  Required (ns):          23.039
+  Operating Conditions: slow_lv_ht
+
+Path 7
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[3]:EN
+  Delay (ns):             11.438
+  Slack (ns):              8.087
+  Arrival (ns):           14.952
+  Required (ns):          23.039
+  Operating Conditions: slow_lv_ht
+
+Path 8
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[2]:EN
+  Delay (ns):             11.438
+  Slack (ns):              8.087
+  Arrival (ns):           14.952
+  Required (ns):          23.039
+  Operating Conditions: slow_lv_ht
+
+Path 9
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[27]:EN
+  Delay (ns):             11.438
+  Slack (ns):              8.087
+  Arrival (ns):           14.952
+  Required (ns):          23.039
+  Operating Conditions: slow_lv_ht
+
+Path 10
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[22]:EN
+  Delay (ns):             11.438
+  Slack (ns):              8.087
+  Arrival (ns):           14.952
+  Required (ns):          23.039
+  Operating Conditions: slow_lv_ht
+
+Path 11
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_i_access_misalign_error_ex:EN
+  Delay (ns):             11.435
+  Slack (ns):              8.091
+  Arrival (ns):           14.949
+  Required (ns):          23.040
+  Operating Conditions: slow_lv_ht
+
+Path 12
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_i_access_mem_error_ex:EN
+  Delay (ns):             11.435
+  Slack (ns):              8.091
+  Arrival (ns):           14.949
+  Required (ns):          23.040
+  Operating Conditions: slow_lv_ht
+
+Path 13
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[20]:EN
+  Delay (ns):             11.435
+  Slack (ns):              8.091
+  Arrival (ns):           14.949
+  Required (ns):          23.040
+  Operating Conditions: slow_lv_ht
+
+Path 14
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[8]:EN
+  Delay (ns):             11.389
+  Slack (ns):              8.128
+  Arrival (ns):           14.911
+  Required (ns):          23.039
+  Operating Conditions: slow_lv_ht
+
+Path 15
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[6]:EN
+  Delay (ns):             11.389
+  Slack (ns):              8.128
+  Arrival (ns):           14.911
+  Required (ns):          23.039
+  Operating Conditions: slow_lv_ht
+
+Path 16
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[5]:EN
+  Delay (ns):             11.389
+  Slack (ns):              8.128
+  Arrival (ns):           14.911
+  Required (ns):          23.039
+  Operating Conditions: slow_lv_ht
+
+Path 17
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[4]:EN
+  Delay (ns):             11.389
+  Slack (ns):              8.128
+  Arrival (ns):           14.911
+  Required (ns):          23.039
+  Operating Conditions: slow_lv_ht
+
+Path 18
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[26]:EN
+  Delay (ns):             11.389
+  Slack (ns):              8.128
+  Arrival (ns):           14.911
+  Required (ns):          23.039
+  Operating Conditions: slow_lv_ht
+
+Path 19
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[14]:EN
+  Delay (ns):             11.388
+  Slack (ns):              8.129
+  Arrival (ns):           14.910
+  Required (ns):          23.039
+  Operating Conditions: slow_lv_ht
+
+Path 20
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[3]:EN
+  Delay (ns):             11.387
+  Slack (ns):              8.130
+  Arrival (ns):           14.909
+  Required (ns):          23.039
+  Operating Conditions: slow_lv_ht
+
+Path 21
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[2]:EN
+  Delay (ns):             11.387
+  Slack (ns):              8.130
+  Arrival (ns):           14.909
+  Required (ns):          23.039
+  Operating Conditions: slow_lv_ht
+
+Path 22
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[27]:EN
+  Delay (ns):             11.387
+  Slack (ns):              8.130
+  Arrival (ns):           14.909
+  Required (ns):          23.039
+  Operating Conditions: slow_lv_ht
+
+Path 23
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[22]:EN
+  Delay (ns):             11.387
+  Slack (ns):              8.130
+  Arrival (ns):           14.909
+  Required (ns):          23.039
+  Operating Conditions: slow_lv_ht
+
+Path 24
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_i_access_misalign_error_ex:EN
+  Delay (ns):             11.384
+  Slack (ns):              8.134
+  Arrival (ns):           14.906
+  Required (ns):          23.040
+  Operating Conditions: slow_lv_ht
+
+Path 25
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_i_access_mem_error_ex:EN
+  Delay (ns):             11.384
+  Slack (ns):              8.134
+  Arrival (ns):           14.906
+  Required (ns):          23.040
+  Operating Conditions: slow_lv_ht
+
+Path 26
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[20]:EN
+  Delay (ns):             11.384
+  Slack (ns):              8.134
+  Arrival (ns):           14.906
+  Required (ns):          23.040
+  Operating Conditions: slow_lv_ht
+
+Path 27
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[15]:SLn
+  Delay (ns):             11.417
+  Slack (ns):              8.193
+  Arrival (ns):           14.931
+  Required (ns):          23.124
+  Operating Conditions: slow_lv_ht
+
+Path 28
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[19]:SLn
+  Delay (ns):             11.415
+  Slack (ns):              8.195
+  Arrival (ns):           14.929
+  Required (ns):          23.124
+  Operating Conditions: slow_lv_ht
+
+Path 29
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[28]:SLn
+  Delay (ns):             11.414
+  Slack (ns):              8.196
+  Arrival (ns):           14.928
+  Required (ns):          23.124
+  Operating Conditions: slow_lv_ht
+
+Path 30
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[25]:SLn
+  Delay (ns):             11.414
+  Slack (ns):              8.196
+  Arrival (ns):           14.928
+  Required (ns):          23.124
+  Operating Conditions: slow_lv_ht
+
+Path 31
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[23]:SLn
+  Delay (ns):             11.414
+  Slack (ns):              8.196
+  Arrival (ns):           14.928
+  Required (ns):          23.124
+  Operating Conditions: slow_lv_ht
+
+Path 32
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[1]:SLn
+  Delay (ns):             11.414
+  Slack (ns):              8.196
+  Arrival (ns):           14.928
+  Required (ns):          23.124
+  Operating Conditions: slow_lv_ht
+
+Path 33
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[16]:SLn
+  Delay (ns):             11.413
+  Slack (ns):              8.197
+  Arrival (ns):           14.927
+  Required (ns):          23.124
+  Operating Conditions: slow_lv_ht
+
+Path 34
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[30]:SLn
+  Delay (ns):             11.411
+  Slack (ns):              8.199
+  Arrival (ns):           14.925
+  Required (ns):          23.124
+  Operating Conditions: slow_lv_ht
+
+Path 35
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[21]:SLn
+  Delay (ns):             11.411
+  Slack (ns):              8.199
+  Arrival (ns):           14.925
+  Required (ns):          23.124
+  Operating Conditions: slow_lv_ht
+
+Path 36
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[13]:SLn
+  Delay (ns):             11.411
+  Slack (ns):              8.199
+  Arrival (ns):           14.925
+  Required (ns):          23.124
+  Operating Conditions: slow_lv_ht
+
+Path 37
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[0]:SLn
+  Delay (ns):             11.411
+  Slack (ns):              8.199
+  Arrival (ns):           14.925
+  Required (ns):          23.124
+  Operating Conditions: slow_lv_ht
+
+Path 38
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[7]:SLn
+  Delay (ns):             11.410
+  Slack (ns):              8.200
+  Arrival (ns):           14.924
+  Required (ns):          23.124
+  Operating Conditions: slow_lv_ht
+
+Path 39
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[15]:SLn
+  Delay (ns):             11.366
+  Slack (ns):              8.236
+  Arrival (ns):           14.888
+  Required (ns):          23.124
+  Operating Conditions: slow_lv_ht
+
+Path 40
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[19]:SLn
+  Delay (ns):             11.364
+  Slack (ns):              8.238
+  Arrival (ns):           14.886
+  Required (ns):          23.124
+  Operating Conditions: slow_lv_ht
+
+Path 41
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[28]:SLn
+  Delay (ns):             11.363
+  Slack (ns):              8.239
+  Arrival (ns):           14.885
+  Required (ns):          23.124
+  Operating Conditions: slow_lv_ht
+
+Path 42
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[25]:SLn
+  Delay (ns):             11.363
+  Slack (ns):              8.239
+  Arrival (ns):           14.885
+  Required (ns):          23.124
+  Operating Conditions: slow_lv_ht
+
+Path 43
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[23]:SLn
+  Delay (ns):             11.363
+  Slack (ns):              8.239
+  Arrival (ns):           14.885
+  Required (ns):          23.124
+  Operating Conditions: slow_lv_ht
+
+Path 44
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[1]:SLn
+  Delay (ns):             11.363
+  Slack (ns):              8.239
+  Arrival (ns):           14.885
+  Required (ns):          23.124
+  Operating Conditions: slow_lv_ht
+
+Path 45
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[16]:SLn
+  Delay (ns):             11.362
+  Slack (ns):              8.240
+  Arrival (ns):           14.884
+  Required (ns):          23.124
+  Operating Conditions: slow_lv_ht
+
+Path 46
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[30]:SLn
+  Delay (ns):             11.360
+  Slack (ns):              8.242
+  Arrival (ns):           14.882
+  Required (ns):          23.124
+  Operating Conditions: slow_lv_ht
+
+Path 47
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[21]:SLn
+  Delay (ns):             11.360
+  Slack (ns):              8.242
+  Arrival (ns):           14.882
+  Required (ns):          23.124
+  Operating Conditions: slow_lv_ht
+
+Path 48
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[13]:SLn
+  Delay (ns):             11.360
+  Slack (ns):              8.242
+  Arrival (ns):           14.882
+  Required (ns):          23.124
+  Operating Conditions: slow_lv_ht
+
+Path 49
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[0]:SLn
+  Delay (ns):             11.360
+  Slack (ns):              8.242
+  Arrival (ns):           14.882
+  Required (ns):          23.124
+  Operating Conditions: slow_lv_ht
+
+Path 50
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[7]:SLn
+  Delay (ns):             11.359
+  Slack (ns):              8.243
+  Arrival (ns):           14.881
+  Required (ns):          23.124
+  Operating Conditions: slow_lv_ht
+
+Path 51
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[20]:SLn
+  Delay (ns):             11.264
+  Slack (ns):              8.341
+  Arrival (ns):           14.778
+  Required (ns):          23.119
+  Operating Conditions: slow_lv_ht
+
+Path 52
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_i_access_misalign_error_ex:SLn
+  Delay (ns):             11.262
+  Slack (ns):              8.343
+  Arrival (ns):           14.776
+  Required (ns):          23.119
+  Operating Conditions: slow_lv_ht
+
+Path 53
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_i_access_mem_error_ex:SLn
+  Delay (ns):             11.262
+  Slack (ns):              8.343
+  Arrival (ns):           14.776
+  Required (ns):          23.119
+  Operating Conditions: slow_lv_ht
+
+Path 54
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[14]:SLn
+  Delay (ns):             11.236
+  Slack (ns):              8.368
+  Arrival (ns):           14.750
+  Required (ns):          23.118
+  Operating Conditions: slow_lv_ht
+
+Path 55
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[3]:SLn
+  Delay (ns):             11.235
+  Slack (ns):              8.369
+  Arrival (ns):           14.749
+  Required (ns):          23.118
+  Operating Conditions: slow_lv_ht
+
+Path 56
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[2]:SLn
+  Delay (ns):             11.233
+  Slack (ns):              8.371
+  Arrival (ns):           14.747
+  Required (ns):          23.118
+  Operating Conditions: slow_lv_ht
+
+Path 57
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[27]:SLn
+  Delay (ns):             11.233
+  Slack (ns):              8.371
+  Arrival (ns):           14.747
+  Required (ns):          23.118
+  Operating Conditions: slow_lv_ht
+
+Path 58
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[22]:SLn
+  Delay (ns):             11.233
+  Slack (ns):              8.371
+  Arrival (ns):           14.747
+  Required (ns):          23.118
+  Operating Conditions: slow_lv_ht
+
+Path 59
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[8]:SLn
+  Delay (ns):             11.232
+  Slack (ns):              8.372
+  Arrival (ns):           14.746
+  Required (ns):          23.118
+  Operating Conditions: slow_lv_ht
+
+Path 60
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[6]:SLn
+  Delay (ns):             11.232
+  Slack (ns):              8.372
+  Arrival (ns):           14.746
+  Required (ns):          23.118
+  Operating Conditions: slow_lv_ht
+
+Path 61
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[26]:SLn
+  Delay (ns):             11.232
+  Slack (ns):              8.372
+  Arrival (ns):           14.746
+  Required (ns):          23.118
+  Operating Conditions: slow_lv_ht
+
+Path 62
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[5]:SLn
+  Delay (ns):             11.230
+  Slack (ns):              8.374
+  Arrival (ns):           14.744
+  Required (ns):          23.118
+  Operating Conditions: slow_lv_ht
+
+Path 63
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[4]:SLn
+  Delay (ns):             11.230
+  Slack (ns):              8.374
+  Arrival (ns):           14.744
+  Required (ns):          23.118
+  Operating Conditions: slow_lv_ht
+
+Path 64
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[20]:SLn
+  Delay (ns):             11.213
+  Slack (ns):              8.384
+  Arrival (ns):           14.735
+  Required (ns):          23.119
+  Operating Conditions: slow_lv_ht
+
+Path 65
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_i_access_misalign_error_ex:SLn
+  Delay (ns):             11.211
+  Slack (ns):              8.386
+  Arrival (ns):           14.733
+  Required (ns):          23.119
+  Operating Conditions: slow_lv_ht
+
+Path 66
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_i_access_mem_error_ex:SLn
+  Delay (ns):             11.211
+  Slack (ns):              8.386
+  Arrival (ns):           14.733
+  Required (ns):          23.119
+  Operating Conditions: slow_lv_ht
+
+Path 67
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[14]:SLn
+  Delay (ns):             11.185
+  Slack (ns):              8.411
+  Arrival (ns):           14.707
+  Required (ns):          23.118
+  Operating Conditions: slow_lv_ht
+
+Path 68
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[3]:SLn
+  Delay (ns):             11.184
+  Slack (ns):              8.412
+  Arrival (ns):           14.706
+  Required (ns):          23.118
+  Operating Conditions: slow_lv_ht
+
+Path 69
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[2]:SLn
+  Delay (ns):             11.182
+  Slack (ns):              8.414
+  Arrival (ns):           14.704
+  Required (ns):          23.118
+  Operating Conditions: slow_lv_ht
+
+Path 70
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[27]:SLn
+  Delay (ns):             11.182
+  Slack (ns):              8.414
+  Arrival (ns):           14.704
+  Required (ns):          23.118
+  Operating Conditions: slow_lv_ht
+
+Path 71
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[22]:SLn
+  Delay (ns):             11.182
+  Slack (ns):              8.414
+  Arrival (ns):           14.704
+  Required (ns):          23.118
+  Operating Conditions: slow_lv_ht
+
+Path 72
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[8]:SLn
+  Delay (ns):             11.181
+  Slack (ns):              8.415
+  Arrival (ns):           14.703
+  Required (ns):          23.118
+  Operating Conditions: slow_lv_ht
+
+Path 73
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[6]:SLn
+  Delay (ns):             11.181
+  Slack (ns):              8.415
+  Arrival (ns):           14.703
+  Required (ns):          23.118
+  Operating Conditions: slow_lv_ht
+
+Path 74
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[26]:SLn
+  Delay (ns):             11.181
+  Slack (ns):              8.415
+  Arrival (ns):           14.703
+  Required (ns):          23.118
+  Operating Conditions: slow_lv_ht
+
+Path 75
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[5]:SLn
+  Delay (ns):             11.179
+  Slack (ns):              8.417
+  Arrival (ns):           14.701
+  Required (ns):          23.118
+  Operating Conditions: slow_lv_ht
+
+Path 76
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[4]:SLn
+  Delay (ns):             11.179
+  Slack (ns):              8.417
+  Arrival (ns):           14.701
+  Required (ns):          23.118
+  Operating Conditions: slow_lv_ht
+
+Path 77
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R6C0/INST_RAM1K20_IP:A_BLK_EN[2]
+  Delay (ns):             10.804
+  Slack (ns):              8.421
+  Arrival (ns):           14.318
+  Required (ns):          22.739
+  Operating Conditions: slow_lv_ht
+
+Path 78
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[29]:SLn
+  Delay (ns):             11.178
+  Slack (ns):              8.424
+  Arrival (ns):           14.692
+  Required (ns):          23.116
+  Operating Conditions: slow_lv_ht
+
+Path 79
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[11]:SLn
+  Delay (ns):             11.178
+  Slack (ns):              8.424
+  Arrival (ns):           14.692
+  Required (ns):          23.116
+  Operating Conditions: slow_lv_ht
+
+Path 80
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[10]:SLn
+  Delay (ns):             11.178
+  Slack (ns):              8.424
+  Arrival (ns):           14.692
+  Required (ns):          23.116
+  Operating Conditions: slow_lv_ht
+
+Path 81
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[24]:SLn
+  Delay (ns):             11.177
+  Slack (ns):              8.425
+  Arrival (ns):           14.691
+  Required (ns):          23.116
+  Operating Conditions: slow_lv_ht
+
+Path 82
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[17]:SLn
+  Delay (ns):             11.176
+  Slack (ns):              8.426
+  Arrival (ns):           14.690
+  Required (ns):          23.116
+  Operating Conditions: slow_lv_ht
+
+Path 83
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[12]:SLn
+  Delay (ns):             11.176
+  Slack (ns):              8.426
+  Arrival (ns):           14.690
+  Required (ns):          23.116
+  Operating Conditions: slow_lv_ht
+
+Path 84
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[31]:SLn
+  Delay (ns):             11.174
+  Slack (ns):              8.428
+  Arrival (ns):           14.688
+  Required (ns):          23.116
+  Operating Conditions: slow_lv_ht
+
+Path 85
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[18]:SLn
+  Delay (ns):             11.173
+  Slack (ns):              8.429
+  Arrival (ns):           14.687
+  Required (ns):          23.116
+  Operating Conditions: slow_lv_ht
+
+Path 86
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[9]:SLn
+  Delay (ns):             11.172
+  Slack (ns):              8.430
+  Arrival (ns):           14.686
+  Required (ns):          23.116
+  Operating Conditions: slow_lv_ht
+
+Path 87
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R47C0/INST_RAM1K20_IP:A_BLK_EN[2]
+  Delay (ns):             10.816
+  Slack (ns):              8.457
+  Arrival (ns):           14.330
+  Required (ns):          22.787
+  Operating Conditions: slow_lv_ht
+
+Path 88
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R59C0/INST_RAM1K20_IP:A_BLK_EN[2]
+  Delay (ns):             10.775
+  Slack (ns):              8.463
+  Arrival (ns):           14.289
+  Required (ns):          22.752
+  Operating Conditions: slow_lv_ht
+
+Path 89
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R6C0/INST_RAM1K20_IP:A_BLK_EN[2]
+  Delay (ns):             10.753
+  Slack (ns):              8.464
+  Arrival (ns):           14.275
+  Required (ns):          22.739
+  Operating Conditions: slow_lv_ht
+
+Path 90
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[29]:SLn
+  Delay (ns):             11.127
+  Slack (ns):              8.467
+  Arrival (ns):           14.649
+  Required (ns):          23.116
+  Operating Conditions: slow_lv_ht
+
+Path 91
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[11]:SLn
+  Delay (ns):             11.127
+  Slack (ns):              8.467
+  Arrival (ns):           14.649
+  Required (ns):          23.116
+  Operating Conditions: slow_lv_ht
+
+Path 92
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[10]:SLn
+  Delay (ns):             11.127
+  Slack (ns):              8.467
+  Arrival (ns):           14.649
+  Required (ns):          23.116
+  Operating Conditions: slow_lv_ht
+
+Path 93
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[24]:SLn
+  Delay (ns):             11.126
+  Slack (ns):              8.468
+  Arrival (ns):           14.648
+  Required (ns):          23.116
+  Operating Conditions: slow_lv_ht
+
+Path 94
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[17]:SLn
+  Delay (ns):             11.125
+  Slack (ns):              8.469
+  Arrival (ns):           14.647
+  Required (ns):          23.116
+  Operating Conditions: slow_lv_ht
+
+Path 95
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[12]:SLn
+  Delay (ns):             11.125
+  Slack (ns):              8.469
+  Arrival (ns):           14.647
+  Required (ns):          23.116
+  Operating Conditions: slow_lv_ht
+
+Path 96
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R7C0/INST_RAM1K20_IP:A_BLK_EN[2]
+  Delay (ns):             10.743
+  Slack (ns):              8.470
+  Arrival (ns):           14.257
+  Required (ns):          22.727
+  Operating Conditions: slow_lv_ht
+
+Path 97
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[31]:SLn
+  Delay (ns):             11.123
+  Slack (ns):              8.471
+  Arrival (ns):           14.645
+  Required (ns):          23.116
+  Operating Conditions: slow_lv_ht
+
+Path 98
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[18]:SLn
+  Delay (ns):             11.122
+  Slack (ns):              8.472
+  Arrival (ns):           14.644
+  Required (ns):          23.116
+  Operating Conditions: slow_lv_ht
+
+Path 99
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[9]:SLn
+  Delay (ns):             11.121
+  Slack (ns):              8.473
+  Arrival (ns):           14.643
+  Required (ns):          23.116
+  Operating Conditions: slow_lv_ht
+
+Path 100
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_lsu_op_ex[3]:EN
+  Delay (ns):             11.041
+  Slack (ns):              8.480
+  Arrival (ns):           14.555
+  Required (ns):          23.035
+  Operating Conditions: slow_lv_ht
+

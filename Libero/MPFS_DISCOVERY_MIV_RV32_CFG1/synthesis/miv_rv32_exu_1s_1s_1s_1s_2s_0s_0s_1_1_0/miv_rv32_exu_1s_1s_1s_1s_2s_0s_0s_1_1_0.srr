@@ -1,0 +1,909 @@
+# Wed Jan 14 17:45:38 2026
+
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: AMY-LT-M79113
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202503actsp1, Build 108R, Built Nov 18 2025 06:37:26, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 191MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 207MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 207MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 195MB peak: 207MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 197MB peak: 207MB)
+
+
+@N: MF104 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\hart_merged\miv_rv32_hart_merged.v":10619:8:10619:19|Found compile point of type hard on View view:work.miv_rv32_exu_1s_1s_1s_1s_2s_0s_0s_1_1_0(verilog) 
+
+
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.miv_rv32_exu_1s_1s_1s_1s_2s_0s_0s_1_1_0(verilog) 
+
+Begin environment creation (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 267MB peak: 267MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+@W: BN114 :|Removing instance CP_fanout_cell_miv_rv32_exu_1s_1s_1s_1s_2s_0s_0s_1_1_0_inst (in view: work.BaseDesign(verilog)) because it does not drive other instances.
+
+Finished environment creation (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 268MB peak: 268MB)
+
+
+Start loading ILMs (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 268MB peak: 269MB)
+
+
+Finished loading ILMs (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 268MB peak: 269MB)
+
+
+Begin compile point sub-process log
+
+@N: MF106 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\hart_merged\miv_rv32_hart_merged.v":10619:8:10619:19|Mapping Compile point view:work.miv_rv32_exu_1s_1s_1s_1s_2s_0s_0s_1_1_0(verilog) because 
+		 Mapper or mapping options changed.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 268MB peak: 269MB)
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 273MB peak: 273MB)
+
+
+Starting area decomp  (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 273MB peak: 274MB)
+
+Encoding state machine MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_ahb\.u_subsys_ahb_0.u_ahb_req_arb.hipri_req_ptr[2:0] (in view: work.BaseDesign(verilog))
+original code -> new code
+   01 -> 00
+   10 -> 01
+   11 -> 10
+Encoding state machine PF_SRAM_AHB_C0_0.COREAHBLSRAM_PF_0.genblk1\.U_PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_AHBLSram.ahbcurr_state[2:0] (in view: work.BaseDesign(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_tcm0\.u_subsys_TCM_0.u_TCM_req_arb.hipri_req_ptr[6:0] (in view: work.BaseDesign(verilog))
+original code -> new code
+   001 -> 0000001
+   010 -> 0000010
+   011 -> 0000100
+   100 -> 0001000
+   101 -> 0010000
+   110 -> 0100000
+   111 -> 1000000
+Encoding state machine MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_apb\.u_apb_initiator_0.u_apb_req_arb.hipri_req_ptr[2:0] (in view: work.BaseDesign(verilog))
+original code -> new code
+   01 -> 00
+   10 -> 01
+   11 -> 10
+Encoding state machine MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_apb\.u_apb_initiator_0.gen_apb_byte_shim\.apb_st[5:0] (in view: work.BaseDesign(verilog))
+original code -> new code
+   000 -> 000001
+   001 -> 000010
+   010 -> 000100
+   011 -> 001000
+   100 -> 010000
+   101 -> 100000
+Encoding state machine MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_tcm0\.u_subsys_TCM_0.cpu_d_wr_rd_state[2:0] (in view: work.BaseDesign(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_ahb\.u_subsys_ahb_0.ahb_st[2:0] (in view: work.BaseDesign(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+@W: BN132 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\hart_merged\miv_rv32_hart_merged.v":9414:2:9414:7|Removing instance MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_shifter_unit_operand_sel_ex[0] because it is equivalent to instance MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_shifter_unit_places_sel_ex[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO231 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\hart_merged\miv_rv32_hart_merged.v":11446:2:11446:7|Found counter in view:work.miv_rv32_exu_1s_1s_1s_1s_2s_0s_0s_1_1_0(verilog) instance mul_div_cnt[5:0] 
+@N: MF179 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\hart_merged\miv_rv32_hart_merged.v":11165:64:11165:92|Found 32 by 32 bit equality operator ('==') un152_exu_alu_result (in view: work.miv_rv32_exu_1s_1s_1s_1s_2s_0s_0s_1_1_0(verilog))
+
+Finished area decomp  (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 279MB peak: 279MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 279MB peak: 279MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 300MB peak: 300MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+@N: FF150 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\hart_merged\miv_rv32_hart_merged.v":11794:22:11794:39|Multiplier fast_mul\.miv_rv32_mul_0.data_out[63:0] implemented with multiple MACC_PA blocks using cascade/shift feature.
+@N: BN362 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\subsys_merged\miv_rv32_subsys_merged.v":10391:2:10391:7|Removing sequential instance MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_tcm0\.u_subsys_TCM_0.u_TCM_req_arb.hipri_req_ptr[5] (in view: work.BaseDesign(verilog)) because it does not drive other instances.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:12s; Memory used current: 295MB peak: 307MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 297MB peak: 307MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:15s; Memory used current: 298MB peak: 307MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:15s; Memory used current: 298MB peak: 307MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:17s; Memory used current: 299MB peak: 307MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:18s; Memory used current: 344MB peak: 344MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:18s		   -10.60ns		2961 /       932
+   2		0h:00m:18s		    -9.30ns		2935 /       932
+   3		0h:00m:19s		    -8.00ns		2935 /       932
+   4		0h:00m:19s		    -8.00ns		2935 /       932
+@N: FX271 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\subsys_merged\miv_rv32_subsys_merged.v":10059:4:10059:9|Replicating instance MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.u_d_trx_os_buffer.gen_buff_loop\[0\]\.buff_valid[0] (in view: work.BaseDesign(verilog)) with 9 loads 1 time to improve timing.
+@N: FX271 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\subsys_merged\miv_rv32_subsys_merged.v":10059:4:10059:9|Replicating instance MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.u_d_trx_os_buffer.gen_buff_loop\[1\]\.buff_valid[1] (in view: work.BaseDesign(verilog)) with 9 loads 1 time to improve timing.
+@N: FX271 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\work\pf_sram_ahb_c0\coreahblsram_pf_0\rtl\vlog\core\coreahblsram_ahblsram.v":471:6:471:7|Replicating instance PF_SRAM_AHB_C0_0.COREAHBLSRAM_PF_0.genblk1\.U_PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_AHBLSram.ahbsram_addr_t[2] (in view: work.BaseDesign(verilog)) with 128 loads 3 times to improve timing.
+@N: FX271 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\work\pf_sram_ahb_c0\coreahblsram_pf_0\rtl\vlog\core\coreahblsram_ahblsram.v":471:6:471:7|Replicating instance PF_SRAM_AHB_C0_0.COREAHBLSRAM_PF_0.genblk1\.U_PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_AHBLSram.ahbsram_addr_t[3] (in view: work.BaseDesign(verilog)) with 128 loads 3 times to improve timing.
+@N: FX271 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\work\pf_sram_ahb_c0\coreahblsram_pf_0\rtl\vlog\core\coreahblsram_ahblsram.v":471:6:471:7|Replicating instance PF_SRAM_AHB_C0_0.COREAHBLSRAM_PF_0.genblk1\.U_PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_AHBLSram.ahbsram_addr_t[6] (in view: work.BaseDesign(verilog)) with 128 loads 3 times to improve timing.
+@N: FX271 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\work\pf_sram_ahb_c0\coreahblsram_pf_0\rtl\vlog\core\coreahblsram_ahblsram.v":471:6:471:7|Replicating instance PF_SRAM_AHB_C0_0.COREAHBLSRAM_PF_0.genblk1\.U_PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_AHBLSram.ahbsram_addr_t[8] (in view: work.BaseDesign(verilog)) with 128 loads 3 times to improve timing.
+@N: FX271 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\work\pf_sram_ahb_c0\coreahblsram_pf_0\rtl\vlog\core\coreahblsram_ahblsram.v":471:6:471:7|Replicating instance PF_SRAM_AHB_C0_0.COREAHBLSRAM_PF_0.genblk1\.U_PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_AHBLSram.ahbsram_addr_t[10] (in view: work.BaseDesign(verilog)) with 128 loads 3 times to improve timing.
+@N: FX271 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\work\pf_sram_ahb_c0\coreahblsram_pf_0\rtl\vlog\core\coreahblsram_ahblsram.v":471:6:471:7|Replicating instance PF_SRAM_AHB_C0_0.COREAHBLSRAM_PF_0.genblk1\.U_PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_AHBLSram.ahbsram_addr_t[9] (in view: work.BaseDesign(verilog)) with 128 loads 3 times to improve timing.
+@N: FX271 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\work\pf_sram_ahb_c0\coreahblsram_pf_0\rtl\vlog\core\coreahblsram_ahblsram.v":471:6:471:7|Replicating instance PF_SRAM_AHB_C0_0.COREAHBLSRAM_PF_0.genblk1\.U_PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_AHBLSram.ahbsram_addr_t[5] (in view: work.BaseDesign(verilog)) with 128 loads 3 times to improve timing.
+@N: FX271 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\work\pf_sram_ahb_c0\coreahblsram_pf_0\rtl\vlog\core\coreahblsram_ahblsram.v":471:6:471:7|Replicating instance PF_SRAM_AHB_C0_0.COREAHBLSRAM_PF_0.genblk1\.U_PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_AHBLSram.ahbsram_addr_t[4] (in view: work.BaseDesign(verilog)) with 128 loads 3 times to improve timing.
+@N: FX271 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\work\pf_sram_ahb_c0\coreahblsram_pf_0\rtl\vlog\core\coreahblsram_ahblsram.v":471:6:471:7|Replicating instance PF_SRAM_AHB_C0_0.COREAHBLSRAM_PF_0.genblk1\.U_PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_AHBLSram.ahbsram_addr_t[7] (in view: work.BaseDesign(verilog)) with 128 loads 3 times to improve timing.
+@N: FX271 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\work\pf_sram_ahb_c0\coreahblsram_pf_0\rtl\vlog\core\coreahblsram_ahblsram.v":685:6:685:7|Replicating instance PF_SRAM_AHB_C0_0.COREAHBLSRAM_PF_0.genblk1\.U_PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_AHBLSram.mem_byteen_m[3] (in view: work.BaseDesign(verilog)) with 64 loads 3 times to improve timing.
+@N: FX271 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\work\pf_sram_ahb_c0\coreahblsram_pf_0\rtl\vlog\core\coreahblsram_ahblsram.v":685:6:685:7|Replicating instance PF_SRAM_AHB_C0_0.COREAHBLSRAM_PF_0.genblk1\.U_PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_AHBLSram.mem_byteen_m[2] (in view: work.BaseDesign(verilog)) with 64 loads 3 times to improve timing.
+@N: FX271 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\work\pf_sram_ahb_c0\coreahblsram_pf_0\rtl\vlog\core\coreahblsram_ahblsram.v":685:6:685:7|Replicating instance PF_SRAM_AHB_C0_0.COREAHBLSRAM_PF_0.genblk1\.U_PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_AHBLSram.mem_byteen_m[0] (in view: work.BaseDesign(verilog)) with 64 loads 3 times to improve timing.
+@N: FX271 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\work\pf_sram_ahb_c0\coreahblsram_pf_0\rtl\vlog\core\coreahblsram_ahblsram.v":685:6:685:7|Replicating instance PF_SRAM_AHB_C0_0.COREAHBLSRAM_PF_0.genblk1\.U_PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_AHBLSram.mem_byteen_m[1] (in view: work.BaseDesign(verilog)) with 64 loads 3 times to improve timing.
+@N: FX271 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\subsys_merged\miv_rv32_subsys_merged.v":10009:2:10009:7|Replicating instance MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.u_d_trx_os_buffer.buff_rd_ptr[0] (in view: work.BaseDesign(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :|Replicating instance MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.u_d_trx_os_buffer.gen_buff_loop\[0\]\.buff_data (in view: work.BaseDesign(verilog)) with 9 loads 1 time to improve timing.
+@N: FX271 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\hart_merged\miv_rv32_hart_merged.v":8666:4:8666:7|Replicating instance MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.instr_accepted_ex_0 (in view: work.BaseDesign(verilog)) with 119 loads 3 times to improve timing.
+Timing driven replication report
+Added 4 Registers via timing driven replication
+Added 42 LUTs via timing driven replication
+
+   5		0h:00m:23s		    -6.63ns		2995 /       936
+   6		0h:00m:25s		    -4.39ns		3012 /       936
+   7		0h:00m:26s		    -4.02ns		3020 /       936
+   8		0h:00m:26s		    -3.28ns		3024 /       936
+   9		0h:00m:27s		    -2.69ns		3035 /       936
+  10		0h:00m:28s		    -2.59ns		3037 /       936
+  11		0h:00m:30s		    -2.53ns		3040 /       936
+@N: FX271 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\hart_merged\miv_rv32_hart_merged.v":19293:2:19293:7|Replicating instance MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.buff_rd_ptr[0] (in view: work.BaseDesign(verilog)) with 14 loads 1 time to improve timing.
+@N: FX271 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\hart_merged\miv_rv32_hart_merged.v":19337:4:19337:9|Replicating instance MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.gen_req_buff_loop\[1\]\.req_buff_resp_state\[1\][0] (in view: work.BaseDesign(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\hart_merged\miv_rv32_hart_merged.v":19337:4:19337:9|Replicating instance MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.gen_req_buff_loop\[0\]\.req_buff_resp_state\[0\][0] (in view: work.BaseDesign(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\hart_merged\miv_rv32_hart_merged.v":19337:4:19337:9|Replicating instance MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.gen_req_buff_loop\[1\]\.req_buff_resp_state\[1\][1] (in view: work.BaseDesign(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\hart_merged\miv_rv32_hart_merged.v":19337:4:19337:9|Replicating instance MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.gen_req_buff_loop\[0\]\.req_buff_resp_state\[0\][1] (in view: work.BaseDesign(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\hart_merged\miv_rv32_hart_merged.v":19337:4:19337:9|Replicating instance MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.gen_req_buff_loop\[1\]\.req_buff_resp_state\[1\][2] (in view: work.BaseDesign(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\hart_merged\miv_rv32_hart_merged.v":19337:4:19337:9|Replicating instance MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.gen_req_buff_loop\[0\]\.req_buff_resp_state\[0\][2] (in view: work.BaseDesign(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\hart_merged\miv_rv32_hart_merged.v":5049:4:5049:9|Replicating instance MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_csr_privarch_0.gen_debug\.debug_mode (in view: work.BaseDesign(verilog)) with 29 loads 2 times to improve timing.
+@N: FX271 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\hart_merged\miv_rv32_hart_merged.v":11028:4:11028:7|Replicating instance fast_mul\.miv_rv32_mul_0.exu_alu_result_sn_m6 (in view: work.miv_rv32_exu_1s_1s_1s_1s_2s_0s_0s_1_1_0(verilog)) with 63 loads 1 time to improve timing.
+@N: FX271 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\hart_merged\miv_rv32_hart_merged.v":11028:4:11028:7|Replicating instance fast_mul\.miv_rv32_mul_0.exu_alu_result_sn_m10 (in view: work.miv_rv32_exu_1s_1s_1s_1s_2s_0s_0s_1_1_0(verilog)) with 121 loads 1 time to improve timing.
+Timing driven replication report
+Added 9 Registers via timing driven replication
+Added 2 LUTs via timing driven replication
+
+@N: FX271 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\hart_merged\miv_rv32_hart_merged.v":9756:2:9756:7|Replicating instance MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.stage_state_retr (in view: work.BaseDesign(verilog)) with 33 loads 2 times to improve timing.
+Timing driven replication report
+Added 2 Registers via timing driven replication
+Added 2 LUTs via timing driven replication
+
+  12		0h:00m:31s		    -2.22ns		3063 /       947
+  13		0h:00m:31s		    -2.00ns		3064 /       947
+  14		0h:00m:32s		    -1.87ns		3072 /       947
+@N: BN362 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\subsys_merged\miv_rv32_subsys_merged.v":10391:2:10391:7|Removing sequential instance MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_ahb\.u_subsys_ahb_0.u_ahb_req_arb.hipri_req_ptr[1] (in view: work.BaseDesign(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\subsys_merged\miv_rv32_subsys_merged.v":10391:2:10391:7|Removing sequential instance MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_apb\.u_apb_initiator_0.u_apb_req_arb.hipri_req_ptr[1] (in view: work.BaseDesign(verilog)) because it does not drive other instances.
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:33s; CPU Time elapsed 0h:00m:33s; Memory used current: 356MB peak: 356MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:33s; CPU Time elapsed 0h:00m:33s; Memory used current: 356MB peak: 357MB)
+
+
+End compile point sub-process log
+
+@N: MT615 |Found clock REF_CLK with period 20.00ns 
+@N: MT615 |Found clock PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0 with period 20.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Wed Jan 14 17:46:12 2026
+#
+
+
+Top view:               BaseDesign
+Requested Frequency:    6.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\designer\BaseDesign\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -0.046
+
+                                            Requested     Estimated     Requested     Estimated                Clock                        Clock                
+Starting Clock                              Frequency     Frequency     Period        Period        Slack      Type                         Group                
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+COREJTAGDEBUG_Z1|N_2_inferred_clock         100.0 MHz     NA            10.000        NA            NA         inferred                     Inferred_clkgroup_0_2
+PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     50.0 MHz      49.9 MHz      20.000        20.046        -0.046     generated (from REF_CLK)     async1_1             
+REF_CLK                                     50.0 MHz      NA            20.000        NA            NA         declared                     default_clkgroup     
+TCK                                         6.0 MHz       NA            166.670       NA            NA         declared                     async1_2             
+System                                      100.0 MHz     NA            10.000        NA            NA         system                       system_clkgroup      
+=================================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                 Ending                                   |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0  System                                   |  20.000      0.639   |  No paths    -      |  No paths    -      |  No paths    -    
+PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0  PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0  |  20.000      -0.046  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                                                        Starting                                                                                                                                                                                           Arrival           
+Instance                                                                                                                                Reference                                   Type     Pin     Net                                                                                                                                   Time        Slack 
+                                                                                                                                        Clock                                                                                                                                                                                                                
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.buff_rd_ptr_fast[0]                                                   PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.buff_rd_ptr_fast[0]                                                 0.218       -0.046
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.gen_req_buff_loop\[1\]\.req_buff_resp_state\[1\][3]                   PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       inp[483]                                                                                                                              0.218       0.120 
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.gen_req_buff_loop\[0\]\.req_buff_resp_state\[0\][3]                   PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       inp[475]                                                                                                                              0.218       0.217 
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.gen_req_buff_loop\[0\]\.req_buff_resp_state_valid[0]                  PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       inp[177]                                                                                                                              0.218       0.229 
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.u_d_trx_os_buffer.gen_buff_loop\[0\]\.buff_valid_fast[0]       PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.u_d_trx_os_buffer.gen_buff_loop\[0\]\.buff_valid_fast[0]     0.218       0.287 
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.u_d_trx_os_buffer.gen_buff_loop\[1\]\.buff_valid_fast[1]       PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.u_d_trx_os_buffer.gen_buff_loop\[1\]\.buff_valid_fast[1]     0.218       0.306 
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.buff_rd_ptr[0]                                                        PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       inp[170]                                                                                                                              0.218       0.324 
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.gen_req_buff_loop\[1\]\.req_buff_resp_state_valid[1]                  PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       inp[172]                                                                                                                              0.218       0.326 
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gen_debug_csr_ctrl_pipeline\.ex_retr_pipe_sw_csr_wr_op_retr[1]     PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       inp[188]                                                                                                                              0.218       0.405 
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.u_d_trx_os_buffer.buff_rd_ptr[0]                               PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       inp[132]                                                                                                                              0.218       0.444 
+=============================================================================================================================================================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                    Starting                                                                  Required           
+Instance                                                                                            Reference                                   Type     Pin     Net          Time         Slack 
+                                                                                                    Clock                                                                                        
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_immediate_ex[0]     PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      SLn     N_9372_i     19.947       -0.046
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_immediate_ex[1]     PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      SLn     N_9372_i     19.947       -0.046
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_immediate_ex[2]     PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      SLn     N_9372_i     19.947       -0.046
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_immediate_ex[3]     PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      SLn     N_9372_i     19.947       -0.046
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_immediate_ex[4]     PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      SLn     N_9372_i     19.947       -0.046
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_immediate_ex[5]     PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      SLn     N_9372_i     19.947       -0.046
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_immediate_ex[6]     PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      SLn     N_9372_i     19.947       -0.046
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_immediate_ex[7]     PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      SLn     N_9372_i     19.947       -0.046
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_immediate_ex[8]     PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      SLn     N_9372_i     19.947       -0.046
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_immediate_ex[9]     PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      SLn     N_9372_i     19.947       -0.046
+=================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      20.000
+    - Setup time:                            0.053
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         19.947
+
+    - Propagation time:                      19.992
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.046
+
+    Number of logic level(s):                28
+    Starting point:                          MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.buff_rd_ptr_fast[0] / Q
+    Ending point:                            MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_immediate_ex[0] / SLn
+    The start point is clocked by            PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+    The end   point is clocked by            PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+
+Instance / Net                                                                                                                                       Pin      Pin               Arrival      No. of    
+Name                                                                                                                                        Type     Name     Dir     Delay     Time         Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.buff_rd_ptr_fast[0]                                                       SLE      Q        Out     0.218     0.218 r      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.buff_rd_ptr_fast[0]                                                       Net      -        -       0.563     -            4         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.req_resp_state[1]                                                         CFG3     C        In      -         0.782 r      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.req_resp_state[1]                                                         CFG3     Y        Out     0.148     0.929 r      -         
+inp[470]                                                                                                                                    Net      -        -       0.974     -            7         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.un1_lsu_resp_valid40_1                                                    CFG4     D        In      -         1.903 r      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.un1_lsu_resp_valid40_1                                                    CFG4     Y        Out     0.232     2.135 f      -         
+inp[495]                                                                                                                                    Net      -        -       0.948     -            7         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_wr_completing_retr_3_0                                             CFG4     D        In      -         3.083 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_wr_completing_retr_3_0                                             CFG4     Y        Out     0.192     3.275 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_wr_completing_retr                                                 Net      -        -       0.579     -            5         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_csr_privarch_0.csr_priv_soft_reset_taken_1                           CFG4     D        In      -         3.854 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_csr_privarch_0.csr_priv_soft_reset_taken_1                           CFG4     Y        Out     0.232     4.086 r      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.soft_reset_taken_retr_1_0                                              Net      -        -       0.124     -            2         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.soft_reset_taken_retr                                                  CFG4     D        In      -         4.210 r      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.soft_reset_taken_retr                                                  CFG4     Y        Out     0.212     4.422 f      -         
+inp_0[219]                                                                                                                                  Net      -        -       1.009     -            9         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.lsu_N_3_mux_i                                                          CFG4     C        In      -         5.431 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.lsu_N_3_mux_i                                                          CFG4     Y        Out     0.145     5.577 f      -         
+inp[314]                                                                                                                                    Net      -        -       1.022     -            31        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_wr_valid_retr_3_0                                                  CFG4     D        In      -         6.598 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_wr_valid_retr_3_0                                                  CFG4     Y        Out     0.232     6.830 r      -         
+inp[321]                                                                                                                                    Net      -        -       0.948     -            6         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_rs1_rd_data_valid_ex                                               CFG4     C        In      -         7.778 r      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_rs1_rd_data_valid_ex                                               CFG4     Y        Out     0.132     7.910 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_bcu_0.bcu_operand_gpr_rs1_valid                                      Net      -        -       0.563     -            4         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.exu_shifter_operand_valid_3           CFG4     D        In      -         8.474 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.exu_shifter_operand_valid_3           CFG4     Y        Out     0.192     8.665 f      -         
+exu_shifter_operand_valid                                                                                                                   Net      -        -       0.124     -            2         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.lsu_align_result_valid_0              CFG3     C        In      -         8.790 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.lsu_align_result_valid_0              CFG3     Y        Out     0.145     8.935 f      -         
+lsu_align_result_valid_0                                                                                                                    Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.exu_result_valid_0_0                  CFG4     C        In      -         9.053 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.exu_result_valid_0_0                  CFG4     Y        Out     0.145     9.198 f      -         
+N_444                                                                                                                                       Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.exu_result_valid_m_0                  CFG4     C        In      -         9.316 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.exu_result_valid_m_0                  CFG4     Y        Out     0.145     9.462 f      -         
+exu_result_valid                                                                                                                            Net      -        -       0.594     -            6         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.ifu_expipe_req_branch_excpt_req_valid_iv_mb                            CFG4     D        In      -         10.056 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.ifu_expipe_req_branch_excpt_req_valid_iv_mb                            CFG4     Y        Out     0.192     10.248 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_fetch_unit_0.u_miv_rv32_ifu_iab_0.req_flush_branch                              Net      -        -       0.686     -            13        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_fetch_unit_0.un5_fetch_ptr_sel                                                  CFG3     C        In      -         10.934 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_fetch_unit_0.un5_fetch_ptr_sel                                                  CFG3     Y        Out     0.130     11.064 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_fetch_unit_0.un5_fetch_ptr_sel_i                                                Net      -        -       0.933     -            53        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_fetch_unit_0.next_req_fetch_ptr[10]                                             CFG4     D        In      -         11.997 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_fetch_unit_0.next_req_fetch_ptr[10]                                             CFG4     Y        Out     0.232     12.229 r     -         
+inp[199]                                                                                                                                    Net      -        -       0.974     -            10        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb_N_3L3_1                                      CFG4     D        In      -         13.203 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb_N_3L3_1                                      CFG4     Y        Out     0.212     13.415 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb_N_3L3_1                                      Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb_N_3L3                                        CFG4     D        In      -         13.533 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb_N_3L3                                        CFG4     Y        Out     0.192     13.725 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb_1                                            Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb                                              CFG4     D        In      -         13.843 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb                                              CFG4     Y        Out     0.232     14.075 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb                                              Net      -        -       0.124     -            2         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_apb\.u_apb_initiator_0.u_apb_req_arb.req_masked[0]                                     CFG4     C        In      -         14.199 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_apb\.u_apb_initiator_0.u_apb_req_arb.req_masked[0]                                     CFG4     Y        Out     0.148     14.347 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_apb\.u_apb_initiator_0.u_apb_req_arb.gen_pri_arb\[1\]\.u_miv_rv32_fixed_arb.req[1]     Net      -        -       0.662     -            11        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.g0_3                                                               CFG4     D        In      -         15.009 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.g0_3                                                               CFG4     Y        Out     0.212     15.221 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un1_cpu_d_req_ready_sig_0                                          Net      -        -       0.124     -            2         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.g0_0                                                                      CFG4     D        In      -         15.345 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.g0_0                                                                      CFG4     Y        Out     0.232     15.576 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.g1_1                                                                      Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.g0_1                                                                      CFG4     B        In      -         15.694 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.g0_1                                                                      CFG4     Y        Out     0.088     15.782 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.expipe_req_accepted                                                       Net      -        -       0.547     -            3         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.g0_0_1                                                                 CFG4     C        In      -         16.329 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.g0_0_1                                                                 CFG4     Y        Out     0.145     16.474 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.g0_0                                                                   Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.g0                                                                     CFG4     C        In      -         16.593 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.g0                                                                     CFG4     Y        Out     0.145     16.738 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.un7_gpr_rd_rs1_completing_ex                                           Net      -        -       0.579     -            5         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.instr_completing_ex_5_x                                                CFG3     C        In      -         17.317 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.instr_completing_ex_5_x                                                CFG3     Y        Out     0.145     17.463 f     -         
+N_11573                                                                                                                                     Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.instr_completing_ex                                                    CFG3     B        In      -         17.581 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.instr_completing_ex                                                    CFG3     Y        Out     0.077     17.658 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.instr_completing_ex                                                    Net      -        -       0.662     -            11        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_immediate_ex_1079                                           CFG4     C        In      -         18.320 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_immediate_ex_1079                                           CFG4     Y        Out     0.145     18.466 f     -         
+N_9372                                                                                                                                      Net      -        -       0.547     -            3         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.N_9372_i_0                                                             CFG1     A        In      -         19.013 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.N_9372_i_0                                                             CFG1     Y        Out     0.047     19.060 r     -         
+N_9372_i                                                                                                                                    Net      -        -       0.933     -            35        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_immediate_ex[0]                                             SLE      SLn      In      -         19.992 r     -         
+=======================================================================================================================================================================================================
+Total path delay (propagation time + setup) of 20.046 is 4.999(24.9%) logic and 15.046(75.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      20.000
+    - Setup time:                            0.053
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         19.947
+
+    - Propagation time:                      19.992
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.046
+
+    Number of logic level(s):                28
+    Starting point:                          MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.buff_rd_ptr_fast[0] / Q
+    Ending point:                            MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_shifter_unit_places_sel_ex[0] / SLn
+    The start point is clocked by            PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+    The end   point is clocked by            PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+
+Instance / Net                                                                                                                                       Pin      Pin               Arrival      No. of    
+Name                                                                                                                                        Type     Name     Dir     Delay     Time         Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.buff_rd_ptr_fast[0]                                                       SLE      Q        Out     0.218     0.218 r      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.buff_rd_ptr_fast[0]                                                       Net      -        -       0.563     -            4         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.req_resp_state[1]                                                         CFG3     C        In      -         0.782 r      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.req_resp_state[1]                                                         CFG3     Y        Out     0.148     0.929 r      -         
+inp[470]                                                                                                                                    Net      -        -       0.974     -            7         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.un1_lsu_resp_valid40_1                                                    CFG4     D        In      -         1.903 r      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.un1_lsu_resp_valid40_1                                                    CFG4     Y        Out     0.232     2.135 f      -         
+inp[495]                                                                                                                                    Net      -        -       0.948     -            7         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_wr_completing_retr_3_0                                             CFG4     D        In      -         3.083 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_wr_completing_retr_3_0                                             CFG4     Y        Out     0.192     3.275 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_wr_completing_retr                                                 Net      -        -       0.579     -            5         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_csr_privarch_0.csr_priv_soft_reset_taken_1                           CFG4     D        In      -         3.854 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_csr_privarch_0.csr_priv_soft_reset_taken_1                           CFG4     Y        Out     0.232     4.086 r      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.soft_reset_taken_retr_1_0                                              Net      -        -       0.124     -            2         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.soft_reset_taken_retr                                                  CFG4     D        In      -         4.210 r      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.soft_reset_taken_retr                                                  CFG4     Y        Out     0.212     4.422 f      -         
+inp_0[219]                                                                                                                                  Net      -        -       1.009     -            9         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.lsu_N_3_mux_i                                                          CFG4     C        In      -         5.431 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.lsu_N_3_mux_i                                                          CFG4     Y        Out     0.145     5.577 f      -         
+inp[314]                                                                                                                                    Net      -        -       1.022     -            31        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_wr_valid_retr_3_0                                                  CFG4     D        In      -         6.598 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_wr_valid_retr_3_0                                                  CFG4     Y        Out     0.232     6.830 r      -         
+inp[321]                                                                                                                                    Net      -        -       0.948     -            6         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_rs1_rd_data_valid_ex                                               CFG4     C        In      -         7.778 r      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_rs1_rd_data_valid_ex                                               CFG4     Y        Out     0.132     7.910 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_bcu_0.bcu_operand_gpr_rs1_valid                                      Net      -        -       0.563     -            4         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.exu_shifter_operand_valid_3           CFG4     D        In      -         8.474 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.exu_shifter_operand_valid_3           CFG4     Y        Out     0.192     8.665 f      -         
+exu_shifter_operand_valid                                                                                                                   Net      -        -       0.124     -            2         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.lsu_align_result_valid_0              CFG3     C        In      -         8.790 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.lsu_align_result_valid_0              CFG3     Y        Out     0.145     8.935 f      -         
+lsu_align_result_valid_0                                                                                                                    Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.exu_result_valid_0_0                  CFG4     C        In      -         9.053 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.exu_result_valid_0_0                  CFG4     Y        Out     0.145     9.198 f      -         
+N_444                                                                                                                                       Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.exu_result_valid_m_0                  CFG4     C        In      -         9.316 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.exu_result_valid_m_0                  CFG4     Y        Out     0.145     9.462 f      -         
+exu_result_valid                                                                                                                            Net      -        -       0.594     -            6         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.ifu_expipe_req_branch_excpt_req_valid_iv_mb                            CFG4     D        In      -         10.056 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.ifu_expipe_req_branch_excpt_req_valid_iv_mb                            CFG4     Y        Out     0.192     10.248 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_fetch_unit_0.u_miv_rv32_ifu_iab_0.req_flush_branch                              Net      -        -       0.686     -            13        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_fetch_unit_0.un5_fetch_ptr_sel                                                  CFG3     C        In      -         10.934 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_fetch_unit_0.un5_fetch_ptr_sel                                                  CFG3     Y        Out     0.130     11.064 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_fetch_unit_0.un5_fetch_ptr_sel_i                                                Net      -        -       0.933     -            53        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_fetch_unit_0.next_req_fetch_ptr[10]                                             CFG4     D        In      -         11.997 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_fetch_unit_0.next_req_fetch_ptr[10]                                             CFG4     Y        Out     0.232     12.229 r     -         
+inp[199]                                                                                                                                    Net      -        -       0.974     -            10        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb_N_3L3_1                                      CFG4     D        In      -         13.203 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb_N_3L3_1                                      CFG4     Y        Out     0.212     13.415 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb_N_3L3_1                                      Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb_N_3L3                                        CFG4     D        In      -         13.533 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb_N_3L3                                        CFG4     Y        Out     0.192     13.725 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb_1                                            Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb                                              CFG4     D        In      -         13.843 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb                                              CFG4     Y        Out     0.232     14.075 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb                                              Net      -        -       0.124     -            2         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_apb\.u_apb_initiator_0.u_apb_req_arb.req_masked[0]                                     CFG4     C        In      -         14.199 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_apb\.u_apb_initiator_0.u_apb_req_arb.req_masked[0]                                     CFG4     Y        Out     0.148     14.347 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_apb\.u_apb_initiator_0.u_apb_req_arb.gen_pri_arb\[1\]\.u_miv_rv32_fixed_arb.req[1]     Net      -        -       0.662     -            11        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.g0_3                                                               CFG4     D        In      -         15.009 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.g0_3                                                               CFG4     Y        Out     0.212     15.221 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un1_cpu_d_req_ready_sig_0                                          Net      -        -       0.124     -            2         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.g0_0                                                                      CFG4     D        In      -         15.345 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.g0_0                                                                      CFG4     Y        Out     0.232     15.576 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.g1_1                                                                      Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.g0_1                                                                      CFG4     B        In      -         15.694 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.g0_1                                                                      CFG4     Y        Out     0.088     15.782 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.expipe_req_accepted                                                       Net      -        -       0.547     -            3         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.g0_0_1                                                                 CFG4     C        In      -         16.329 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.g0_0_1                                                                 CFG4     Y        Out     0.145     16.474 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.g0_0                                                                   Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.g0                                                                     CFG4     C        In      -         16.593 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.g0                                                                     CFG4     Y        Out     0.145     16.738 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.un7_gpr_rd_rs1_completing_ex                                           Net      -        -       0.579     -            5         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.instr_completing_ex_5_x                                                CFG3     C        In      -         17.317 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.instr_completing_ex_5_x                                                CFG3     Y        Out     0.145     17.463 f     -         
+N_11573                                                                                                                                     Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.instr_completing_ex                                                    CFG3     B        In      -         17.581 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.instr_completing_ex                                                    CFG3     Y        Out     0.077     17.658 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.instr_completing_ex                                                    Net      -        -       0.662     -            11        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_immediate_ex_1079                                           CFG4     C        In      -         18.320 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_immediate_ex_1079                                           CFG4     Y        Out     0.145     18.466 f     -         
+N_9372                                                                                                                                      Net      -        -       0.547     -            3         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.N_9372_i_0                                                             CFG1     A        In      -         19.013 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.N_9372_i_0                                                             CFG1     Y        Out     0.047     19.060 r     -         
+N_9372_i                                                                                                                                    Net      -        -       0.933     -            35        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_shifter_unit_places_sel_ex[0]                               SLE      SLn      In      -         19.992 r     -         
+=======================================================================================================================================================================================================
+Total path delay (propagation time + setup) of 20.046 is 4.999(24.9%) logic and 15.046(75.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      20.000
+    - Setup time:                            0.053
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         19.947
+
+    - Propagation time:                      19.992
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.046
+
+    Number of logic level(s):                28
+    Starting point:                          MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.buff_rd_ptr_fast[0] / Q
+    Ending point:                            MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_shifter_unit_places_sel_ex[1] / SLn
+    The start point is clocked by            PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+    The end   point is clocked by            PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+
+Instance / Net                                                                                                                                       Pin      Pin               Arrival      No. of    
+Name                                                                                                                                        Type     Name     Dir     Delay     Time         Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.buff_rd_ptr_fast[0]                                                       SLE      Q        Out     0.218     0.218 r      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.buff_rd_ptr_fast[0]                                                       Net      -        -       0.563     -            4         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.req_resp_state[1]                                                         CFG3     C        In      -         0.782 r      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.req_resp_state[1]                                                         CFG3     Y        Out     0.148     0.929 r      -         
+inp[470]                                                                                                                                    Net      -        -       0.974     -            7         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.un1_lsu_resp_valid40_1                                                    CFG4     D        In      -         1.903 r      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.un1_lsu_resp_valid40_1                                                    CFG4     Y        Out     0.232     2.135 f      -         
+inp[495]                                                                                                                                    Net      -        -       0.948     -            7         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_wr_completing_retr_3_0                                             CFG4     D        In      -         3.083 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_wr_completing_retr_3_0                                             CFG4     Y        Out     0.192     3.275 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_wr_completing_retr                                                 Net      -        -       0.579     -            5         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_csr_privarch_0.csr_priv_soft_reset_taken_1                           CFG4     D        In      -         3.854 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_csr_privarch_0.csr_priv_soft_reset_taken_1                           CFG4     Y        Out     0.232     4.086 r      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.soft_reset_taken_retr_1_0                                              Net      -        -       0.124     -            2         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.soft_reset_taken_retr                                                  CFG4     D        In      -         4.210 r      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.soft_reset_taken_retr                                                  CFG4     Y        Out     0.212     4.422 f      -         
+inp_0[219]                                                                                                                                  Net      -        -       1.009     -            9         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.lsu_N_3_mux_i                                                          CFG4     C        In      -         5.431 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.lsu_N_3_mux_i                                                          CFG4     Y        Out     0.145     5.577 f      -         
+inp[314]                                                                                                                                    Net      -        -       1.022     -            31        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_wr_valid_retr_3_0                                                  CFG4     D        In      -         6.598 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_wr_valid_retr_3_0                                                  CFG4     Y        Out     0.232     6.830 r      -         
+inp[321]                                                                                                                                    Net      -        -       0.948     -            6         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_rs1_rd_data_valid_ex                                               CFG4     C        In      -         7.778 r      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_rs1_rd_data_valid_ex                                               CFG4     Y        Out     0.132     7.910 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_bcu_0.bcu_operand_gpr_rs1_valid                                      Net      -        -       0.563     -            4         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.exu_shifter_operand_valid_3           CFG4     D        In      -         8.474 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.exu_shifter_operand_valid_3           CFG4     Y        Out     0.192     8.665 f      -         
+exu_shifter_operand_valid                                                                                                                   Net      -        -       0.124     -            2         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.lsu_align_result_valid_0              CFG3     C        In      -         8.790 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.lsu_align_result_valid_0              CFG3     Y        Out     0.145     8.935 f      -         
+lsu_align_result_valid_0                                                                                                                    Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.exu_result_valid_0_0                  CFG4     C        In      -         9.053 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.exu_result_valid_0_0                  CFG4     Y        Out     0.145     9.198 f      -         
+N_444                                                                                                                                       Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.exu_result_valid_m_0                  CFG4     C        In      -         9.316 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.exu_result_valid_m_0                  CFG4     Y        Out     0.145     9.462 f      -         
+exu_result_valid                                                                                                                            Net      -        -       0.594     -            6         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.ifu_expipe_req_branch_excpt_req_valid_iv_mb                            CFG4     D        In      -         10.056 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.ifu_expipe_req_branch_excpt_req_valid_iv_mb                            CFG4     Y        Out     0.192     10.248 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_fetch_unit_0.u_miv_rv32_ifu_iab_0.req_flush_branch                              Net      -        -       0.686     -            13        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_fetch_unit_0.un5_fetch_ptr_sel                                                  CFG3     C        In      -         10.934 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_fetch_unit_0.un5_fetch_ptr_sel                                                  CFG3     Y        Out     0.130     11.064 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_fetch_unit_0.un5_fetch_ptr_sel_i                                                Net      -        -       0.933     -            53        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_fetch_unit_0.next_req_fetch_ptr[10]                                             CFG4     D        In      -         11.997 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_fetch_unit_0.next_req_fetch_ptr[10]                                             CFG4     Y        Out     0.232     12.229 r     -         
+inp[199]                                                                                                                                    Net      -        -       0.974     -            10        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb_N_3L3_1                                      CFG4     D        In      -         13.203 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb_N_3L3_1                                      CFG4     Y        Out     0.212     13.415 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb_N_3L3_1                                      Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb_N_3L3                                        CFG4     D        In      -         13.533 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb_N_3L3                                        CFG4     Y        Out     0.192     13.725 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb_1                                            Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb                                              CFG4     D        In      -         13.843 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb                                              CFG4     Y        Out     0.232     14.075 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb                                              Net      -        -       0.124     -            2         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_apb\.u_apb_initiator_0.u_apb_req_arb.req_masked[0]                                     CFG4     C        In      -         14.199 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_apb\.u_apb_initiator_0.u_apb_req_arb.req_masked[0]                                     CFG4     Y        Out     0.148     14.347 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_apb\.u_apb_initiator_0.u_apb_req_arb.gen_pri_arb\[1\]\.u_miv_rv32_fixed_arb.req[1]     Net      -        -       0.662     -            11        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.g0_3                                                               CFG4     D        In      -         15.009 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.g0_3                                                               CFG4     Y        Out     0.212     15.221 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un1_cpu_d_req_ready_sig_0                                          Net      -        -       0.124     -            2         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.g0_0                                                                      CFG4     D        In      -         15.345 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.g0_0                                                                      CFG4     Y        Out     0.232     15.576 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.g1_1                                                                      Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.g0_1                                                                      CFG4     B        In      -         15.694 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.g0_1                                                                      CFG4     Y        Out     0.088     15.782 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.expipe_req_accepted                                                       Net      -        -       0.547     -            3         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.g0_0_1                                                                 CFG4     C        In      -         16.329 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.g0_0_1                                                                 CFG4     Y        Out     0.145     16.474 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.g0_0                                                                   Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.g0                                                                     CFG4     C        In      -         16.593 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.g0                                                                     CFG4     Y        Out     0.145     16.738 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.un7_gpr_rd_rs1_completing_ex                                           Net      -        -       0.579     -            5         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.instr_completing_ex_5_x                                                CFG3     C        In      -         17.317 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.instr_completing_ex_5_x                                                CFG3     Y        Out     0.145     17.463 f     -         
+N_11573                                                                                                                                     Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.instr_completing_ex                                                    CFG3     B        In      -         17.581 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.instr_completing_ex                                                    CFG3     Y        Out     0.077     17.658 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.instr_completing_ex                                                    Net      -        -       0.662     -            11        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_immediate_ex_1079                                           CFG4     C        In      -         18.320 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_immediate_ex_1079                                           CFG4     Y        Out     0.145     18.466 f     -         
+N_9372                                                                                                                                      Net      -        -       0.547     -            3         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.N_9372_i_0                                                             CFG1     A        In      -         19.013 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.N_9372_i_0                                                             CFG1     Y        Out     0.047     19.060 r     -         
+N_9372_i                                                                                                                                    Net      -        -       0.933     -            35        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_shifter_unit_places_sel_ex[1]                               SLE      SLn      In      -         19.992 r     -         
+=======================================================================================================================================================================================================
+Total path delay (propagation time + setup) of 20.046 is 4.999(24.9%) logic and 15.046(75.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      20.000
+    - Setup time:                            0.053
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         19.947
+
+    - Propagation time:                      19.992
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.046
+
+    Number of logic level(s):                28
+    Starting point:                          MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.buff_rd_ptr_fast[0] / Q
+    Ending point:                            MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_shifter_unit_places_sel_ex[2] / SLn
+    The start point is clocked by            PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+    The end   point is clocked by            PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+
+Instance / Net                                                                                                                                       Pin      Pin               Arrival      No. of    
+Name                                                                                                                                        Type     Name     Dir     Delay     Time         Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.buff_rd_ptr_fast[0]                                                       SLE      Q        Out     0.218     0.218 r      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.buff_rd_ptr_fast[0]                                                       Net      -        -       0.563     -            4         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.req_resp_state[1]                                                         CFG3     C        In      -         0.782 r      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.req_resp_state[1]                                                         CFG3     Y        Out     0.148     0.929 r      -         
+inp[470]                                                                                                                                    Net      -        -       0.974     -            7         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.un1_lsu_resp_valid40_1                                                    CFG4     D        In      -         1.903 r      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.un1_lsu_resp_valid40_1                                                    CFG4     Y        Out     0.232     2.135 f      -         
+inp[495]                                                                                                                                    Net      -        -       0.948     -            7         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_wr_completing_retr_3_0                                             CFG4     D        In      -         3.083 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_wr_completing_retr_3_0                                             CFG4     Y        Out     0.192     3.275 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_wr_completing_retr                                                 Net      -        -       0.579     -            5         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_csr_privarch_0.csr_priv_soft_reset_taken_1                           CFG4     D        In      -         3.854 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_csr_privarch_0.csr_priv_soft_reset_taken_1                           CFG4     Y        Out     0.232     4.086 r      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.soft_reset_taken_retr_1_0                                              Net      -        -       0.124     -            2         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.soft_reset_taken_retr                                                  CFG4     D        In      -         4.210 r      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.soft_reset_taken_retr                                                  CFG4     Y        Out     0.212     4.422 f      -         
+inp_0[219]                                                                                                                                  Net      -        -       1.009     -            9         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.lsu_N_3_mux_i                                                          CFG4     C        In      -         5.431 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.lsu_N_3_mux_i                                                          CFG4     Y        Out     0.145     5.577 f      -         
+inp[314]                                                                                                                                    Net      -        -       1.022     -            31        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_wr_valid_retr_3_0                                                  CFG4     D        In      -         6.598 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_wr_valid_retr_3_0                                                  CFG4     Y        Out     0.232     6.830 r      -         
+inp[321]                                                                                                                                    Net      -        -       0.948     -            6         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_rs1_rd_data_valid_ex                                               CFG4     C        In      -         7.778 r      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_rs1_rd_data_valid_ex                                               CFG4     Y        Out     0.132     7.910 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_bcu_0.bcu_operand_gpr_rs1_valid                                      Net      -        -       0.563     -            4         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.exu_shifter_operand_valid_3           CFG4     D        In      -         8.474 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.exu_shifter_operand_valid_3           CFG4     Y        Out     0.192     8.665 f      -         
+exu_shifter_operand_valid                                                                                                                   Net      -        -       0.124     -            2         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.lsu_align_result_valid_0              CFG3     C        In      -         8.790 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.lsu_align_result_valid_0              CFG3     Y        Out     0.145     8.935 f      -         
+lsu_align_result_valid_0                                                                                                                    Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.exu_result_valid_0_0                  CFG4     C        In      -         9.053 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.exu_result_valid_0_0                  CFG4     Y        Out     0.145     9.198 f      -         
+N_444                                                                                                                                       Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.exu_result_valid_m_0                  CFG4     C        In      -         9.316 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.exu_result_valid_m_0                  CFG4     Y        Out     0.145     9.462 f      -         
+exu_result_valid                                                                                                                            Net      -        -       0.594     -            6         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.ifu_expipe_req_branch_excpt_req_valid_iv_mb                            CFG4     D        In      -         10.056 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.ifu_expipe_req_branch_excpt_req_valid_iv_mb                            CFG4     Y        Out     0.192     10.248 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_fetch_unit_0.u_miv_rv32_ifu_iab_0.req_flush_branch                              Net      -        -       0.686     -            13        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_fetch_unit_0.un5_fetch_ptr_sel                                                  CFG3     C        In      -         10.934 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_fetch_unit_0.un5_fetch_ptr_sel                                                  CFG3     Y        Out     0.130     11.064 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_fetch_unit_0.un5_fetch_ptr_sel_i                                                Net      -        -       0.933     -            53        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_fetch_unit_0.next_req_fetch_ptr[10]                                             CFG4     D        In      -         11.997 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_fetch_unit_0.next_req_fetch_ptr[10]                                             CFG4     Y        Out     0.232     12.229 r     -         
+inp[199]                                                                                                                                    Net      -        -       0.974     -            10        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb_N_3L3_1                                      CFG4     D        In      -         13.203 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb_N_3L3_1                                      CFG4     Y        Out     0.212     13.415 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb_N_3L3_1                                      Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb_N_3L3                                        CFG4     D        In      -         13.533 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb_N_3L3                                        CFG4     Y        Out     0.192     13.725 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb_1                                            Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb                                              CFG4     D        In      -         13.843 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb                                              CFG4     Y        Out     0.232     14.075 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb                                              Net      -        -       0.124     -            2         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_apb\.u_apb_initiator_0.u_apb_req_arb.req_masked[0]                                     CFG4     C        In      -         14.199 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_apb\.u_apb_initiator_0.u_apb_req_arb.req_masked[0]                                     CFG4     Y        Out     0.148     14.347 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_apb\.u_apb_initiator_0.u_apb_req_arb.gen_pri_arb\[1\]\.u_miv_rv32_fixed_arb.req[1]     Net      -        -       0.662     -            11        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.g0_3                                                               CFG4     D        In      -         15.009 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.g0_3                                                               CFG4     Y        Out     0.212     15.221 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un1_cpu_d_req_ready_sig_0                                          Net      -        -       0.124     -            2         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.g0_0                                                                      CFG4     D        In      -         15.345 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.g0_0                                                                      CFG4     Y        Out     0.232     15.576 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.g1_1                                                                      Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.g0_1                                                                      CFG4     B        In      -         15.694 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.g0_1                                                                      CFG4     Y        Out     0.088     15.782 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.expipe_req_accepted                                                       Net      -        -       0.547     -            3         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.g0_0_1                                                                 CFG4     C        In      -         16.329 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.g0_0_1                                                                 CFG4     Y        Out     0.145     16.474 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.g0_0                                                                   Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.g0                                                                     CFG4     C        In      -         16.593 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.g0                                                                     CFG4     Y        Out     0.145     16.738 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.un7_gpr_rd_rs1_completing_ex                                           Net      -        -       0.579     -            5         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.instr_completing_ex_5_x                                                CFG3     C        In      -         17.317 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.instr_completing_ex_5_x                                                CFG3     Y        Out     0.145     17.463 f     -         
+N_11573                                                                                                                                     Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.instr_completing_ex                                                    CFG3     B        In      -         17.581 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.instr_completing_ex                                                    CFG3     Y        Out     0.077     17.658 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.instr_completing_ex                                                    Net      -        -       0.662     -            11        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_immediate_ex_1079                                           CFG4     C        In      -         18.320 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_immediate_ex_1079                                           CFG4     Y        Out     0.145     18.466 f     -         
+N_9372                                                                                                                                      Net      -        -       0.547     -            3         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.N_9372_i_0                                                             CFG1     A        In      -         19.013 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.N_9372_i_0                                                             CFG1     Y        Out     0.047     19.060 r     -         
+N_9372_i                                                                                                                                    Net      -        -       0.933     -            35        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_shifter_unit_places_sel_ex[2]                               SLE      SLn      In      -         19.992 r     -         
+=======================================================================================================================================================================================================
+Total path delay (propagation time + setup) of 20.046 is 4.999(24.9%) logic and 15.046(75.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      20.000
+    - Setup time:                            0.053
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         19.947
+
+    - Propagation time:                      19.992
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.046
+
+    Number of logic level(s):                28
+    Starting point:                          MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.buff_rd_ptr_fast[0] / Q
+    Ending point:                            MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_immediate_ex[10] / SLn
+    The start point is clocked by            PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+    The end   point is clocked by            PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+
+Instance / Net                                                                                                                                       Pin      Pin               Arrival      No. of    
+Name                                                                                                                                        Type     Name     Dir     Delay     Time         Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.buff_rd_ptr_fast[0]                                                       SLE      Q        Out     0.218     0.218 r      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.buff_rd_ptr_fast[0]                                                       Net      -        -       0.563     -            4         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.req_resp_state[1]                                                         CFG3     C        In      -         0.782 r      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.req_resp_state[1]                                                         CFG3     Y        Out     0.148     0.929 r      -         
+inp[470]                                                                                                                                    Net      -        -       0.974     -            7         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.un1_lsu_resp_valid40_1                                                    CFG4     D        In      -         1.903 r      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.un1_lsu_resp_valid40_1                                                    CFG4     Y        Out     0.232     2.135 f      -         
+inp[495]                                                                                                                                    Net      -        -       0.948     -            7         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_wr_completing_retr_3_0                                             CFG4     D        In      -         3.083 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_wr_completing_retr_3_0                                             CFG4     Y        Out     0.192     3.275 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_wr_completing_retr                                                 Net      -        -       0.579     -            5         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_csr_privarch_0.csr_priv_soft_reset_taken_1                           CFG4     D        In      -         3.854 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_csr_privarch_0.csr_priv_soft_reset_taken_1                           CFG4     Y        Out     0.232     4.086 r      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.soft_reset_taken_retr_1_0                                              Net      -        -       0.124     -            2         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.soft_reset_taken_retr                                                  CFG4     D        In      -         4.210 r      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.soft_reset_taken_retr                                                  CFG4     Y        Out     0.212     4.422 f      -         
+inp_0[219]                                                                                                                                  Net      -        -       1.009     -            9         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.lsu_N_3_mux_i                                                          CFG4     C        In      -         5.431 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.lsu_N_3_mux_i                                                          CFG4     Y        Out     0.145     5.577 f      -         
+inp[314]                                                                                                                                    Net      -        -       1.022     -            31        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_wr_valid_retr_3_0                                                  CFG4     D        In      -         6.598 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_wr_valid_retr_3_0                                                  CFG4     Y        Out     0.232     6.830 r      -         
+inp[321]                                                                                                                                    Net      -        -       0.948     -            6         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_rs1_rd_data_valid_ex                                               CFG4     C        In      -         7.778 r      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.gpr_rs1_rd_data_valid_ex                                               CFG4     Y        Out     0.132     7.910 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_bcu_0.bcu_operand_gpr_rs1_valid                                      Net      -        -       0.563     -            4         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.exu_shifter_operand_valid_3           CFG4     D        In      -         8.474 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.exu_shifter_operand_valid_3           CFG4     Y        Out     0.192     8.665 f      -         
+exu_shifter_operand_valid                                                                                                                   Net      -        -       0.124     -            2         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.lsu_align_result_valid_0              CFG3     C        In      -         8.790 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.lsu_align_result_valid_0              CFG3     Y        Out     0.145     8.935 f      -         
+lsu_align_result_valid_0                                                                                                                    Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.exu_result_valid_0_0                  CFG4     C        In      -         9.053 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.exu_result_valid_0_0                  CFG4     Y        Out     0.145     9.198 f      -         
+N_444                                                                                                                                       Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.exu_result_valid_m_0                  CFG4     C        In      -         9.316 f      -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.exu_result_valid_m_0                  CFG4     Y        Out     0.145     9.462 f      -         
+exu_result_valid                                                                                                                            Net      -        -       0.594     -            6         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.ifu_expipe_req_branch_excpt_req_valid_iv_mb                            CFG4     D        In      -         10.056 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.ifu_expipe_req_branch_excpt_req_valid_iv_mb                            CFG4     Y        Out     0.192     10.248 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_fetch_unit_0.u_miv_rv32_ifu_iab_0.req_flush_branch                              Net      -        -       0.686     -            13        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_fetch_unit_0.un5_fetch_ptr_sel                                                  CFG3     C        In      -         10.934 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_fetch_unit_0.un5_fetch_ptr_sel                                                  CFG3     Y        Out     0.130     11.064 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_fetch_unit_0.un5_fetch_ptr_sel_i                                                Net      -        -       0.933     -            53        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_fetch_unit_0.next_req_fetch_ptr[10]                                             CFG4     D        In      -         11.997 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_fetch_unit_0.next_req_fetch_ptr[10]                                             CFG4     Y        Out     0.232     12.229 r     -         
+inp[199]                                                                                                                                    Net      -        -       0.974     -            10        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb_N_3L3_1                                      CFG4     D        In      -         13.203 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb_N_3L3_1                                      CFG4     Y        Out     0.212     13.415 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb_N_3L3_1                                      Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb_N_3L3                                        CFG4     D        In      -         13.533 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb_N_3L3                                        CFG4     Y        Out     0.192     13.725 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb_1                                            Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb                                              CFG4     D        In      -         13.843 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb                                              CFG4     Y        Out     0.232     14.075 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un16_cpu_i_req_is_apb                                              Net      -        -       0.124     -            2         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_apb\.u_apb_initiator_0.u_apb_req_arb.req_masked[0]                                     CFG4     C        In      -         14.199 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_apb\.u_apb_initiator_0.u_apb_req_arb.req_masked[0]                                     CFG4     Y        Out     0.148     14.347 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_apb\.u_apb_initiator_0.u_apb_req_arb.gen_pri_arb\[1\]\.u_miv_rv32_fixed_arb.req[1]     Net      -        -       0.662     -            11        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.g0_3                                                               CFG4     D        In      -         15.009 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.g0_3                                                               CFG4     Y        Out     0.212     15.221 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_subsys_interconnect_0.un1_cpu_d_req_ready_sig_0                                          Net      -        -       0.124     -            2         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.g0_0                                                                      CFG4     D        In      -         15.345 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.g0_0                                                                      CFG4     Y        Out     0.232     15.576 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.g1_1                                                                      Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.g0_1                                                                      CFG4     B        In      -         15.694 r     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.g0_1                                                                      CFG4     Y        Out     0.088     15.782 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.expipe_req_accepted                                                       Net      -        -       0.547     -            3         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.g0_0_1                                                                 CFG4     C        In      -         16.329 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.g0_0_1                                                                 CFG4     Y        Out     0.145     16.474 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.g0_0                                                                   Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.g0                                                                     CFG4     C        In      -         16.593 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.g0                                                                     CFG4     Y        Out     0.145     16.738 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.un7_gpr_rd_rs1_completing_ex                                           Net      -        -       0.579     -            5         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.instr_completing_ex_5_x                                                CFG3     C        In      -         17.317 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.instr_completing_ex_5_x                                                CFG3     Y        Out     0.145     17.463 f     -         
+N_11573                                                                                                                                     Net      -        -       0.118     -            1         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.instr_completing_ex                                                    CFG3     B        In      -         17.581 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.instr_completing_ex                                                    CFG3     Y        Out     0.077     17.658 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.instr_completing_ex                                                    Net      -        -       0.662     -            11        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_immediate_ex_1079                                           CFG4     C        In      -         18.320 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_immediate_ex_1079                                           CFG4     Y        Out     0.145     18.466 f     -         
+N_9372                                                                                                                                      Net      -        -       0.547     -            3         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.N_9372_i_0                                                             CFG1     A        In      -         19.013 f     -         
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.N_9372_i_0                                                             CFG1     Y        Out     0.047     19.060 r     -         
+N_9372_i                                                                                                                                    Net      -        -       0.933     -            35        
+MIV_RV32_CFG1_C0_0.MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.de_ex_pipe_immediate_ex[10]                                            SLE      SLn      In      -         19.992 r     -         
+=======================================================================================================================================================================================================
+Total path delay (propagation time + setup) of 20.046 is 4.999(24.9%) logic and 15.046(75.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+Writing compile point status file C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\synthesis\miv_rv32_exu_1s_1s_1s_1s_2s_0s_0s_1_1_0\cpprop
+
+Summary of Compile Points :
+*************************** 
+Name                                        Status       Reason                 
+--------------------------------------------------------------------------------
+miv_rv32_exu_1s_1s_1s_1s_2s_0s_0s_1_1_0     Remapped     Mapping options changed
+================================================================================
+
+Process took 0h:00m:34s realtime, 0h:00m:33s cputime
+# Wed Jan 14 17:46:12 2026
+
+###########################################################]

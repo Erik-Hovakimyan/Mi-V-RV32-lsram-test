@@ -1,0 +1,919 @@
+Timing Violation Report Max Delay Analysis
+
+SmartTime Version 2025.2
+Microchip Technology Inc. - Microchip Libero Software Release 2025.2 (Version 2025.2.0.14)
+Date: Fri Jan 16 02:05:09 2026
+
+
+Design: BaseDesign
+Family: PolarFireSoC
+Die: MPFS095T
+Package: FCSG325
+Temperature Range: 0 - 100 C
+Voltage Range: 0.97 - 1.03 V
+Speed Grade: -1
+Design State: Post-Layout
+Data source: Production
+Multi Corner Report Operating Conditions: slow_lv_lt,fast_hv_lt,slow_lv_ht
+
+
+Path 1
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_alu_op_sel_ex[4]:SLn
+  Delay (ns):             11.621
+  Slack (ns):              8.001
+  Arrival (ns):           15.099
+  Required (ns):          23.100
+  Operating Conditions: slow_lv_ht
+
+Path 2
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_alu_op_sel_ex[4]:SLn
+  Delay (ns):             11.570
+  Slack (ns):              8.045
+  Arrival (ns):           15.055
+  Required (ns):          23.100
+  Operating Conditions: slow_lv_ht
+
+Path 3
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R25C0/INST_RAM1K20_IP:B_BLK_EN[2]
+  Delay (ns):             11.045
+  Slack (ns):              8.295
+  Arrival (ns):           14.523
+  Required (ns):          22.818
+  Operating Conditions: slow_lv_ht
+
+Path 4
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R25C0/INST_RAM1K20_IP:B_WEN[1]
+  Delay (ns):             10.555
+  Slack (ns):              8.328
+  Arrival (ns):           14.033
+  Required (ns):          22.361
+  Operating Conditions: slow_lv_ht
+
+Path 5
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R3C0/INST_RAM1K20_IP:B_WEN[0]
+  Delay (ns):             10.522
+  Slack (ns):              8.330
+  Arrival (ns):           14.000
+  Required (ns):          22.330
+  Operating Conditions: slow_lv_ht
+
+Path 6
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R18C0/INST_RAM1K20_IP:A_BLK_EN[2]
+  Delay (ns):             10.899
+  Slack (ns):              8.331
+  Arrival (ns):           14.377
+  Required (ns):          22.708
+  Operating Conditions: slow_lv_ht
+
+Path 7
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R25C0/INST_RAM1K20_IP:B_BLK_EN[2]
+  Delay (ns):             10.994
+  Slack (ns):              8.339
+  Arrival (ns):           14.479
+  Required (ns):          22.818
+  Operating Conditions: slow_lv_ht
+
+Path 8
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R16C0/INST_RAM1K20_IP:A_BLK_EN[2]
+  Delay (ns):             10.877
+  Slack (ns):              8.362
+  Arrival (ns):           14.355
+  Required (ns):          22.717
+  Operating Conditions: slow_lv_ht
+
+Path 9
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R25C0/INST_RAM1K20_IP:A_WEN[1]
+  Delay (ns):             10.632
+  Slack (ns):              8.369
+  Arrival (ns):           14.110
+  Required (ns):          22.479
+  Operating Conditions: slow_lv_ht
+
+Path 10
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R25C0/INST_RAM1K20_IP:B_WEN[1]
+  Delay (ns):             10.504
+  Slack (ns):              8.372
+  Arrival (ns):           13.989
+  Required (ns):          22.361
+  Operating Conditions: slow_lv_ht
+
+Path 11
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R25C0/INST_RAM1K20_IP:B_WEN[0]
+  Delay (ns):             10.475
+  Slack (ns):              8.373
+  Arrival (ns):           13.953
+  Required (ns):          22.326
+  Operating Conditions: slow_lv_ht
+
+Path 12
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R3C0/INST_RAM1K20_IP:B_WEN[0]
+  Delay (ns):             10.471
+  Slack (ns):              8.374
+  Arrival (ns):           13.956
+  Required (ns):          22.330
+  Operating Conditions: slow_lv_ht
+
+Path 13
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R18C0/INST_RAM1K20_IP:A_BLK_EN[2]
+  Delay (ns):             10.848
+  Slack (ns):              8.375
+  Arrival (ns):           14.333
+  Required (ns):          22.708
+  Operating Conditions: slow_lv_ht
+
+Path 14
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R63C0/INST_RAM1K20_IP:A_WEN[0]
+  Delay (ns):             10.611
+  Slack (ns):              8.381
+  Arrival (ns):           14.089
+  Required (ns):          22.470
+  Operating Conditions: slow_lv_ht
+
+Path 15
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R7C0/INST_RAM1K20_IP:A_BLK_EN[2]
+  Delay (ns):             10.852
+  Slack (ns):              8.393
+  Arrival (ns):           14.330
+  Required (ns):          22.723
+  Operating Conditions: slow_lv_ht
+
+Path 16
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R27C0/INST_RAM1K20_IP:A_WEN[0]
+  Delay (ns):             10.656
+  Slack (ns):              8.393
+  Arrival (ns):           14.134
+  Required (ns):          22.527
+  Operating Conditions: slow_lv_ht
+
+Path 17
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R16C0/INST_RAM1K20_IP:A_BLK_EN[2]
+  Delay (ns):             10.826
+  Slack (ns):              8.406
+  Arrival (ns):           14.311
+  Required (ns):          22.717
+  Operating Conditions: slow_lv_ht
+
+Path 18
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R31C0/INST_RAM1K20_IP:B_WEN[0]
+  Delay (ns):             10.481
+  Slack (ns):              8.409
+  Arrival (ns):           13.959
+  Required (ns):          22.368
+  Operating Conditions: slow_lv_ht
+
+Path 19
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R25C0/INST_RAM1K20_IP:A_WEN[1]
+  Delay (ns):             10.581
+  Slack (ns):              8.413
+  Arrival (ns):           14.066
+  Required (ns):          22.479
+  Operating Conditions: slow_lv_ht
+
+Path 20
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R25C0/INST_RAM1K20_IP:B_WEN[0]
+  Delay (ns):             10.424
+  Slack (ns):              8.417
+  Arrival (ns):           13.909
+  Required (ns):          22.326
+  Operating Conditions: slow_lv_ht
+
+Path 21
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R63C0/INST_RAM1K20_IP:A_WEN[0]
+  Delay (ns):             10.560
+  Slack (ns):              8.425
+  Arrival (ns):           14.045
+  Required (ns):          22.470
+  Operating Conditions: slow_lv_ht
+
+Path 22
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R61C0/INST_RAM1K20_IP:A_BLK_EN[2]
+  Delay (ns):             10.802
+  Slack (ns):              8.426
+  Arrival (ns):           14.280
+  Required (ns):          22.706
+  Operating Conditions: slow_lv_ht
+
+Path 23
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_alu_op_sel_ex[3]:EN
+  Delay (ns):             11.110
+  Slack (ns):              8.435
+  Arrival (ns):           14.588
+  Required (ns):          23.023
+  Operating Conditions: slow_lv_ht
+
+Path 24
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_alu_op_sel_ex[0]:EN
+  Delay (ns):             11.110
+  Slack (ns):              8.435
+  Arrival (ns):           14.588
+  Required (ns):          23.023
+  Operating Conditions: slow_lv_ht
+
+Path 25
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R7C0/INST_RAM1K20_IP:A_BLK_EN[2]
+  Delay (ns):             10.801
+  Slack (ns):              8.437
+  Arrival (ns):           14.286
+  Required (ns):          22.723
+  Operating Conditions: slow_lv_ht
+
+Path 26
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R27C0/INST_RAM1K20_IP:A_WEN[0]
+  Delay (ns):             10.605
+  Slack (ns):              8.437
+  Arrival (ns):           14.090
+  Required (ns):          22.527
+  Operating Conditions: slow_lv_ht
+
+Path 27
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_alu_op_sel_ex[2]:EN
+  Delay (ns):             11.108
+  Slack (ns):              8.437
+  Arrival (ns):           14.586
+  Required (ns):          23.023
+  Operating Conditions: slow_lv_ht
+
+Path 28
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_alu_op_sel_ex[1]:EN
+  Delay (ns):             11.108
+  Slack (ns):              8.437
+  Arrival (ns):           14.586
+  Required (ns):          23.023
+  Operating Conditions: slow_lv_ht
+
+Path 29
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R27C0/INST_RAM1K20_IP:B_WEN[0]
+  Delay (ns):             10.461
+  Slack (ns):              8.444
+  Arrival (ns):           13.939
+  Required (ns):          22.383
+  Operating Conditions: slow_lv_ht
+
+Path 30
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R58C0/INST_RAM1K20_IP:B_BLK_EN[2]
+  Delay (ns):             10.891
+  Slack (ns):              8.446
+  Arrival (ns):           14.369
+  Required (ns):          22.815
+  Operating Conditions: slow_lv_ht
+
+Path 31
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R1C0/INST_RAM1K20_IP:B_BLK_EN[2]
+  Delay (ns):             10.923
+  Slack (ns):              8.449
+  Arrival (ns):           14.401
+  Required (ns):          22.850
+  Operating Conditions: slow_lv_ht
+
+Path 32
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R17C0/INST_RAM1K20_IP:A_BLK_EN[2]
+  Delay (ns):             10.783
+  Slack (ns):              8.450
+  Arrival (ns):           14.261
+  Required (ns):          22.711
+  Operating Conditions: slow_lv_ht
+
+Path 33
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R16C0/INST_RAM1K20_IP:B_WEN[0]
+  Delay (ns):             10.418
+  Slack (ns):              8.450
+  Arrival (ns):           13.896
+  Required (ns):          22.346
+  Operating Conditions: slow_lv_ht
+
+Path 34
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R62C0/INST_RAM1K20_IP:A_BLK_EN[2]
+  Delay (ns):             10.767
+  Slack (ns):              8.452
+  Arrival (ns):           14.245
+  Required (ns):          22.697
+  Operating Conditions: slow_lv_ht
+
+Path 35
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R44C0/INST_RAM1K20_IP:B_WEN[1]
+  Delay (ns):             10.425
+  Slack (ns):              8.453
+  Arrival (ns):           13.903
+  Required (ns):          22.356
+  Operating Conditions: slow_lv_ht
+
+Path 36
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R63C0/INST_RAM1K20_IP:A_BLK_EN[2]
+  Delay (ns):             10.766
+  Slack (ns):              8.454
+  Arrival (ns):           14.244
+  Required (ns):          22.698
+  Operating Conditions: slow_lv_ht
+
+Path 37
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R31C0/INST_RAM1K20_IP:B_WEN[0]
+  Delay (ns):             10.430
+  Slack (ns):              8.460
+  Arrival (ns):           13.915
+  Required (ns):          22.375
+  Operating Conditions: slow_lv_ht
+
+Path 38
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R7C0/INST_RAM1K20_IP:B_BLK_EN[2]
+  Delay (ns):             10.905
+  Slack (ns):              8.461
+  Arrival (ns):           14.383
+  Required (ns):          22.844
+  Operating Conditions: slow_lv_ht
+
+Path 39
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R25C0/INST_RAM1K20_IP:A_WEN[0]
+  Delay (ns):             10.529
+  Slack (ns):              8.463
+  Arrival (ns):           14.007
+  Required (ns):          22.470
+  Operating Conditions: slow_lv_ht
+
+Path 40
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R18C0/INST_RAM1K20_IP:B_WEN[0]
+  Delay (ns):             10.395
+  Slack (ns):              8.464
+  Arrival (ns):           13.873
+  Required (ns):          22.337
+  Operating Conditions: slow_lv_ht
+
+Path 41
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R26C0/INST_RAM1K20_IP:B_WEN[1]
+  Delay (ns):             10.462
+  Slack (ns):              8.468
+  Arrival (ns):           13.940
+  Required (ns):          22.408
+  Operating Conditions: slow_lv_ht
+
+Path 42
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R61C0/INST_RAM1K20_IP:A_BLK_EN[2]
+  Delay (ns):             10.751
+  Slack (ns):              8.470
+  Arrival (ns):           14.236
+  Required (ns):          22.706
+  Operating Conditions: slow_lv_ht
+
+Path 43
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R51C0/INST_RAM1K20_IP:A_BLK_EN[2]
+  Delay (ns):             10.762
+  Slack (ns):              8.473
+  Arrival (ns):           14.240
+  Required (ns):          22.713
+  Operating Conditions: slow_lv_ht
+
+Path 44
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R35C0/INST_RAM1K20_IP:B_WEN[0]
+  Delay (ns):             10.378
+  Slack (ns):              8.474
+  Arrival (ns):           13.856
+  Required (ns):          22.330
+  Operating Conditions: slow_lv_ht
+
+Path 45
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_alu_op_sel_ex[3]:EN
+  Delay (ns):             11.059
+  Slack (ns):              8.479
+  Arrival (ns):           14.544
+  Required (ns):          23.023
+  Operating Conditions: slow_lv_ht
+
+Path 46
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_alu_op_sel_ex[0]:EN
+  Delay (ns):             11.059
+  Slack (ns):              8.479
+  Arrival (ns):           14.544
+  Required (ns):          23.023
+  Operating Conditions: slow_lv_ht
+
+Path 47
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R16C0/INST_RAM1K20_IP:B_BLK_EN[2]
+  Delay (ns):             10.880
+  Slack (ns):              8.480
+  Arrival (ns):           14.358
+  Required (ns):          22.838
+  Operating Conditions: slow_lv_ht
+
+Path 48
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_alu_op_sel_ex[2]:EN
+  Delay (ns):             11.057
+  Slack (ns):              8.481
+  Arrival (ns):           14.542
+  Required (ns):          23.023
+  Operating Conditions: slow_lv_ht
+
+Path 49
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_alu_op_sel_ex[1]:EN
+  Delay (ns):             11.057
+  Slack (ns):              8.481
+  Arrival (ns):           14.542
+  Required (ns):          23.023
+  Operating Conditions: slow_lv_ht
+
+Path 50
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_alu_op_sel_ex[1]:SLn
+  Delay (ns):             11.138
+  Slack (ns):              8.485
+  Arrival (ns):           14.616
+  Required (ns):          23.101
+  Operating Conditions: slow_lv_ht
+
+Path 51
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_alu_op_sel_ex[4]:EN
+  Delay (ns):             11.058
+  Slack (ns):              8.486
+  Arrival (ns):           14.536
+  Required (ns):          23.022
+  Operating Conditions: slow_lv_ht
+
+Path 52
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_alu_op_sel_ex[2]:SLn
+  Delay (ns):             11.137
+  Slack (ns):              8.486
+  Arrival (ns):           14.615
+  Required (ns):          23.101
+  Operating Conditions: slow_lv_ht
+
+Path 53
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R27C0/INST_RAM1K20_IP:B_WEN[0]
+  Delay (ns):             10.410
+  Slack (ns):              8.488
+  Arrival (ns):           13.895
+  Required (ns):          22.383
+  Operating Conditions: slow_lv_ht
+
+Path 54
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_alu_op_sel_ex[3]:SLn
+  Delay (ns):             11.134
+  Slack (ns):              8.489
+  Arrival (ns):           14.612
+  Required (ns):          23.101
+  Operating Conditions: slow_lv_ht
+
+Path 55
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_alu_op_sel_ex[0]:SLn
+  Delay (ns):             11.134
+  Slack (ns):              8.489
+  Arrival (ns):           14.612
+  Required (ns):          23.101
+  Operating Conditions: slow_lv_ht
+
+Path 56
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R58C0/INST_RAM1K20_IP:B_BLK_EN[2]
+  Delay (ns):             10.840
+  Slack (ns):              8.490
+  Arrival (ns):           14.325
+  Required (ns):          22.815
+  Operating Conditions: slow_lv_ht
+
+Path 57
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R61C0/INST_RAM1K20_IP:B_WEN[1]
+  Delay (ns):             10.400
+  Slack (ns):              8.492
+  Arrival (ns):           13.878
+  Required (ns):          22.370
+  Operating Conditions: slow_lv_ht
+
+Path 58
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R20C0/INST_RAM1K20_IP:A_BLK_EN[2]
+  Delay (ns):             10.773
+  Slack (ns):              8.492
+  Arrival (ns):           14.251
+  Required (ns):          22.743
+  Operating Conditions: slow_lv_ht
+
+Path 59
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R1C0/INST_RAM1K20_IP:B_BLK_EN[2]
+  Delay (ns):             10.872
+  Slack (ns):              8.493
+  Arrival (ns):           14.357
+  Required (ns):          22.850
+  Operating Conditions: slow_lv_ht
+
+Path 60
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R17C0/INST_RAM1K20_IP:A_BLK_EN[2]
+  Delay (ns):             10.732
+  Slack (ns):              8.494
+  Arrival (ns):           14.217
+  Required (ns):          22.711
+  Operating Conditions: slow_lv_ht
+
+Path 61
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R16C0/INST_RAM1K20_IP:B_WEN[0]
+  Delay (ns):             10.367
+  Slack (ns):              8.494
+  Arrival (ns):           13.852
+  Required (ns):          22.346
+  Operating Conditions: slow_lv_ht
+
+Path 62
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R62C0/INST_RAM1K20_IP:A_BLK_EN[2]
+  Delay (ns):             10.716
+  Slack (ns):              8.496
+  Arrival (ns):           14.201
+  Required (ns):          22.697
+  Operating Conditions: slow_lv_ht
+
+Path 63
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R44C0/INST_RAM1K20_IP:B_WEN[1]
+  Delay (ns):             10.374
+  Slack (ns):              8.497
+  Arrival (ns):           13.859
+  Required (ns):          22.356
+  Operating Conditions: slow_lv_ht
+
+Path 64
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R16C0/INST_RAM1K20_IP:B_WEN[1]
+  Delay (ns):             10.406
+  Slack (ns):              8.497
+  Arrival (ns):           13.884
+  Required (ns):          22.381
+  Operating Conditions: slow_lv_ht
+
+Path 65
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R63C0/INST_RAM1K20_IP:A_BLK_EN[2]
+  Delay (ns):             10.715
+  Slack (ns):              8.498
+  Arrival (ns):           14.200
+  Required (ns):          22.698
+  Operating Conditions: slow_lv_ht
+
+Path 66
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R7C0/INST_RAM1K20_IP:B_WEN[0]
+  Delay (ns):             10.376
+  Slack (ns):              8.498
+  Arrival (ns):           13.854
+  Required (ns):          22.352
+  Operating Conditions: slow_lv_ht
+
+Path 67
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R1C0/INST_RAM1K20_IP:B_WEN[0]
+  Delay (ns):             10.380
+  Slack (ns):              8.500
+  Arrival (ns):           13.858
+  Required (ns):          22.358
+  Operating Conditions: slow_lv_ht
+
+Path 68
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R27C0/INST_RAM1K20_IP:B_BLK_EN[2]
+  Delay (ns):             10.896
+  Slack (ns):              8.501
+  Arrival (ns):           14.374
+  Required (ns):          22.875
+  Operating Conditions: slow_lv_ht
+
+Path 69
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R18C0/INST_RAM1K20_IP:B_BLK_EN[2]
+  Delay (ns):             10.850
+  Slack (ns):              8.501
+  Arrival (ns):           14.328
+  Required (ns):          22.829
+  Operating Conditions: slow_lv_ht
+
+Path 70
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R7C0/INST_RAM1K20_IP:B_BLK_EN[2]
+  Delay (ns):             10.854
+  Slack (ns):              8.505
+  Arrival (ns):           14.339
+  Required (ns):          22.844
+  Operating Conditions: slow_lv_ht
+
+Path 71
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R25C0/INST_RAM1K20_IP:A_WEN[0]
+  Delay (ns):             10.478
+  Slack (ns):              8.507
+  Arrival (ns):           13.963
+  Required (ns):          22.470
+  Operating Conditions: slow_lv_ht
+
+Path 72
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R58C0/INST_RAM1K20_IP:B_WEN[0]
+  Delay (ns):             10.338
+  Slack (ns):              8.507
+  Arrival (ns):           13.816
+  Required (ns):          22.323
+  Operating Conditions: slow_lv_ht
+
+Path 73
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/gen_pipe_debug_enter_req_de_ex.de_ex_pipe_curr_pc_ex[21]:EN
+  Delay (ns):             11.087
+  Slack (ns):              8.507
+  Arrival (ns):           14.565
+  Required (ns):          23.072
+  Operating Conditions: slow_lv_ht
+
+Path 74
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R18C0/INST_RAM1K20_IP:B_WEN[0]
+  Delay (ns):             10.344
+  Slack (ns):              8.508
+  Arrival (ns):           13.829
+  Required (ns):          22.337
+  Operating Conditions: slow_lv_ht
+
+Path 75
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R51C0/INST_RAM1K20_IP:A_BLK_EN[2]
+  Delay (ns):             10.711
+  Slack (ns):              8.517
+  Arrival (ns):           14.196
+  Required (ns):          22.713
+  Operating Conditions: slow_lv_ht
+
+Path 76
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R35C0/INST_RAM1K20_IP:B_WEN[0]
+  Delay (ns):             10.327
+  Slack (ns):              8.518
+  Arrival (ns):           13.812
+  Required (ns):          22.330
+  Operating Conditions: slow_lv_ht
+
+Path 77
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R26C0/INST_RAM1K20_IP:B_WEN[1]
+  Delay (ns):             10.411
+  Slack (ns):              8.519
+  Arrival (ns):           13.896
+  Required (ns):          22.415
+  Operating Conditions: slow_lv_ht
+
+Path 78
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R63C0/INST_RAM1K20_IP:B_WEN[0]
+  Delay (ns):             10.325
+  Slack (ns):              8.523
+  Arrival (ns):           13.803
+  Required (ns):          22.326
+  Operating Conditions: slow_lv_ht
+
+Path 79
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R16C0/INST_RAM1K20_IP:B_BLK_EN[2]
+  Delay (ns):             10.829
+  Slack (ns):              8.524
+  Arrival (ns):           14.314
+  Required (ns):          22.838
+  Operating Conditions: slow_lv_ht
+
+Path 80
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R62C0/INST_RAM1K20_IP:B_WEN[0]
+  Delay (ns):             10.323
+  Slack (ns):              8.525
+  Arrival (ns):           13.801
+  Required (ns):          22.326
+  Operating Conditions: slow_lv_ht
+
+Path 81
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R61C0/INST_RAM1K20_IP:B_WEN[0]
+  Delay (ns):             10.331
+  Slack (ns):              8.526
+  Arrival (ns):           13.809
+  Required (ns):          22.335
+  Operating Conditions: slow_lv_ht
+
+Path 82
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R3C0/INST_RAM1K20_IP:A_BLK_EN[2]
+  Delay (ns):             10.697
+  Slack (ns):              8.526
+  Arrival (ns):           14.175
+  Required (ns):          22.701
+  Operating Conditions: slow_lv_ht
+
+Path 83
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R26C0/INST_RAM1K20_IP:B_BLK_EN[2]
+  Delay (ns):             10.861
+  Slack (ns):              8.526
+  Arrival (ns):           14.339
+  Required (ns):          22.865
+  Operating Conditions: slow_lv_ht
+
+Path 84
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_shifter_unit_op_sel_ex[0]:EN
+  Delay (ns):             11.006
+  Slack (ns):              8.526
+  Arrival (ns):           14.484
+  Required (ns):          23.010
+  Operating Conditions: slow_lv_ht
+
+Path 85
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R18C0/INST_RAM1K20_IP:B_WEN[1]
+  Delay (ns):             10.367
+  Slack (ns):              8.527
+  Arrival (ns):           13.845
+  Required (ns):          22.372
+  Operating Conditions: slow_lv_ht
+
+Path 86
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R41C0/INST_RAM1K20_IP:A_BLK_EN[2]
+  Delay (ns):             10.707
+  Slack (ns):              8.528
+  Arrival (ns):           14.185
+  Required (ns):          22.713
+  Operating Conditions: slow_lv_ht
+
+Path 87
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_alu_op_sel_ex[1]:SLn
+  Delay (ns):             11.087
+  Slack (ns):              8.529
+  Arrival (ns):           14.572
+  Required (ns):          23.101
+  Operating Conditions: slow_lv_ht
+
+Path 88
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R41C0/INST_RAM1K20_IP:B_WEN[0]
+  Delay (ns):             10.335
+  Slack (ns):              8.529
+  Arrival (ns):           13.813
+  Required (ns):          22.342
+  Operating Conditions: slow_lv_ht
+
+Path 89
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R20C0/INST_RAM1K20_IP:A_BLK_EN[2]
+  Delay (ns):             10.722
+  Slack (ns):              8.530
+  Arrival (ns):           14.207
+  Required (ns):          22.737
+  Operating Conditions: slow_lv_ht
+
+Path 90
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_alu_op_sel_ex[4]:EN
+  Delay (ns):             11.007
+  Slack (ns):              8.530
+  Arrival (ns):           14.492
+  Required (ns):          23.022
+  Operating Conditions: slow_lv_ht
+
+Path 91
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_alu_op_sel_ex[2]:SLn
+  Delay (ns):             11.086
+  Slack (ns):              8.530
+  Arrival (ns):           14.571
+  Required (ns):          23.101
+  Operating Conditions: slow_lv_ht
+
+Path 92
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R0C0/INST_RAM1K20_IP:B_WEN[0]
+  Delay (ns):             10.344
+  Slack (ns):              8.530
+  Arrival (ns):           13.822
+  Required (ns):          22.352
+  Operating Conditions: slow_lv_ht
+
+Path 93
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_alu_op_sel_ex[3]:SLn
+  Delay (ns):             11.083
+  Slack (ns):              8.533
+  Arrival (ns):           14.568
+  Required (ns):          23.101
+  Operating Conditions: slow_lv_ht
+
+Path 94
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_alu_op_sel_ex[0]:SLn
+  Delay (ns):             11.083
+  Slack (ns):              8.533
+  Arrival (ns):           14.568
+  Required (ns):          23.101
+  Operating Conditions: slow_lv_ht
+
+Path 95
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R0C0/INST_RAM1K20_IP:B_BLK_EN[2]
+  Delay (ns):             10.833
+  Slack (ns):              8.533
+  Arrival (ns):           14.311
+  Required (ns):          22.844
+  Operating Conditions: slow_lv_ht
+
+Path 96
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_1_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R61C0/INST_RAM1K20_IP:B_WEN[1]
+  Delay (ns):             10.349
+  Slack (ns):              8.536
+  Arrival (ns):           13.834
+  Required (ns):          22.370
+  Operating Conditions: slow_lv_ht
+
+Path 97
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R58C0/INST_RAM1K20_IP:B_WEN[1]
+  Delay (ns):             10.343
+  Slack (ns):              8.537
+  Arrival (ns):           13.821
+  Required (ns):          22.358
+  Operating Conditions: slow_lv_ht
+
+Path 98
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R26C0/INST_RAM1K20_IP:B_WEN[0]
+  Delay (ns):             10.357
+  Slack (ns):              8.538
+  Arrival (ns):           13.835
+  Required (ns):          22.373
+  Operating Conditions: slow_lv_ht
+
+Path 99
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   PF_SRAM_AHB_C0_0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R2C0/INST_RAM1K20_IP:B_WEN[0]
+  Delay (ns):             10.326
+  Slack (ns):              8.540
+  Arrival (ns):           13.804
+  Required (ns):          22.344
+  Operating Conditions: slow_lv_ht
+
+Path 100
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/fast_mul.miv_rv32_mul_0/WideMult_0_0/MACC_PHYS_INST/INST_MACC_IP:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_shifter_unit_op_sel_ex[1]:EN
+  Delay (ns):             10.991
+  Slack (ns):              8.541
+  Arrival (ns):           14.469
+  Required (ns):          23.010
+  Operating Conditions: slow_lv_ht
+

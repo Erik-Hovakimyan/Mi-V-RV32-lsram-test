@@ -1,0 +1,22 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
+
+Date      :  Mon Jan  5 16:05:27 2026
+Project   :  C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1
+Component :  CoreJTAGDebug_TRSTN_C0
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/component/Actel/DirectCore/COREJTAGDEBUG/4.0.100/core/corejtagdebug.v
+    C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/component/Actel/DirectCore/COREJTAGDEBUG/4.0.100/core/corejtagdebug_ujtag_wrapper.v
+    C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/component/Actel/DirectCore/COREJTAGDEBUG/4.0.100/core/corejtagdebug_uj_jtag.v
+    C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/component/Actel/DirectCore/COREJTAGDEBUG/4.0.100/core/corejtagdebug_bufd.v
+    C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/component/work/CoreJTAGDebug_TRSTN_C0/CoreJTAGDebug_TRSTN_C0.v
+
+Stimulus files for all Simulation tools:
+    C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/component/Actel/DirectCore/COREJTAGDEBUG/4.0.100/mti/corejtagdebug_wave.do
+
+    C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/component/Actel/DirectCore/COREJTAGDEBUG/4.0.100/rtl/vlog/test/corejtagdebug_host_emulator.v
+    C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/component/Actel/DirectCore/COREJTAGDEBUG/4.0.100/rtl/vlog/test/corejtagdebug_jtag_tap.v
+    C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/component/Actel/DirectCore/COREJTAGDEBUG/4.0.100/rtl/vlog/test/corejtagdebug_testbench.v
+

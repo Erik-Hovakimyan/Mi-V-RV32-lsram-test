@@ -1,0 +1,9 @@
+n work miv_rv32_exu_1s_1s_1s_1s_2s_0s_0s_1_1_0 verilog;
+av .compile_point_summary_status "Remapped";
+av .compile_point_summary_reason "Mapping options changed";
+av .compile_point_update_model 0;
+av .compile_point_fast_synthesis "No";
+av .compile_point_cputime_used 33.8906;
+av .compile_point_starttime_stamp "Wed Jan 14 17:45:38 2026";
+av .compile_point_endtime_stamp "Wed Jan 14 17:46:12 2026";
+av .compile_point_realtime_used 33.914;

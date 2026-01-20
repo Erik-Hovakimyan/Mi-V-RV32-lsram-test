@@ -1,0 +1,229 @@
+Runtime Summary:
+================
+
+	* Library: work, DesignUnit: miv_rv32_debug_sba
+		Optimization Phase          : 0h:00m:01s
+
+	* Library: work, DesignUnit: miv_rv32_ipcore_Z11
+		Hardware Generation Phase   : 0h:00m:03s
+
+	* Library: work, DesignUnit: miv_rv32_expipe_Z8
+		Optimization Phase          : 0h:00m:01s
+
+	* Library: work, DesignUnit: miv_rv32_exu_1s_1s_1s_1s_2s_0s_0s_1_1_0
+		Optimization Phase          : 0h:00m:01s
+
+	The following design units have negligible CPU times:
+	=====================================================
+		* Library: work, DesignUnit: BaseDesign
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: sram_test_module
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: PF_SRAM_AHB_C0
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_Z15
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF_Z14
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: PF_INIT_MONITOR_C0
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: PF_INIT_MONITOR_C0_PF_INIT_MONITOR_C0_0_PFSOC_INIT_MONITOR
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: PF_DPSRAM_C0
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: PF_DPSRAM_C0_PF_DPSRAM_C0_0_PF_DPSRAM
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: PF_CCC_C0
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: PF_CCC_C0_PF_CCC_C0_0_PF_CCC
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: MIV_RV32_CFG1_C0
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: MIV_RV32_CFG1_C0_MIV_RV32_CFG1_C0_0_MIV_RV32_Z13
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_subsys_mtime_irq_1s_1s_100s_1s_33603580_33570820
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_subsys_ahb_initiator_32s_0s_8s_0_1_2_4s_5
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_ram_singleport_addreg_8192_15s_32s_1s_4s_4s_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_subsys_tcm_Z12
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_fixed_arb_3s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_rr_pri_arb_3s_1s_1s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_subsys_apb_initiator_32s_1s_1_0_1_2_3_4_5
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_fixed_arb_2s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_rr_pri_arb_2s_1s_1s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_subsys_debug_1s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_debug_du
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_debug_sba
+			Hardware Generation Phase, Initial Cleanup Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_debug_fifo_34s_1s_1s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_debug_fifo_41s_1s_1s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_debug_dtm_jtag_1s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_subsys_interconnect_Z10
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_subsys_regs_12s_0s_1s_0s_1_0s_50397384_7s_2s_1s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_buffer_7s_2s_1s_1s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_csr_gpr_state_reg_32s_1s_50397384
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_buffer_11s_2s_1s_1s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_buffer_6s_2s_1s_1s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_hart_Z9
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_gpr_ram_array_32s_6s_32s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_gpr_ram_0s_0_0s_32s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_expipe_Z8
+			Hardware Generation Phase, Initial Cleanup Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_csr_gpr_state_reg_32s_1s_18446744071562067968
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_csr_gpr_state_reg_32s_1s_0
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_csr_gpr_state_reg_30s_1s_536870913
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_csr_privarch_Z7
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_csr_gpr_state_reg_32s_0s_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_csr_gpr_state_reg_5s_1s_0
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_csr_gpr_state_reg_31s_0s_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_csr_gpr_state_reg_1s_0s_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_csr_gpr_state_reg_1s_1s_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_csr_gpr_state_reg_3s_1s_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_csr_gpr_state_reg_5s_1s_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_csr_decode_0s_1s_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_priv_irq_3s_0_0
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_irq_reg_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_bcu
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_mul_2s_18446744073709551615s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_exu_1s_1s_1s_1s_2s_0s_0s_1_1_0
+			Hardware Generation Phase, Initial Cleanup Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_csr_decode_1s_1s_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_idecode_1_1s_1s_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_lsu_32s_2s_1s_2s_2s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_fetch_unit_32s_18446744071562067968_0s_3s_2s_3s_2s_2s_0s_1s_Z6
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_ifu_iab_32s_2s_3s_2s_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: MIV_ESS_C0
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: plic_gateway_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: interrupt_pending_register_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: interrupt_enable_register_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: MIV_PLIC_2s_26s_0s
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: interrupt_claim_complete_2s_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: apb_interface_0s_4096_8192_2097156
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: MIV_ESS_RESET_CTRL_26s_32768s_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: RESET_CTRL_32768s_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: MIV_ESS_APB_TO_APB_Z5
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: MIV_APB3_LIB, DesignUnit: MIV_APB3_Z4
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: MIV_APB3_LIB, DesignUnit: MIV_APB3_MUXPTOB3
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: MIV_ESS_C0_CoreUARTapb_0_CoreUARTapb_Z3
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: MIV_ESS_C0_CoreUARTapb_0_COREUART_0s_0s_0s_26s_0s_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: MIV_ESS_C0_CoreUARTapb_0_Rx_async_0s_0s_0s_1s_2s_3s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: MIV_ESS_C0_CoreUARTapb_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: MIV_ESS_C0_CoreUARTapb_0_Clock_gen_0s_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: MIV_ESS_C0_CoreGPIO_0_CoreGPIO_Z2
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: CoreTimer_C0
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: CORETIMER_LIB, DesignUnit: CoreTimer_32s_1s_19s_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: CORERESET_PF_C0
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: CORERESET_PF_C0_CORERESET_PF_C0_0_CORERESET_PF
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: CoreJTAGDebug_TRSTN_C0
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: COREJTAGDEBUG_LIB, DesignUnit: COREJTAGDEBUG_UJ_JTAG_26s_0s_34s_85_0_0
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: COREJTAGDEBUG_LIB, DesignUnit: corejtagdebug_bufd_34s
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: COREJTAGDEBUG_LIB, DesignUnit: COREJTAGDEBUG_Z1
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: work_C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microsemi\MiV\MIV_RV32\3.1.200\subsys_merged\miv_rv32_subsys_merged.v_unit
+			Hardware Generation Phase: Negligible CPU time
+		* Library: work, DesignUnit: work_C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microsemi\MiV\MIV_RV32\3.1.200\hart_merged\miv_rv32_hart_merged.v_unit
+			Hardware Generation Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_subsys_pkg
+			Hardware Generation Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_pkg
+			Hardware Generation Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_hart_cfg_pkg
+			Hardware Generation Phase: Negligible CPU time
+		* Library: work, DesignUnit: CFG1
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: CFG3
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: CFG2
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: OR4
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: INIT
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: RAM1K20
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: GND
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: VCC
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: PLL
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: miv_rv32_ipcore_Z11
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: CLKINT
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: BUFD
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: UJTAG
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: CLKBUF
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time

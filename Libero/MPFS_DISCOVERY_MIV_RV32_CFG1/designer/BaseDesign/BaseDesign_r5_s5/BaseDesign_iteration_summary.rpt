@@ -1,0 +1,43 @@
+#------------------------------------------------------------------------------------------------------------------------------------------
+# RUN NUMBER: 1   DATE: 12:00:20 06-Jan-2026
+# INVOKED AS: C:/Microchip/Libero_SoC_2025.1/Libero_SoC/Designer/bin/libero.exe extended_run_lib.tcl -skip_open_project -root {C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\designer\BaseDesign} -n 5 -starting_seed_index 1 -compare_criteria violations -analysis max -slack_criteria worst -stop_on_success
+#------------------------------------------------------------------------------------------------------------------------------------------
+# Seed Index  Seed      Maximum Delay        Worst Slack  Report Analyzed                                Saved Design
+# ==========  ========  ===============  ===============  =============================================  ===================================
+           1         0    N/A                        8.085  BaseDesign_timing_violations_max_r1_s1.rpt     BaseDesign_r1_s1
+  The best result BaseDesign_r1_s1 has been saved into the project.
+
+#------------------------------------------------------------------------------------------------------------------------------------------
+# RUN NUMBER: 2   DATE: 13:32:14 06-Jan-2026
+# INVOKED AS: C:/Microchip/Libero_SoC_2025.1/Libero_SoC/Designer/bin/libero.exe extended_run_lib.tcl -skip_open_project -root {C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\designer\BaseDesign} -n 5 -starting_seed_index 2 -compare_criteria violations -analysis max -slack_criteria worst -stop_on_success
+#------------------------------------------------------------------------------------------------------------------------------------------
+# Seed Index  Seed      Maximum Delay        Worst Slack  Report Analyzed                                Saved Design
+# ==========  ========  ===============  ===============  =============================================  ===================================
+           2         1    N/A                        7.547  BaseDesign_timing_violations_max_r2_s2.rpt     BaseDesign_r2_s2
+  The best result BaseDesign_r2_s2 has been saved into the project.
+
+#------------------------------------------------------------------------------------------------------------------------------------------
+# RUN NUMBER: 3   DATE: 10:58:38 07-Jan-2026
+# INVOKED AS: C:/Microchip/Libero_SoC_2025.1/Libero_SoC/Designer/bin/libero.exe extended_run_lib.tcl -skip_open_project -root {C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\designer\BaseDesign} -n 5 -starting_seed_index 3 -compare_criteria violations -analysis max -slack_criteria worst -stop_on_success
+#------------------------------------------------------------------------------------------------------------------------------------------
+# Seed Index  Seed      Maximum Delay        Worst Slack  Report Analyzed                                Saved Design
+# ==========  ========  ===============  ===============  =============================================  ===================================
+           3         2    N/A                        8.382  BaseDesign_timing_violations_max_r3_s3.rpt     BaseDesign_r3_s3
+  The best result BaseDesign_r3_s3 has been saved into the project.
+
+#------------------------------------------------------------------------------------------------------------------------------------------
+# RUN NUMBER: 4   DATE: 11:31:31 07-Jan-2026
+# INVOKED AS: C:/Microchip/Libero_SoC_2025.1/Libero_SoC/Designer/bin/libero.exe extended_run_lib.tcl -skip_open_project -root {C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\designer\BaseDesign} -n 5 -starting_seed_index 4 -compare_criteria violations -analysis max -slack_criteria worst -stop_on_success
+#------------------------------------------------------------------------------------------------------------------------------------------
+# Seed Index  Seed      Maximum Delay        Worst Slack  Report Analyzed                                Saved Design
+# ==========  ========  ===============  ===============  =============================================  ===================================
+           4         3    N/A                        8.416  BaseDesign_timing_violations_max_r4_s4.rpt     BaseDesign_r4_s4
+  The best result BaseDesign_r4_s4 has been saved into the project.
+
+#------------------------------------------------------------------------------------------------------------------------------------------
+# RUN NUMBER: 5   DATE: 13:02:34 07-Jan-2026
+# INVOKED AS: C:/Microchip/Libero_SoC_2025.1/Libero_SoC/Designer/bin/libero.exe extended_run_lib.tcl -skip_open_project -root {C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\designer\BaseDesign} -n 5 -starting_seed_index 5 -compare_criteria violations -analysis max -slack_criteria worst -stop_on_success
+#------------------------------------------------------------------------------------------------------------------------------------------
+# Seed Index  Seed      Maximum Delay        Worst Slack  Report Analyzed                                Saved Design
+# ==========  ========  ===============  ===============  =============================================  ===================================
+           5         4    N/A                        8.246  BaseDesign_timing_violations_max_r5_s5.rpt     BaseDesign_r5_s5

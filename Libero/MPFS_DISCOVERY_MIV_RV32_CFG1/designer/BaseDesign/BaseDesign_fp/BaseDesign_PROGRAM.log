@@ -1,0 +1,63 @@
+Software Version: 2025.2.0.14
+Programmer 'E20092RBQU' : JTAG TCK / SPI SCK frequency = 1 MHz
+programmer 'E20092RBQU' : FlashPro5
+Opened 'C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\designer\BaseDesign\BaseDesign_fp\BaseDesign.pro'
+The 'open_project' command succeeded.
+Info: Programming is already enabled for device 'MPFS095T'.
+The 'enable_device' command succeeded.
+PPD file 'C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/designer/BaseDesign/BaseDesign.ppd' has been loaded successfully.
+DESIGN : BaseDesign;  CHECKSUM : 7584;  PDB_VERSION : 1.0
+The 'set_programming_file' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer 'E20092RBQU' : Scan Chain...
+Programmer 'E20092RBQU' : JTAG TCK / SPI SCK frequency = 1 MHz
+programmer 'E20092RBQU' : Check Chain...
+programmer 'E20092RBQU' : Scan and Check Chain PASSED.
+programmer 'E20092RBQU' : device 'MPFS095T' : Executing action PROGRAM
+Programmer 'E20092RBQU' : JTAG TCK / SPI SCK frequency = 4 MHz
+programmer 'E20092RBQU' : device 'MPFS095T' : EXPORT Algo_version[16] = 0002
+programmer 'E20092RBQU' : device 'MPFS095T' : EXPORT IDCODE[32] = 0f8181cf
+programmer 'E20092RBQU' : device 'MPFS095T' : EXPORT ISC_ENABLE_RESULT[32] = 00000000
+programmer 'E20092RBQU' : device 'MPFS095T' : EXPORT CRCERR[1] = 0
+programmer 'E20092RBQU' : device 'MPFS095T' : Programming Mode: JTAG
+programmer 'E20092RBQU' : device 'MPFS095T' : Programming FPGA Array and sNVM...
+programmer 'E20092RBQU' : device 'MPFS095T' : Calculating component bitstream digests using programming file...
+programmer 'E20092RBQU' : device 'MPFS095T' : EXPORT Fabric component bitstream digest[256] = cd9f13644c96f483ea2c60c2b6136da9806b82efeebbf32505653b52b2790241
+programmer 'E20092RBQU' : device 'MPFS095T' : EXPORT sNVM component bitstream digest[256] = b779f82bfea3368dc3448b22ae33d3793d43c589bc6febcf270bc4ffc49cbb1d
+programmer 'E20092RBQU' : device 'MPFS095T' : EXPORT Entire bitstream digest[256] = 0a4bf41147c95600cbc9e07f005a806dd4cf1801e2666c71f06814d1c5673c57
+programmer 'E20092RBQU' : device 'MPFS095T' : Reading digests for all the segments from the device...
+programmer 'E20092RBQU' : device 'MPFS095T' : EXPORT CHECK FABRIC digest[256] = 1c620a627d0e98f480f7b724e9784f8d87e65ceb688f1020ae2bf124c6f92a7c
+programmer 'E20092RBQU' : device 'MPFS095T' : EXPORT CC digest[256] = 2185c557cbc5d424c934d35bc76bfb8bede092ad0b466501b0be6f6c968427ce
+programmer 'E20092RBQU' : device 'MPFS095T' : EXPORT SNVM digest[256] = cbd295da0eea4730f4cf22531a1c1cd95f1ed4a3a31636d8a0b03d8a116dce77
+programmer 'E20092RBQU' : device 'MPFS095T' : EXPORT UL digest[256] = cda0565eb6ac34d4410fcc8e69b568d1c4f7f809a16e106266163b28241892ba
+programmer 'E20092RBQU' : device 'MPFS095T' : EXPORT UKDIGEST0 digest[256] = 0000000000000000000000000000000000000000000000000000000000000000
+programmer 'E20092RBQU' : device 'MPFS095T' : EXPORT UKDIGEST1 digest[256] = 0000000000000000000000000000000000000000000000000000000000000000
+programmer 'E20092RBQU' : device 'MPFS095T' : EXPORT UKDIGEST2 digest[256] = d45264ac8021c51b0e1a01764b865b74ccf1bec3d20c40078063d19891aba92e
+programmer 'E20092RBQU' : device 'MPFS095T' : EXPORT UKDIGEST3 digest[256] = 4bfb5927a93198eae8f0d920233d00439b9709d36eef982730206ad142fda5f5
+programmer 'E20092RBQU' : device 'MPFS095T' : EXPORT UKDIGEST4 digest[256] = 0000000000000000000000000000000000000000000000000000000000000000
+programmer 'E20092RBQU' : device 'MPFS095T' : EXPORT UKDIGEST5 digest[256] = d45264ac8021c51b0e1a01764b865b74ccf1bec3d20c40078063d19891aba92e
+programmer 'E20092RBQU' : device 'MPFS095T' : EXPORT UKDIGEST6 digest[256] = 4bfb5927a93198eae8f0d920233d00439b9709d36eef982730206ad142fda5f5
+programmer 'E20092RBQU' : device 'MPFS095T' : EXPORT UPERM digest[256] = 49a5818c4fff9561dff202eddf5d7b9dca9189afe8e0c6eb76de64f6726abb93
+programmer 'E20092RBQU' : device 'MPFS095T' : EXPORT SYS digest[256] = 493f4ae3a8b747d7f3b77e75dfe1c1de27db2e1782c906a29cd030a7665657c1
+programmer 'E20092RBQU' : device 'MPFS095T' : EXPORT UKDIGEST7 digest[256] = 4bfb5927a93198eae8f0d920233d00439b9709d36eef982730206ad142fda5f5
+programmer 'E20092RBQU' : device 'MPFS095T' : EXPORT ENVM digest[256] = 55b852781b9995a44c939b64e441ae2724b96f99c8f4fb9a141cfc9842c4b0e3
+programmer 'E20092RBQU' : device 'MPFS095T' : EXPORT UKDIGEST8 digest[256] = d90a681e2ca211fefcbe4ca64847cfa03a89ec4c7df78aa4ed262ade269eb66e
+programmer 'E20092RBQU' : device 'MPFS095T' : EXPORT UKDIGEST9 digest[256] = f5b89a6097c6bde0e41695d1befdafd8dde9bd10470a031dfbaae24b33cfcb0f
+programmer 'E20092RBQU' : device 'MPFS095T' : EXPORT UKDIGEST10 digest[256] = 4bfb5927a93198eae8f0d920233d00439b9709d36eef982730206ad142fda5f5
+programmer 'E20092RBQU' : device 'MPFS095T' : Please refer to System Services User Guide for more details about different digests.
+programmer 'E20092RBQU' : device 'MPFS095T' : ===================================================================================
+programmer 'E20092RBQU' : device 'MPFS095T' : EXPORT DSN[128] = 6f17d7d2f09e2a3ca8819ff051aafa94
+programmer 'E20092RBQU' : device 'MPFS095T' : ===================================================================================
+programmer 'E20092RBQU' : Finished: Tue Jan 20 15:59:37 2026 (Elapsed time 00:00:51)
+programmer 'E20092RBQU' : device 'MPFS095T' : Executing action PROGRAM PASSED.
+programmer 'E20092RBQU' : Chain programming PASSED.
+Chain Programming Finished: Tue Jan 20 15:59:37 2026 (Elapsed time 00:00:51)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.
+The 'close_project' command succeeded.
+The Execute Script command succeeded.

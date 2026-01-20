@@ -1,0 +1,9 @@
+n work BaseDesign verilog;
+av .compile_point_summary_status "Remapped";
+av .compile_point_summary_reason "Design changed";
+av .compile_point_update_model 1;
+av .compile_point_fast_synthesis "No";
+av .compile_point_cputime_used 24.3594;
+av .compile_point_starttime_stamp "Mon Jan 19 02:48:03 2026";
+av .compile_point_endtime_stamp "Mon Jan 19 02:48:28 2026";
+av .compile_point_realtime_used 25.092;

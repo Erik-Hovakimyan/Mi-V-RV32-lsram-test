@@ -1,0 +1,230 @@
+# Mon Jan 19 02:48:03 2026
+
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: AMY-LT-M79113
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202503actsp1, Build 108R, Built Nov 18 2025 06:37:26, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 190MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 193MB peak: 207MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 193MB peak: 207MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 195MB peak: 207MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 196MB peak: 207MB)
+
+
+@N: MF104 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\hart_merged\miv_rv32_hart_merged.v":10619:8:10619:19|Found compile point of type hard on View view:work.miv_rv32_exu_1s_1s_1s_1s_2s_0s_0s_1_1_0(verilog) 
+@N: MF104 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\hart_merged\miv_rv32_hart_merged.v":7494:7:7494:21|Found compile point of type hard on View view:work.miv_rv32_expipe_Z8(verilog) 
+@N: MF104 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\work\miv_rv32_cfg1_c0\miv_rv32_cfg1_c0.v":79:7:79:22|Found compile point of type hard on View view:work.MIV_RV32_CFG1_C0(verilog) 
+
+
+@N: MF105 |Performing bottom-up mapping of Top level view:work.BaseDesign(verilog) 
+
+Start loading ILMs (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 276MB peak: 276MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+
+Start creating ILM for FPGA MIV_RV32_CFG1_C0 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 288MB peak: 288MB)
+
+
+Finished creating ILM for FPGA MIV_RV32_CFG1_C0 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 289MB peak: 289MB)
+
+
+Finished loading ILMs (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 280MB peak: 289MB)
+
+
+Begin compile point sub-process log
+
+@N: MF106 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\work\basedesign\basedesign.v":9:7:9:16|Mapping Top level view:work.BaseDesign(verilog) because 
+		 RTL and/or Constraints changed.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 280MB peak: 289MB)
+
+@N: MO111 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\work\pf_sram_ahb_c0\coreahblsram_pf_0\rtl\vlog\core\coreahblsram_pf.v":116:9:116:17|Tristate driver FAULT_DET (in view: work.PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF_Z14(verilog)) on net FAULT_DET (in view: work.PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF_Z14(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\actel\directcore\corejtagdebug\4.0.100\core\corejtagdebug.v":32:8:32:11|Tristate driver UTMS (in view: COREJTAGDEBUG_LIB.COREJTAGDEBUG_Z1(verilog)) on net UTMS (in view: COREJTAGDEBUG_LIB.COREJTAGDEBUG_Z1(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\actel\directcore\corejtagdebug\4.0.100\core\corejtagdebug.v":31:8:31:13|Tristate driver UTRSTB (in view: COREJTAGDEBUG_LIB.COREJTAGDEBUG_Z1(verilog)) on net UTRSTB (in view: COREJTAGDEBUG_LIB.COREJTAGDEBUG_Z1(verilog)) has its enable tied to GND.
+@N: BZ173 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\hart_merged\miv_rv32_hart_merged.v":19089:4:19089:7|ROM MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.lsu_emi_req_write_1[1:0] (in view: work.MIV_RV32_CFG1_C0(verilog)) mapped in logic.
+@N: MO106 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\hart_merged\miv_rv32_hart_merged.v":19089:4:19089:7|Found ROM MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_lsu_0.lsu_emi_req_write_1[1:0] (in view: work.MIV_RV32_CFG1_C0(verilog)) with 10 words by 2 bits.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 286MB peak: 289MB)
+
+
+Starting area decomp  (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 286MB peak: 289MB)
+
+@N: MO231 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\work\miv_ess_c0\coreuartapb_0\rtl\vlog\core\clock_gen.v":283:6:283:11|Found counter in view:work.MIV_ESS_C0_CoreUARTapb_0_Clock_gen_0s_0s(verilog) instance genblk1\.baud_cntr[12:0] 
+Encoding state machine xmit_state[5:0] (in view: work.MIV_ESS_C0_CoreUARTapb_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 000001
+   00000000000000000000000000000001 -> 000010
+   00000000000000000000000000000010 -> 000100
+   00000000000000000000000000000011 -> 001000
+   00000000000000000000000000000100 -> 010000
+   00000000000000000000000000000101 -> 100000
+Encoding state machine rx_state[3:0] (in view: work.MIV_ESS_C0_CoreUARTapb_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\work\miv_ess_c0\coreuartapb_0\rtl\vlog\core\rx_async.v":286:0:286:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.MIV_ESS_C0_CoreUARTapb_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)); safe FSM implementation is not required.
+@W: BN132 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\work\miv_ess_c0\coreuartapb_0\rtl\vlog\core\rx_async.v":261:0:261:5|Removing instance MIV_ESS_C0_0.CoreUARTapb_0.uUART.make_RX.last_bit[2] because it is equivalent to instance MIV_ESS_C0_0.CoreUARTapb_0.uUART.make_RX.last_bit[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+Encoding state machine MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_subsys_debug\.u_subsys_debug_unit_0.MIV_subsys_debug_transport_module_jtag_0.gen_shift_register_active_high\.gen_shift_register_active_low\.dtmcs_dmistat[3:0] (in view: work.MIV_RV32_CFG1_C0(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\subsys_merged\miv_rv32_subsys_merged.v":16135:12:16135:20|There are no possible illegal states for state machine MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_subsys_debug\.u_subsys_debug_unit_0.MIV_subsys_debug_transport_module_jtag_0.gen_shift_register_active_high\.gen_shift_register_active_low\.dtmcs_dmistat[3:0] (in view: work.MIV_RV32_CFG1_C0(verilog)); safe FSM implementation is not required.
+Encoding state machine MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_subsys_debug\.u_subsys_debug_unit_0.MIV_subsys_debug_transport_module_jtag_0.gen_current_state_register_active_high\.gen_current_state_register_active_low\.currTapState[15:0] (in view: work.MIV_RV32_CFG1_C0(verilog))
+original code -> new code
+   0000 -> 0000000000000001
+   0001 -> 0000000000000010
+   0010 -> 0000000000000100
+   0011 -> 0000000000001000
+   0100 -> 0000000000010000
+   0101 -> 0000000000100000
+   0110 -> 0000000001000000
+   0111 -> 0000000010000000
+   1000 -> 0000000100000000
+   1001 -> 0000001000000000
+   1010 -> 0000010000000000
+   1011 -> 0000100000000000
+   1100 -> 0001000000000000
+   1101 -> 0010000000000000
+   1110 -> 0100000000000000
+   1111 -> 1000000000000000
+Encoding state machine MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_tcm0\.u_subsys_TCM_0.cpu_d_wr_rd_state[2:0] (in view: work.MIV_RV32_CFG1_C0(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_ahb\.u_subsys_ahb_0.u_ahb_req_arb.hipri_req_ptr[2:0] (in view: work.MIV_RV32_CFG1_C0(verilog))
+original code -> new code
+   01 -> 00
+   10 -> 01
+   11 -> 10
+Encoding state machine MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_ahb\.u_subsys_ahb_0.ahb_st[2:0] (in view: work.MIV_RV32_CFG1_C0(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_subsys_debug\.u_subsys_debug_unit_0.miv_rv32_debug_du_0.miv_rv32_debug_sba_0.sba_state[3:0] (in view: work.MIV_RV32_CFG1_C0(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\subsys_merged\miv_rv32_subsys_merged.v":15192:0:15192:8|There are no possible illegal states for state machine MIV_RV32_CFG1_C0_0.u_ipcore_0.gen_subsys_debug\.u_subsys_debug_unit_0.miv_rv32_debug_du_0.miv_rv32_debug_sba_0.sba_state[3:0] (in view: work.MIV_RV32_CFG1_C0(verilog)); safe FSM implementation is not required.
+@N: MF179 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\hart_merged\miv_rv32_hart_merged.v":11165:64:11165:92|Found 32 by 32 bit equality operator ('==') MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.un152_exu_alu_result (in view: work.MIV_RV32_CFG1_C0(verilog))
+Encoding state machine ahbcurr_state[2:0] (in view: work.PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_Z15(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine state[2:0] (in view: work.sram_test_module(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+@N: MO231 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\hdl\sram_test_module.v":49:4:49:9|Found counter in view:work.sram_test_module(verilog) instance addr_portA[9:0] 
+@N: MF179 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\hdl\sram_test_module.v":98:24:98:51|Found 20 by 20 bit equality operator ('==') un1_data_read_portA (in view: work.sram_test_module(verilog))
+@N: MO231 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":262:4:262:9|Found counter in view:CORETIMER_LIB.CoreTimer_32s_1s_19s_0s(verilog) instance Count[31:0] 
+@N: MO231 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":211:4:211:9|Found counter in view:CORETIMER_LIB.CoreTimer_32s_1s_19s_0s(verilog) instance PreScale[9:0] 
+
+Finished area decomp  (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 291MB peak: 291MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 291MB peak: 292MB)
+
+Auto Dissolve of PF_SRAM_AHB_C0_0 (inst of view:work.PF_SRAM_AHB_C0(verilog))
+
+Finished factoring (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 299MB peak: 299MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+@N: FF150 :"c:\polarfire-soc-discovery-kit-reference-design_repo_n2\mpfs_discovery_miv_rv32_cfg1\component\microsemi\miv\miv_rv32\3.1.200\hart_merged\miv_rv32_hart_merged.v":11794:22:11794:39|Multiplier MIV_RV32_CFG1_C0_0.u_ipcore_0.u_hart_0.u_expipe_0.u_exu_0.fast_mul\.miv_rv32_mul_0.data_out[32:0] implemented with multiple MACC_PA blocks using cascade/shift feature.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 309MB peak: 331MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:09s; Memory used current: 309MB peak: 331MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:18s; Memory used current: 321MB peak: 331MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:18s; Memory used current: 321MB peak: 331MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:20s; CPU Time elapsed 0h:00m:19s; Memory used current: 322MB peak: 331MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:22s; CPU Time elapsed 0h:00m:21s; Memory used current: 372MB peak: 381MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:21s		   -32.18ns		2998 /      1385
+   2		0h:00m:22s		   -32.18ns		2947 /      1385
+
+   3		0h:00m:22s		   -32.18ns		2947 /      1385
+
+
+   4		0h:00m:22s		   -32.18ns		2947 /      1385
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:24s; CPU Time elapsed 0h:00m:23s; Memory used current: 376MB peak: 381MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:24s; Memory used current: 377MB peak: 381MB)
+
+
+End compile point sub-process log
+
+Writing compile point status file C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\synthesis\BaseDesign\cpprop
+
+Summary of Compile Points :
+*************************** 
+Name           Status       Reason        
+------------------------------------------
+BaseDesign     Remapped     Design changed
+==========================================
+
+Process took 0h:00m:25s realtime, 0h:00m:24s cputime
+# Mon Jan 19 02:48:28 2026
+
+###########################################################]

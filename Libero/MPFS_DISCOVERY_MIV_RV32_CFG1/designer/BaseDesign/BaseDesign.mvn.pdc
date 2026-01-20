@@ -1,0 +1,58 @@
+# Microchip Physical design constraints file
+
+# Version: 2025.2 2025.2.0.14
+
+# Design Name:  
+
+# Input Netlist Format: EDIF 
+
+# Family: PolarFireSoC , Die: MPFS095T , Package: FCSG325 , Speed grade: -1 
+
+# Date generated: Mon Jan 19 02:48:52 2026 
+
+
+#
+# IO banks setting
+#
+
+set_iobank -bank_name Bank3 -vcci 3.30 -fixed true
+
+#
+# Region constraints
+#
+
+
+#
+# I/O constraints
+#
+
+set_io -port_name TCK -DIRECTION INPUT -pin_name A8
+set_io -port_name TDI -DIRECTION INPUT -pin_name A9
+set_io -port_name TDO -DIRECTION OUTPUT -pin_name A7
+set_io -port_name TMS -DIRECTION INPUT -pin_name B7
+set_io -port_name TRSTB -DIRECTION INPUT -pin_name B9
+
+#
+# Ports using Dedicated Pins
+#
+
+set_io -port_name TCK  \
+    -pin_name A8       \
+    -DIRECTION INPUT
+set_io -port_name TDI  \
+    -pin_name A9       \
+    -DIRECTION INPUT
+set_io -port_name TDO  \
+    -pin_name A7       \
+    -DIRECTION OUTPUT
+set_io -port_name TMS  \
+    -pin_name B7       \
+    -DIRECTION INPUT
+set_io -port_name TRSTB  \
+    -pin_name B9         \
+    -DIRECTION INPUT
+
+#
+# Core cell constraints
+#
+

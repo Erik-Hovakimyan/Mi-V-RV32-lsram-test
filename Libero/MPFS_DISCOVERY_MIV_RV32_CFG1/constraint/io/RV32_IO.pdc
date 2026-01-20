@@ -1,0 +1,53 @@
+# Microchip I/O Physical Design Constraints file
+# User I/O Constraints file
+# Version: 2025.2 2025.2.0.14
+# Family: PolarFireSoC , Die: MPFS095T , Package: FCSG325
+# Date generated: Sat Jan 17 00:43:22 2026
+
+# -------------------------
+# User Locked I/O settings
+# -------------------------
+
+set_io -port_name LED_1  \
+    -pin_name T18        \
+    -fixed true          \
+    -DIRECTION OUTPUT
+
+set_io -port_name LED_2  \
+    -pin_name V17        \
+    -fixed true          \
+    -DIRECTION OUTPUT
+
+set_io -port_name LED_3  \
+    -pin_name U20        \
+    -fixed true          \
+    -DIRECTION OUTPUT
+
+set_io -port_name LED_4  \
+    -pin_name U21        \
+    -fixed true          \
+    -DIRECTION OUTPUT
+
+set_io -port_name REF_CLK  \
+    -pin_name R18          \
+    -fixed true            \
+    -DIRECTION INPUT
+
+set_io -port_name RX  \
+    -pin_name W21     \
+    -fixed true       \
+    -RES_PULL None    \
+    -DIRECTION INPUT
+
+# NOTE: SW_1 removed because this design does not have a top-level port named SW_1.
+# If you want a SW_1 port, you must promote/create it in SmartDesign first.
+
+set_io -port_name TX   \
+    -pin_name Y21      \
+    -fixed true        \
+    -DIRECTION OUTPUT
+
+set_io -port_name USER_RST  \
+    -pin_name U18           \
+    -fixed true             \
+    -DIRECTION INPUT

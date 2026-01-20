@@ -1,0 +1,11 @@
+DESIGN=BaseDesign
+DESDIR=C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\designer\BaseDesign
+TARGET_DIR=C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\designer\BaseDesign
+FAM=PolarFireSoC
+DIE=PA5SOC095T
+PACKAGE=fcsg325
+PINRPT_BY_NAME=1
+PINRPT_BY_NUMBER=1
+PINRPT_BOARDLAYOUT=1
+BANK_REPORT=1
+IOREG_REPORT=1

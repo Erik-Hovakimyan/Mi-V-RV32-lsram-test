@@ -1,0 +1,84 @@
+
+fsm_encoding {33103912103916} sequential
+
+fsm_state_encoding {33103912103916} 01 {00}
+
+fsm_state_encoding {33103912103916} 10 {01}
+
+fsm_state_encoding {33103912103916} 11 {10}
+
+fsm_registers {33103912103916} {hipri_req_ptr[1]}  {hipri_req_ptr[0]} 
+
+fsm_encoding {4425932591} sequential
+
+fsm_state_encoding {4425932591} IDLE {00}
+
+fsm_state_encoding {4425932591} AHB_WR {01}
+
+fsm_state_encoding {4425932591} AHB_RD {10}
+
+fsm_registers {4425932591} {ahbcurr_state[1]}  {ahbcurr_state[0]} 
+
+fsm_encoding {33103912103914} onehot
+
+fsm_state_encoding {33103912103914} 001 {0000001}
+
+fsm_state_encoding {33103912103914} 010 {0000010}
+
+fsm_state_encoding {33103912103914} 011 {0000100}
+
+fsm_state_encoding {33103912103914} 100 {0001000}
+
+fsm_state_encoding {33103912103914} 101 {0010000}
+
+fsm_state_encoding {33103912103914} 110 {0100000}
+
+fsm_state_encoding {33103912103914} 111 {1000000}
+
+fsm_registers {33103912103914} {hipri_req_ptr[6]}  {hipri_req_ptr[5]}  {hipri_req_ptr[4]}  {hipri_req_ptr[3]}  {hipri_req_ptr[2]}  {hipri_req_ptr[1]}  {hipri_req_ptr[0]} 
+
+fsm_encoding {33103912103916} sequential
+
+fsm_state_encoding {33103912103916} 01 {00}
+
+fsm_state_encoding {33103912103916} 10 {01}
+
+fsm_state_encoding {33103912103916} 11 {10}
+
+fsm_registers {33103912103916} {hipri_req_ptr[1]}  {hipri_req_ptr[0]} 
+
+fsm_encoding {336231662315} onehot
+
+fsm_state_encoding {336231662315} IDLE_ST {000001}
+
+fsm_state_encoding {336231662315} SETUP_ST {000010}
+
+fsm_state_encoding {336231662315} ACCESS_ST {000100}
+
+fsm_state_encoding {336231662315} BH_READ_0_ST {001000}
+
+fsm_state_encoding {336231662315} BH_READ_1_ST {010000}
+
+fsm_state_encoding {336231662315} BH_WRITE_ST {100000}
+
+fsm_registers {336231662315} {gen_apb_byte_shim家pb_st[5]}  {gen_apb_byte_shim家pb_st[4]}  {gen_apb_byte_shim家pb_st[3]}  {gen_apb_byte_shim家pb_st[2]}  {gen_apb_byte_shim家pb_st[1]}  {gen_apb_byte_shim家pb_st[0]} 
+
+fsm_encoding {33110562110563} sequential
+
+fsm_state_encoding {33110562110563} BH_INIT {00}
+
+fsm_state_encoding {33110562110563} BH_READ {01}
+
+fsm_state_encoding {33110562110563} BH_WRITE {10}
+
+fsm_registers {33110562110563} {cpu_d_wr_rd_state[1]}  {cpu_d_wr_rd_state[0]} 
+
+fsm_encoding {335938259382} sequential
+
+fsm_state_encoding {335938259382} ADDR_ST {00}
+
+fsm_state_encoding {335938259382} DATA_ST {01}
+
+fsm_state_encoding {335938259382} WAIT_ST {10}
+
+fsm_registers {335938259382} {ahb_st[1]}  {ahb_st[0]} 

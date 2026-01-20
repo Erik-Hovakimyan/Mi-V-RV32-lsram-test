@@ -1,0 +1,919 @@
+Timing Violation Report Min Delay Analysis
+
+SmartTime Version 2025.2
+Microchip Technology Inc. - Microchip Libero Software Release 2025.2 (Version 2025.2.0.14)
+Date: Thu Jan 15 13:18:22 2026
+
+
+Design: BaseDesign
+Family: PolarFireSoC
+Die: MPFS095T
+Package: FCSG325
+Temperature Range: 0 - 100 C
+Voltage Range: 0.97 - 1.03 V
+Speed Grade: -1
+Design State: Post-Layout
+Data source: Production
+Multi Corner Report Operating Conditions: slow_lv_lt,fast_hv_lt,slow_lv_ht
+
+
+Path 1
+  From: CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_1[0]:CLK
+  To:   CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_2[0]:D
+  Delay (ns):              0.217
+  Slack (ns):              0.069
+  Arrival (ns):            3.120
+  Required (ns):           3.051
+  Operating Conditions: slow_lv_lt
+
+Path 2
+  From: CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_4[0]:CLK
+  To:   CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_5[0]:D
+  Delay (ns):              0.155
+  Slack (ns):              0.078
+  Arrival (ns):            2.093
+  Required (ns):           2.015
+  Operating Conditions: fast_hv_lt
+
+Path 3
+  From: CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_10[0]:CLK
+  To:   CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_11[0]:D
+  Delay (ns):              0.156
+  Slack (ns):              0.079
+  Arrival (ns):            2.094
+  Required (ns):           2.015
+  Operating Conditions: fast_hv_lt
+
+Path 4
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_i_access_mem_error_ex:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/ex_retr_pipe_i_access_mem_error_retr:D
+  Delay (ns):              0.155
+  Slack (ns):              0.081
+  Arrival (ns):            2.097
+  Required (ns):           2.016
+  Operating Conditions: fast_hv_lt
+
+Path 5
+  From: CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_7[0]:CLK
+  To:   CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_8[0]:D
+  Delay (ns):              0.158
+  Slack (ns):              0.081
+  Arrival (ns):            2.096
+  Required (ns):           2.015
+  Operating Conditions: fast_hv_lt
+
+Path 6
+  From: CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_0[0]:CLK
+  To:   CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_1[0]:D
+  Delay (ns):              0.160
+  Slack (ns):              0.083
+  Arrival (ns):            2.094
+  Required (ns):           2.011
+  Operating Conditions: fast_hv_lt
+
+Path 7
+  From: MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_RX/rx_shift[4]:CLK
+  To:   MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_RX/rx_shift[3]:D
+  Delay (ns):              0.162
+  Slack (ns):              0.085
+  Arrival (ns):            2.139
+  Required (ns):           2.054
+  Operating Conditions: fast_hv_lt
+
+Path 8
+  From: MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_RX/rx_shift[4]:CLK
+  To:   MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_RX/rx_byte[4]:D
+  Delay (ns):              0.162
+  Slack (ns):              0.085
+  Arrival (ns):            2.139
+  Required (ns):           2.054
+  Operating Conditions: fast_hv_lt
+
+Path 9
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/miv_rv32_debug_du_0/cmderr_ff[1]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/miv_rv32_debug_du_0/abstractcs_cmderr[1]:D
+  Delay (ns):              0.160
+  Slack (ns):              0.086
+  Arrival (ns):            2.117
+  Required (ns):           2.031
+  Operating Conditions: fast_hv_lt
+
+Path 10
+  From: MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_RX/samples_2[0]:CLK
+  To:   MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_RX/samples_1[0]:D
+  Delay (ns):              0.154
+  Slack (ns):              0.086
+  Arrival (ns):            2.114
+  Required (ns):           2.028
+  Operating Conditions: fast_hv_lt
+
+Path 11
+  From: MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_RX/rx_shift[3]:CLK
+  To:   MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_RX/rx_shift[2]:D
+  Delay (ns):              0.163
+  Slack (ns):              0.086
+  Arrival (ns):            2.140
+  Required (ns):           2.054
+  Operating Conditions: fast_hv_lt
+
+Path 12
+  From: MIV_ESS_C0_0/CoreGPIO_0/xhdl1.GEN_BITS[4].gpin1[4]:CLK
+  To:   MIV_ESS_C0_0/CoreGPIO_0/xhdl1.GEN_BITS[4].gpin2[4]:D
+  Delay (ns):              0.161
+  Slack (ns):              0.087
+  Arrival (ns):            2.130
+  Required (ns):           2.043
+  Operating Conditions: fast_hv_lt
+
+Path 13
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/miv_rv32_debug_du_0/cmderr_ff[2]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/miv_rv32_debug_du_0/abstractcs_cmderr[2]:D
+  Delay (ns):              0.163
+  Slack (ns):              0.090
+  Arrival (ns):            2.120
+  Required (ns):           2.030
+  Operating Conditions: fast_hv_lt
+
+Path 14
+  From: MIV_ESS_C0_0/CoreGPIO_0/xhdl1.GEN_BITS_1[1]:CLK
+  To:   MIV_ESS_C0_0/CoreGPIO_0/xhdl1.GEN_BITS_2[1]:D
+  Delay (ns):              0.164
+  Slack (ns):              0.090
+  Arrival (ns):            2.132
+  Required (ns):           2.042
+  Operating Conditions: fast_hv_lt
+
+Path 15
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_i_access_misalign_error_ex:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/ex_retr_pipe_i_access_misalign_error_retr:D
+  Delay (ns):              0.166
+  Slack (ns):              0.092
+  Arrival (ns):            2.108
+  Required (ns):           2.016
+  Operating Conditions: fast_hv_lt
+
+Path 16
+  From: MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_RX/samples_1[0]:CLK
+  To:   MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_RX/samples_0[0]:D
+  Delay (ns):              0.166
+  Slack (ns):              0.092
+  Arrival (ns):            2.126
+  Required (ns):           2.034
+  Operating Conditions: fast_hv_lt
+
+Path 17
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_m_env_call_ex:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/ex_retr_pipe_m_env_call_retr:D
+  Delay (ns):              0.167
+  Slack (ns):              0.093
+  Arrival (ns):            2.109
+  Required (ns):           2.016
+  Operating Conditions: fast_hv_lt
+
+Path 18
+  From: MIV_ESS_C0_0/CoreGPIO_0/xhdl1.GEN_BITS[4].gpin2[4]:CLK
+  To:   MIV_ESS_C0_0/CoreGPIO_0/xhdl1.GEN_BITS[4].gpin3[4]:D
+  Delay (ns):              0.171
+  Slack (ns):              0.097
+  Arrival (ns):            2.140
+  Required (ns):           2.043
+  Operating Conditions: fast_hv_lt
+
+Path 19
+  From: CoreTimer_C0_0/CoreTimer_C0_0/Count[5]:CLK
+  To:   CoreTimer_C0_0/CoreTimer_C0_0/iPRDATA[5]:D
+  Delay (ns):              0.239
+  Slack (ns):              0.098
+  Arrival (ns):            2.201
+  Required (ns):           2.103
+  Operating Conditions: fast_hv_lt
+
+Path 20
+  From: MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_RX/receive_count[3]:CLK
+  To:   MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_RX/framing_error_int:D
+  Delay (ns):              0.244
+  Slack (ns):              0.101
+  Arrival (ns):            2.204
+  Required (ns):           2.103
+  Operating Conditions: fast_hv_lt
+
+Path 21
+  From: MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_RX/rx_shift[5]:CLK
+  To:   MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_RX/rx_shift[4]:D
+  Delay (ns):              0.184
+  Slack (ns):              0.107
+  Arrival (ns):            2.161
+  Required (ns):           2.054
+  Operating Conditions: fast_hv_lt
+
+Path 22
+  From: CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_5[0]:CLK
+  To:   CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_6[0]:D
+  Delay (ns):              0.189
+  Slack (ns):              0.112
+  Arrival (ns):            2.127
+  Required (ns):           2.015
+  Operating Conditions: fast_hv_lt
+
+Path 23
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/debug_req_fifo/rd_gray_ptr_synch[1]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/debug_req_fifo/rd_gray_ptr_in_write[1]:D
+  Delay (ns):              0.211
+  Slack (ns):              0.114
+  Arrival (ns):            3.596
+  Required (ns):           3.482
+  Operating Conditions: fast_hv_lt
+
+Path 24
+  From: MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_RX/rx_shift[1]:CLK
+  To:   MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_RX/rx_shift[0]:D
+  Delay (ns):              0.191
+  Slack (ns):              0.114
+  Arrival (ns):            2.168
+  Required (ns):           2.054
+  Operating Conditions: fast_hv_lt
+
+Path 25
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/debug_req_fifo/rd_gray_ptr_synch[0]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/debug_req_fifo/rd_gray_ptr_in_write[0]:D
+  Delay (ns):              0.207
+  Slack (ns):              0.115
+  Arrival (ns):            3.599
+  Required (ns):           3.484
+  Operating Conditions: fast_hv_lt
+
+Path 26
+  From: CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_3[0]:CLK
+  To:   CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_4[0]:D
+  Delay (ns):              0.209
+  Slack (ns):              0.115
+  Arrival (ns):            2.143
+  Required (ns):           2.028
+  Operating Conditions: fast_hv_lt
+
+Path 27
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/miv_rv32_debug_du_0/data_0_reg[12]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/miv_rv32_debug_du_0/debug_op_wr_data[12]:D
+  Delay (ns):              0.213
+  Slack (ns):              0.116
+  Arrival (ns):            2.164
+  Required (ns):           2.048
+  Operating Conditions: fast_hv_lt
+
+Path 28
+  From: MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_RX/rx_shift[0]:CLK
+  To:   MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_RX/rx_byte[0]:D
+  Delay (ns):              0.207
+  Slack (ns):              0.116
+  Arrival (ns):            2.184
+  Required (ns):           2.068
+  Operating Conditions: fast_hv_lt
+
+Path 29
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[5]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/ex_retr_pipe_curr_instr_enc_retr[5]:D
+  Delay (ns):              0.206
+  Slack (ns):              0.117
+  Arrival (ns):            2.151
+  Required (ns):           2.034
+  Operating Conditions: fast_hv_lt
+
+Path 30
+  From: CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_2[0]:CLK
+  To:   CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_3[0]:D
+  Delay (ns):              0.193
+  Slack (ns):              0.117
+  Arrival (ns):            2.128
+  Required (ns):           2.011
+  Operating Conditions: fast_hv_lt
+
+Path 31
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_fetch_unit_0/u_miv_rv32_ifu_iab_0/buff_req_wr_ptr_1[0]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_fetch_unit_0/u_miv_rv32_ifu_iab_0/buff_req_rd_ptr[1]:D
+  Delay (ns):              0.206
+  Slack (ns):              0.118
+  Arrival (ns):            2.145
+  Required (ns):           2.027
+  Operating Conditions: fast_hv_lt
+
+Path 32
+  From: CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_12[0]:CLK
+  To:   CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_13[0]:D
+  Delay (ns):              0.191
+  Slack (ns):              0.118
+  Arrival (ns):            2.135
+  Required (ns):           2.017
+  Operating Conditions: fast_hv_lt
+
+Path 33
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_curr_instr_enc_ex[11]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/ex_retr_pipe_curr_instr_enc_retr[11]:D
+  Delay (ns):              0.196
+  Slack (ns):              0.119
+  Arrival (ns):            2.137
+  Required (ns):           2.018
+  Operating Conditions: fast_hv_lt
+
+Path 34
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/miv_rv32_debug_du_0/command_reg[6]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/miv_rv32_debug_du_0/debug_csr_addr[6]:D
+  Delay (ns):              0.193
+  Slack (ns):              0.119
+  Arrival (ns):            2.144
+  Required (ns):           2.025
+  Operating Conditions: fast_hv_lt
+
+Path 35
+  From: MIV_ESS_C0_0/CoreUARTapb_0/uUART/tx_hold_reg[4]:CLK
+  To:   MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_TX/tx_byte[4]:D
+  Delay (ns):              0.205
+  Slack (ns):              0.119
+  Arrival (ns):            2.179
+  Required (ns):           2.060
+  Operating Conditions: fast_hv_lt
+
+Path 36
+  From: CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_9[0]:CLK
+  To:   CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_10[0]:D
+  Delay (ns):              0.213
+  Slack (ns):              0.119
+  Arrival (ns):            2.147
+  Required (ns):           2.028
+  Operating Conditions: fast_hv_lt
+
+Path 37
+  From: CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_6[0]:CLK
+  To:   CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_7[0]:D
+  Delay (ns):              0.196
+  Slack (ns):              0.119
+  Arrival (ns):            2.134
+  Required (ns):           2.015
+  Operating Conditions: fast_hv_lt
+
+Path 38
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/miv_rv32_debug_du_0/data_0_reg[14]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/miv_rv32_debug_du_0/debug_op_wr_data[14]:D
+  Delay (ns):              0.210
+  Slack (ns):              0.121
+  Arrival (ns):            2.143
+  Required (ns):           2.022
+  Operating Conditions: fast_hv_lt
+
+Path 39
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftDR[2]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftDR[1]:D
+  Delay (ns):              0.197
+  Slack (ns):              0.121
+  Arrival (ns):            3.376
+  Required (ns):           3.255
+  Operating Conditions: fast_hv_lt
+
+Path 40
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/debug_req_fifo/genblk1.rst_synch_reg[1]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/debug_req_fifo/genblk1.rst_synch_reg[0]:D
+  Delay (ns):              0.198
+  Slack (ns):              0.122
+  Arrival (ns):            2.134
+  Required (ns):           2.012
+  Operating Conditions: fast_hv_lt
+
+Path 41
+  From: MIV_ESS_C0_0/CoreGPIO_0/xhdl1.GEN_BITS_1[0]:CLK
+  To:   MIV_ESS_C0_0/CoreGPIO_0/xhdl1.GEN_BITS_2[0]:D
+  Delay (ns):              0.196
+  Slack (ns):              0.122
+  Arrival (ns):            2.164
+  Required (ns):           2.042
+  Operating Conditions: fast_hv_lt
+
+Path 42
+  From: MIV_ESS_C0_0/CoreGPIO_0/xhdl1.GEN_BITS_0[0]:CLK
+  To:   MIV_ESS_C0_0/CoreGPIO_0/xhdl1.GEN_BITS_1[0]:D
+  Delay (ns):              0.196
+  Slack (ns):              0.122
+  Arrival (ns):            2.164
+  Required (ns):           2.042
+  Operating Conditions: fast_hv_lt
+
+Path 43
+  From: MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_RX/rx_shift[6]:CLK
+  To:   MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_RX/rx_shift[5]:D
+  Delay (ns):              0.200
+  Slack (ns):              0.123
+  Arrival (ns):            2.177
+  Required (ns):           2.054
+  Operating Conditions: fast_hv_lt
+
+Path 44
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/debug_resp_fifo/rd_gray_ptr_synch[1]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/debug_resp_fifo/rd_gray_ptr_in_write[1]:D
+  Delay (ns):              0.214
+  Slack (ns):              0.124
+  Arrival (ns):            2.155
+  Required (ns):           2.031
+  Operating Conditions: fast_hv_lt
+
+Path 45
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftIR[1]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftIR[0]:D
+  Delay (ns):              0.200
+  Slack (ns):              0.124
+  Arrival (ns):            3.375
+  Required (ns):           3.251
+  Operating Conditions: fast_hv_lt
+
+Path 46
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/miv_rv32_debug_du_0/data_0_reg[30]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/miv_rv32_debug_du_0/debug_op_wr_data[30]:D
+  Delay (ns):              0.198
+  Slack (ns):              0.125
+  Arrival (ns):            2.129
+  Required (ns):           2.004
+  Operating Conditions: fast_hv_lt
+
+Path 47
+  From: MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_TX/xmit_state[0]:CLK
+  To:   MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_TX/xmit_state[1]:D
+  Delay (ns):              0.198
+  Slack (ns):              0.125
+  Arrival (ns):            2.165
+  Required (ns):           2.040
+  Operating Conditions: fast_hv_lt
+
+Path 48
+  From: MIV_ESS_C0_0/CoreGPIO_0/xhdl1.GEN_BITS[5].gpin1[5]:CLK
+  To:   MIV_ESS_C0_0/CoreGPIO_0/xhdl1.GEN_BITS[5].gpin2[5]:D
+  Delay (ns):              0.199
+  Slack (ns):              0.125
+  Arrival (ns):            2.168
+  Required (ns):           2.043
+  Operating Conditions: fast_hv_lt
+
+Path 49
+  From: MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_RX/rx_shift[1]:CLK
+  To:   MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_RX/rx_byte[1]:D
+  Delay (ns):              0.203
+  Slack (ns):              0.126
+  Arrival (ns):            2.180
+  Required (ns):           2.054
+  Operating Conditions: fast_hv_lt
+
+Path 50
+  From: MIV_ESS_C0_0/CoreGPIO_0/xhdl1.GEN_BITS_0[1]:CLK
+  To:   MIV_ESS_C0_0/CoreGPIO_0/xhdl1.GEN_BITS_1[1]:D
+  Delay (ns):              0.200
+  Slack (ns):              0.126
+  Arrival (ns):            2.168
+  Required (ns):           2.042
+  Operating Conditions: fast_hv_lt
+
+Path 51
+  From: CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_14[0]:CLK
+  To:   CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_15[0]:D
+  Delay (ns):              0.203
+  Slack (ns):              0.126
+  Arrival (ns):            2.141
+  Required (ns):           2.015
+  Operating Conditions: fast_hv_lt
+
+Path 52
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftIR[3]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftIR[2]:D
+  Delay (ns):              0.202
+  Slack (ns):              0.127
+  Arrival (ns):            3.378
+  Required (ns):           3.251
+  Operating Conditions: fast_hv_lt
+
+Path 53
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftDR[3]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftDR[2]:D
+  Delay (ns):              0.203
+  Slack (ns):              0.127
+  Arrival (ns):            3.382
+  Required (ns):           3.255
+  Operating Conditions: fast_hv_lt
+
+Path 54
+  From: MIV_ESS_C0_0/CoreUARTapb_0/uUART/tx_hold_reg[2]:CLK
+  To:   MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_TX/tx_byte[2]:D
+  Delay (ns):              0.201
+  Slack (ns):              0.127
+  Arrival (ns):            2.172
+  Required (ns):           2.045
+  Operating Conditions: fast_hv_lt
+
+Path 55
+  From: CoreTimer_C1_0/CoreTimer_C1_0/CountIsZeroReg:CLK
+  To:   CoreTimer_C1_0/CoreTimer_C1_0/RawTimInt:D
+  Delay (ns):              0.201
+  Slack (ns):              0.127
+  Arrival (ns):            2.153
+  Required (ns):           2.026
+  Operating Conditions: fast_hv_lt
+
+Path 56
+  From: CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_8[0]:CLK
+  To:   CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_9[0]:D
+  Delay (ns):              0.214
+  Slack (ns):              0.128
+  Arrival (ns):            2.152
+  Required (ns):           2.024
+  Operating Conditions: fast_hv_lt
+
+Path 57
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/div_divisor[8]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/div_divisor[7]:D
+  Delay (ns):              0.203
+  Slack (ns):              0.129
+  Arrival (ns):            2.158
+  Required (ns):           2.029
+  Operating Conditions: fast_hv_lt
+
+Path 58
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftDMI[26]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftDMI[25]:D
+  Delay (ns):              0.287
+  Slack (ns):              0.129
+  Arrival (ns):            3.478
+  Required (ns):           3.349
+  Operating Conditions: fast_hv_lt
+
+Path 59
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_apb.u_apb_initiator_0/gen_apb_byte_shim.pwdata[9]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_mtime.u_mtime_irq/mtimecmp[9]:D
+  Delay (ns):              0.225
+  Slack (ns):              0.129
+  Arrival (ns):            2.172
+  Required (ns):           2.043
+  Operating Conditions: fast_hv_lt
+
+Path 60
+  From: MIV_ESS_C0_0/CoreGPIO_0/xhdl1.GEN_BITS[5].APB_32.edge_pos[5]:CLK
+  To:   MIV_ESS_C0_0/CoreGPIO_0/xhdl1.GEN_BITS[5].APB_32.INTR_reg[5]:D
+  Delay (ns):              0.203
+  Slack (ns):              0.129
+  Arrival (ns):            2.172
+  Required (ns):           2.043
+  Operating Conditions: fast_hv_lt
+
+Path 61
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/gen_debug_gpr_ctrl_pipeline.ex_retr_pipe_gpr_wr_sel_retr[4]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/gen_gpr_ram.u_gpr_0/gpr_wr_sel_reg[4]:D
+  Delay (ns):              0.204
+  Slack (ns):              0.130
+  Arrival (ns):            2.167
+  Required (ns):           2.037
+  Operating Conditions: fast_hv_lt
+
+Path 62
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/miv_rv32_debug_du_0/command_reg[8]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/miv_rv32_debug_du_0/debug_csr_addr[8]:D
+  Delay (ns):              0.204
+  Slack (ns):              0.130
+  Arrival (ns):            2.155
+  Required (ns):           2.025
+  Operating Conditions: fast_hv_lt
+
+Path 63
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftIR[2]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftIR[1]:D
+  Delay (ns):              0.206
+  Slack (ns):              0.130
+  Arrival (ns):            3.381
+  Required (ns):           3.251
+  Operating Conditions: fast_hv_lt
+
+Path 64
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftDR[8]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftDR[7]:D
+  Delay (ns):              0.206
+  Slack (ns):              0.130
+  Arrival (ns):            3.385
+  Required (ns):           3.255
+  Operating Conditions: fast_hv_lt
+
+Path 65
+  From: MIV_ESS_C0_0/CoreUARTapb_0/uUART/tx_hold_reg[3]:CLK
+  To:   MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_TX/tx_byte[3]:D
+  Delay (ns):              0.204
+  Slack (ns):              0.130
+  Arrival (ns):            2.175
+  Required (ns):           2.045
+  Operating Conditions: fast_hv_lt
+
+Path 66
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_subsys_interconnect_0/u_i_trx_os_buffer/gen_buff_loop[0].buff_valid[0]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_subsys_interconnect_0/u_i_trx_os_buffer/buff_rd_ptr[0]:D
+  Delay (ns):              0.205
+  Slack (ns):              0.131
+  Arrival (ns):            2.169
+  Required (ns):           2.038
+  Operating Conditions: fast_hv_lt
+
+Path 67
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/gen_gpr_ex_attbs_rd_ex.gen_debug_gpr_rd_sel_pipeline.de_ex_pipe_gpr_rs2_rd_sel_ex[5]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/gen_gpr_ram.u_gpr_0/gpr_rs2_rd_sel_reg[5]:D
+  Delay (ns):              0.205
+  Slack (ns):              0.131
+  Arrival (ns):            2.149
+  Required (ns):           2.018
+  Operating Conditions: fast_hv_lt
+
+Path 68
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftDR[25]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftDR[24]:D
+  Delay (ns):              0.207
+  Slack (ns):              0.131
+  Arrival (ns):            3.380
+  Required (ns):           3.249
+  Operating Conditions: fast_hv_lt
+
+Path 69
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftDR[1]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftDR[0]:D
+  Delay (ns):              0.207
+  Slack (ns):              0.131
+  Arrival (ns):            3.386
+  Required (ns):           3.255
+  Operating Conditions: fast_hv_lt
+
+Path 70
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftDR[14]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftDR[13]:D
+  Delay (ns):              0.207
+  Slack (ns):              0.131
+  Arrival (ns):            3.384
+  Required (ns):           3.253
+  Operating Conditions: fast_hv_lt
+
+Path 71
+  From: MIV_ESS_C0_0/CoreUARTapb_0/uUART/tx_hold_reg[6]:CLK
+  To:   MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_TX/tx_byte[6]:D
+  Delay (ns):              0.205
+  Slack (ns):              0.131
+  Arrival (ns):            2.176
+  Required (ns):           2.045
+  Operating Conditions: fast_hv_lt
+
+Path 72
+  From: MIV_ESS_C0_0/CoreGPIO_0/xhdl1.GEN_BITS[5].gpin2[5]:CLK
+  To:   MIV_ESS_C0_0/CoreGPIO_0/xhdl1.GEN_BITS[5].gpin3[5]:D
+  Delay (ns):              0.205
+  Slack (ns):              0.131
+  Arrival (ns):            2.174
+  Required (ns):           2.043
+  Operating Conditions: fast_hv_lt
+
+Path 73
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/div_divisor[3]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/div_divisor[2]:D
+  Delay (ns):              0.206
+  Slack (ns):              0.132
+  Arrival (ns):            2.161
+  Required (ns):           2.029
+  Operating Conditions: fast_hv_lt
+
+Path 74
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/debug_resp_fifo/rd_ptr[0]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/debug_resp_fifo/rd_gray_ptr[1]:D
+  Delay (ns):              0.207
+  Slack (ns):              0.132
+  Arrival (ns):            3.393
+  Required (ns):           3.261
+  Operating Conditions: fast_hv_lt
+
+Path 75
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftDMI[39]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftDMI[38]:D
+  Delay (ns):              0.210
+  Slack (ns):              0.132
+  Arrival (ns):            3.394
+  Required (ns):           3.262
+  Operating Conditions: fast_hv_lt
+
+Path 76
+  From: MIV_ESS_C0_0/CoreUARTapb_0/uUART/tx_hold_reg[7]:CLK
+  To:   MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_TX/tx_byte[7]:D
+  Delay (ns):              0.206
+  Slack (ns):              0.132
+  Arrival (ns):            2.177
+  Required (ns):           2.045
+  Operating Conditions: fast_hv_lt
+
+Path 77
+  From: CoreTimer_C0_0/CoreTimer_C0_0/Load[27]:CLK
+  To:   CoreTimer_C0_0/CoreTimer_C0_0/iPRDATA[27]:D
+  Delay (ns):              0.209
+  Slack (ns):              0.132
+  Arrival (ns):            2.166
+  Required (ns):           2.034
+  Operating Conditions: fast_hv_lt
+
+Path 78
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/div_divisor[5]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/div_divisor[4]:D
+  Delay (ns):              0.207
+  Slack (ns):              0.133
+  Arrival (ns):            2.162
+  Required (ns):           2.029
+  Operating Conditions: fast_hv_lt
+
+Path 79
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/miv_rv32_debug_du_0/command_reg[11]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/miv_rv32_debug_du_0/debug_csr_addr[11]:D
+  Delay (ns):              0.207
+  Slack (ns):              0.133
+  Arrival (ns):            2.158
+  Required (ns):           2.025
+  Operating Conditions: fast_hv_lt
+
+Path 80
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/miv_rv32_debug_du_0/cmderr_ff[0]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/miv_rv32_debug_du_0/abstractcs_cmderr[0]:D
+  Delay (ns):              0.206
+  Slack (ns):              0.133
+  Arrival (ns):            2.163
+  Required (ns):           2.030
+  Operating Conditions: fast_hv_lt
+
+Path 81
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftIR[4]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftIR[3]:D
+  Delay (ns):              0.208
+  Slack (ns):              0.133
+  Arrival (ns):            3.384
+  Required (ns):           3.251
+  Operating Conditions: fast_hv_lt
+
+Path 82
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftDR[6]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftDR[5]:D
+  Delay (ns):              0.209
+  Slack (ns):              0.133
+  Arrival (ns):            3.388
+  Required (ns):           3.255
+  Operating Conditions: fast_hv_lt
+
+Path 83
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftDMI[40]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftDMI[39]:D
+  Delay (ns):              0.211
+  Slack (ns):              0.133
+  Arrival (ns):            3.395
+  Required (ns):           3.262
+  Operating Conditions: fast_hv_lt
+
+Path 84
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_apb.u_apb_initiator_0/gen_apb_byte_shim.pwdata[1]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_mtime.u_mtime_irq/mtimecmp[1]:D
+  Delay (ns):              0.225
+  Slack (ns):              0.133
+  Arrival (ns):            2.172
+  Required (ns):           2.039
+  Operating Conditions: fast_hv_lt
+
+Path 85
+  From: MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_TX/xmit_bit_sel[2]:CLK
+  To:   MIV_ESS_C0_0/CoreUARTapb_0/uUART/make_TX/xmit_bit_sel[3]:D
+  Delay (ns):              0.207
+  Slack (ns):              0.133
+  Arrival (ns):            2.174
+  Required (ns):           2.041
+  Operating Conditions: fast_hv_lt
+
+Path 86
+  From: CoreTimer_C0_0/CoreTimer_C0_0/Count[24]:CLK
+  To:   CoreTimer_C0_0/CoreTimer_C0_0/iPRDATA[24]:D
+  Delay (ns):              0.207
+  Slack (ns):              0.133
+  Arrival (ns):            2.168
+  Required (ns):           2.035
+  Operating Conditions: fast_hv_lt
+
+Path 87
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/div_divisor[6]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/div_divisor[5]:D
+  Delay (ns):              0.208
+  Slack (ns):              0.134
+  Arrival (ns):            2.163
+  Required (ns):           2.029
+  Operating Conditions: fast_hv_lt
+
+Path 88
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/div_divisor[1]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/div_divisor[0]:D
+  Delay (ns):              0.208
+  Slack (ns):              0.134
+  Arrival (ns):            2.163
+  Required (ns):           2.029
+  Operating Conditions: fast_hv_lt
+
+Path 89
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/miv_rv32_debug_du_0/debug_op_wr_data[6]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/exu_result_reg_int[6]:D
+  Delay (ns):              0.207
+  Slack (ns):              0.134
+  Arrival (ns):            2.154
+  Required (ns):           2.020
+  Operating Conditions: fast_hv_lt
+
+Path 90
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/miv_rv32_debug_du_0/command_reg[10]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/miv_rv32_debug_du_0/debug_csr_addr[10]:D
+  Delay (ns):              0.208
+  Slack (ns):              0.134
+  Arrival (ns):            2.159
+  Required (ns):           2.025
+  Operating Conditions: fast_hv_lt
+
+Path 91
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftDMI[14]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftDMI[13]:D
+  Delay (ns):              0.210
+  Slack (ns):              0.134
+  Arrival (ns):            3.422
+  Required (ns):           3.288
+  Operating Conditions: fast_hv_lt
+
+Path 92
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftDMI[13]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/MIV_subsys_debug_transport_module_jtag_0/gen_shift_register_active_high.gen_shift_register_active_low.shiftDMI[12]:D
+  Delay (ns):              0.210
+  Slack (ns):              0.134
+  Arrival (ns):            3.422
+  Required (ns):           3.288
+  Operating Conditions: fast_hv_lt
+
+Path 93
+  From: MIV_ESS_C0_0/CoreGPIO_0/xhdl1.GEN_BITS[5].APB_32.edge_pos[5]:CLK
+  To:   MIV_ESS_C0_0/CoreGPIO_0/xhdl1.GEN_BITS[5].APB_32.edge_pos[5]:D
+  Delay (ns):              0.202
+  Slack (ns):              0.134
+  Arrival (ns):            2.171
+  Required (ns):           2.037
+  Operating Conditions: fast_hv_lt
+
+Path 94
+  From: CoreTimer_C0_0/CoreTimer_C0_0/Count[25]:CLK
+  To:   CoreTimer_C0_0/CoreTimer_C0_0/iPRDATA[25]:D
+  Delay (ns):              0.208
+  Slack (ns):              0.134
+  Arrival (ns):            2.169
+  Required (ns):           2.035
+  Operating Conditions: fast_hv_lt
+
+Path 95
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/div_divisor[26]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/div_divisor[25]:D
+  Delay (ns):              0.209
+  Slack (ns):              0.135
+  Arrival (ns):            2.160
+  Required (ns):           2.025
+  Operating Conditions: fast_hv_lt
+
+Path 96
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/miv_rv32_debug_du_0/command_reg[17]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/miv_rv32_debug_du_0/abs_cmd_transfer_ff:D
+  Delay (ns):              0.208
+  Slack (ns):              0.135
+  Arrival (ns):            2.167
+  Required (ns):           2.032
+  Operating Conditions: fast_hv_lt
+
+Path 97
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/debug_req_fifo/rd_gray_ptr[1]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_subsys_debug.u_subsys_debug_unit_0/debug_req_fifo/rd_gray_ptr[1]:D
+  Delay (ns):              0.206
+  Slack (ns):              0.135
+  Arrival (ns):            2.141
+  Required (ns):           2.006
+  Operating Conditions: fast_hv_lt
+
+Path 98
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_apb.u_apb_initiator_0/gen_apb_byte_shim.pwdata[4]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/gen_mtime.u_mtime_irq/mtimecmp[4]:D
+  Delay (ns):              0.228
+  Slack (ns):              0.135
+  Arrival (ns):            2.175
+  Required (ns):           2.040
+  Operating Conditions: fast_hv_lt
+
+Path 99
+  From: CoreTimer_C0_0/CoreTimer_C0_0/Load[12]:CLK
+  To:   CoreTimer_C0_0/CoreTimer_C0_0/iPRDATA[12]:D
+  Delay (ns):              0.209
+  Slack (ns):              0.135
+  Arrival (ns):            2.186
+  Required (ns):           2.051
+  Operating Conditions: fast_hv_lt
+
+Path 100
+  From: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/div_divisor[36]:CLK
+  To:   MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_exu_0/div_divisor[35]:D
+  Delay (ns):              0.210
+  Slack (ns):              0.136
+  Arrival (ns):            2.163
+  Required (ns):           2.027
+  Operating Conditions: fast_hv_lt
+

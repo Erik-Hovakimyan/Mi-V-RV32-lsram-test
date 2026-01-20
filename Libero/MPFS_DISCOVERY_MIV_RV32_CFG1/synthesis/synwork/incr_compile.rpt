@@ -1,0 +1,629 @@
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: AMY-LT-M79113
+
+Implementation : synthesis
+Synopsys HDL compiler and linker, Version comp202503synp2, Build 183R, Built Nov 18 2025 09:08:11, @
+
+Modified Files: 4
+FID:  path (prevtimestamp, timestamp)
+9        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\MSS_syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42)
+23       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42)
+24       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18)
+63       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\hdl\sram_test_module.v (2026-01-19 02:29:06, 2026-01-19 02:44:27)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 234
+MID:  lib.cell.view
+0        COREJTAGDEBUG_LIB.COREJTAGDEBUG.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+1        COREJTAGDEBUG_LIB.COREJTAGDEBUG_UJ_JTAG.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+2        COREJTAGDEBUG_LIB.UJTAG_WRAPPER.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+3        COREJTAGDEBUG_LIB.corejtagdebug_bufd.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+4        CORETIMER_LIB.CoreTimer.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+5        MIV_APB3_LIB.MIV_APB3.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+6        MIV_APB3_LIB.MIV_APB3_MUXPTOB3.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+7        MIV_APB3_LIB.miv_apb3_iaddr_reg.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+8        work.APBM.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+9        work.APBS.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+10       work.BANKCTRLM.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+11       work.BANKCTRL_GPIO.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+12       work.BANKCTRL_HSIO.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+13       work.BANKEN.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+14       work.BaseDesign.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (module definition)
+15       work.CLKBUF_DIFF.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+16       work.CLKBUF_DIFF_ODT.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+17       work.CORELNKTMR_V.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+18       work.CORERESET_PF_C0.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+19       work.CORERESET_PF_C0_CORERESET_PF_C0_0_CORERESET_PF.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+20       work.CRN_COMMON.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+21       work.CRN_INT.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+22       work.CRYPTO.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+23       work.CRYPTO_SOC.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+24       work.CoreJTAGDebug_TRSTN_C0.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+25       work.CoreTimer_C0.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+27       work.DEBUG.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+28       work.DLL.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+29       work.DRI.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+30       work.ENFORCE.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+31       work.GLITCHDETECT.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+32       work.GPSS_COMMON.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+33       work.HS_IO_CLK.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+34       work.ICB_BANKCLK.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+35       work.ICB_CLKDIV.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+36       work.ICB_CLKDIVDELAY.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+37       work.ICB_CLKINT.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+38       work.ICB_CLKSTOP.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+39       work.ICB_CLKSTOP_EN.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+40       work.ICB_INT.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+41       work.ICB_MUXING.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+42       work.ICB_NGMUX.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+43       work.INIT.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+44       work.IOD.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+45       work.LANECTRL.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+46       work.LANERST.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+47       work.MCHP_BLIC.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+48       work.MIV_ESS_APB_TO_APB.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+49       work.MIV_ESS_C0.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+50       work.MIV_ESS_C0_CoreGPIO_0_CoreGPIO.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+51       work.MIV_ESS_C0_CoreUARTapb_0_COREUART.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+52       work.MIV_ESS_C0_CoreUARTapb_0_Clock_gen.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+53       work.MIV_ESS_C0_CoreUARTapb_0_CoreUARTapb.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+54       work.MIV_ESS_C0_CoreUARTapb_0_Rx_async.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+55       work.MIV_ESS_C0_CoreUARTapb_0_Tx_async.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+56       work.MIV_ESS_C0_CoreUARTapb_0_fifo_256x8.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+57       work.MIV_ESS_C0_CoreUARTapb_0_fifo_ctrl_256.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+58       work.MIV_ESS_C0_CoreUARTapb_0_ram256x8_g5.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+59       work.MIV_ESS_RESET_CTRL.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+226      work.MIV_PLIC.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+60       work.MIV_RV32_CFG1_C0.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+61       work.MIV_RV32_CFG1_C0_MIV_RV32_CFG1_C0_0_MIV_RV32.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+62       work.MSS.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\MSS_syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+63       work.OSC_RC160MHZ.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+64       work.OSC_RC200MHZ.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+65       work.OSC_RC2MHZ.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+66       work.PCIE.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+67       work.PCIE_COMMON.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+68       work.PFSOC_SCSM.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+69       work.PF_CCC_C0.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+70       work.PF_CCC_C0_PF_CCC_C0_0_PF_CCC.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+232      work.PF_DPSRAM_C0.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+233      work.PF_DPSRAM_C0_PF_DPSRAM_C0_0_PF_DPSRAM.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+71       work.PF_INIT_MONITOR_C0.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+72       work.PF_INIT_MONITOR_C0_PF_INIT_MONITOR_C0_0_PFSOC_INIT_MONITOR.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+73       work.PF_SPI.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+74       work.PF_SRAM_AHB_C0.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+75       work.PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+76       work.PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+77       work.PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_ECC.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+224      work.PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_ECC_RT.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+225      work.PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_RT.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+78       work.PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+79       work.PLL.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+80       work.QUADRST.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+81       work.QUADRST_PCIE.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+82       work.RESET_CTRL.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+83       work.SCB.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+84       work.SYSCTRL_RESET_STATUS.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+85       work.SYSRESET.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+86       work.SYS_SERVICES.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+87       work.TAMPER.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+88       work.TVS.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+89       work.TX_PLL.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+90       work.UPROM.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+91       work.USPI.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+92       work.VOLTAGEDETECT.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+93       work.VREFBANKDYN.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+94       work.VREFCTRL.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+95       work.XCVR.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+96       work.XCVR_64B6XB.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+97       work.XCVR_8B10B.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+98       work.XCVR_APB_LINK.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+99       work.XCVR_APB_LINK_V.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+100      work.XCVR_APB_LINK_V2.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+101      work.XCVR_DUAL_PCS.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+102      work.XCVR_PIPE.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+103      work.XCVR_PIPE_AXI0.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+104      work.XCVR_PIPE_AXI1.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+105      work.XCVR_PMA.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+106      work.XCVR_REF_CLK.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+107      work.XCVR_REF_CLK_N.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+108      work.XCVR_REF_CLK_P.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+109      work.XCVR_TEST.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+110      work.XCVR_VV.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v (2026-01-19 02:29:35, 2026-01-19 02:46:42) <-- (module definition)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+227      work.apb_interface.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+228      work.interrupt_claim_complete.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+229      work.interrupt_enable_register.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+230      work.interrupt_pending_register.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+111      work.miv_rv32_axi_egress_buffer.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+112      work.miv_rv32_axi_egress_slip_buffer.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+113      work.miv_rv32_axi_ingress_buffer.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+114      work.miv_rv32_axi_rchan.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+115      work.miv_rv32_axi_wchan.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+116      work.miv_rv32_axi_xaddr_buffer.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+117      work.miv_rv32_axi_xaddr_buffer_slot.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+118      work.miv_rv32_bcu.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+119      work.miv_rv32_bist_decode.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+120      work.miv_rv32_bist_ecc.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+121      work.miv_rv32_bist_ecc_core.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+122      work.miv_rv32_bist_ecc_empty.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+123      work.miv_rv32_bist_ecc_read.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+124      work.miv_rv32_bist_ecc_write.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+125      work.miv_rv32_bist_err_inject.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+126      work.miv_rv32_bist_pipeline.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+127      work.miv_rv32_bist_template_dual_behav.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+128      work.miv_rv32_bistdual_behav.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+129      work.miv_rv32_bistdual_eccw.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+130      work.miv_rv32_bistdual_err_mask.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+131      work.miv_rv32_bistdual_pl_enable.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+132      work.miv_rv32_bistdual_ram_init.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+133      work.miv_rv32_bistdual_ram_stabilizer.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+134      work.miv_rv32_bistdualdata_behav.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+135      work.miv_rv32_bistmux.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+136      work.miv_rv32_bootrom.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+137      work.miv_rv32_buffer.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+138      work.miv_rv32_common_buffer_behav.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+139      work.miv_rv32_control_mvp.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+140      work.miv_rv32_csr_decode.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+141      work.miv_rv32_csr_gpr_state_reg.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+142      work.miv_rv32_csr_privarch.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+143      work.miv_rv32_debug_dtm_jtag.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+144      work.miv_rv32_debug_du.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+145      work.miv_rv32_debug_fifo.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+146      work.miv_rv32_debug_sba.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+147      work.miv_rv32_div_sqrt_top_mvp.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+148      work.miv_rv32_dpr_hqa_dual_storage_bistw_behav.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+149      work.miv_rv32_dpr_hqa_dual_storage_rbcw.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+150      work.miv_rv32_expipe.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+151      work.miv_rv32_exu.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+152      work.miv_rv32_fetch_unit.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+153      work.miv_rv32_fixed_arb.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+154      work.miv_rv32_fpnew_cast_multi.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+155      work.miv_rv32_fpnew_classifier.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+156      work.miv_rv32_fpnew_divsqrt_multi.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+157      work.miv_rv32_fpnew_divsqrt_th_32.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+158      work.miv_rv32_fpnew_fma.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+159      work.miv_rv32_fpnew_fma_multi.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+160      work.miv_rv32_fpnew_noncomp.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+161      work.miv_rv32_fpnew_opgroup_block.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+162      work.miv_rv32_fpnew_opgroup_fmt_slice.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+163      work.miv_rv32_fpnew_opgroup_multifmt_slice.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+164      work.miv_rv32_fpnew_rounding.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+165      work.miv_rv32_fpnew_sdotp_multi.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+166      work.miv_rv32_fpnew_sdotp_multi_wrapper.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+167      work.miv_rv32_fpnew_top.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+168      work.miv_rv32_gated_clk_cell.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+169      work.miv_rv32_gpr.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+170      work.miv_rv32_gpr_ecc_bist_template.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+171      work.miv_rv32_gpr_ecc_enc_dec.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+172      work.miv_rv32_gpr_ecc_enc_dec_bistw_behav.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+173      work.miv_rv32_gpr_ram.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+174      work.miv_rv32_gpr_ram_array.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+175      work.miv_rv32_gpr_ram_init.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+176      work.miv_rv32_gpr_ram_mux.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+177      work.miv_rv32_hart.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+178      work.miv_rv32_icache_array.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+179      work.miv_rv32_icache_ram_init.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+180      work.miv_rv32_icache_ram_mux.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+181      work.miv_rv32_idecode.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+182      work.miv_rv32_ifu_iab.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+183      work.miv_rv32_ipcore.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+184      work.miv_rv32_irq_reg.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+185      work.miv_rv32_iteration_div_sqrt_mvp.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+186      work.miv_rv32_logic_mux_behav_v2.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+187      work.miv_rv32_lsu.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+188      work.miv_rv32_lzc.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+189      work.miv_rv32_mul.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+190      work.miv_rv32_norm_div_sqrt_mvp.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+191      work.miv_rv32_nrbd_nrsc_mvp.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+192      work.miv_rv32_pa_fdsu_ctrl.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+193      work.miv_rv32_pa_fdsu_ff1.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+194      work.miv_rv32_pa_fdsu_pack_single.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+195      work.miv_rv32_pa_fdsu_prepare.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+196      work.miv_rv32_pa_fdsu_round_single.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+197      work.miv_rv32_pa_fdsu_special.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+198      work.miv_rv32_pa_fdsu_srt_single.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+199      work.miv_rv32_pa_fdsu_top.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+200      work.miv_rv32_pa_fpu_dp.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+201      work.miv_rv32_pa_fpu_frbus.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+202      work.miv_rv32_pa_fpu_src_type.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+203      work.miv_rv32_popcount.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+204      work.miv_rv32_preprocess_mvp.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+205      work.miv_rv32_priv_irq.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+206      work.miv_rv32_ram_dport_reg.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+207      work.miv_rv32_ram_singleport_addreg.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+208      work.miv_rv32_ram_singleport_lp.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+209      work.miv_rv32_ram_singleport_lp_ecc.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+210      work.miv_rv32_rr_arb_tree.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+211      work.miv_rv32_rr_pri_arb.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+212      work.miv_rv32_strb_to_addr.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+213      work.miv_rv32_subsys_ahb_initiator.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+214      work.miv_rv32_subsys_apb_initiator.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+215      work.miv_rv32_subsys_axi_initiator.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+216      work.miv_rv32_subsys_debug.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+217      work.miv_rv32_subsys_icache.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+218      work.miv_rv32_subsys_interconnect.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+219      work.miv_rv32_subsys_mtime_irq.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+220      work.miv_rv32_subsys_regs.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+221      work.miv_rv32_subsys_tcm.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+222      work.miv_rv32_subsys_tcm_tas_apb_target.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+223      work.miv_rv32_subsys_udma.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+231      work.plic_gateway.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+234      work.sram_test_module.verilog may have changed because the following files changed:
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v (2026-01-19 02:29:11, 2026-01-19 02:45:18) <-- (may instantiate this module)
+                        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\hdl\sram_test_module.v (2026-01-19 02:29:06, 2026-01-19 02:44:27) <-- (module definition)
+
+*******************************************************************
+Unmodified files: 55
+FID:  path (timestamp)
+49       C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\acg5.v (2025-11-18 18:13:42)
+50       C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vlog\hypermods.v (2025-11-18 20:58:24)
+51       C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vlog\scemi_objects.v (2025-11-18 20:58:24)
+52       C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vlog\scemi_pipes.svh (2025-11-18 20:58:24)
+4        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Actel\DirectCore\COREJTAGDEBUG\4.0.100\core\corejtagdebug.v (2026-01-03 19:25:09)
+5        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Actel\DirectCore\COREJTAGDEBUG\4.0.100\core\corejtagdebug_bufd.v (2026-01-03 19:25:09)
+6        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Actel\DirectCore\COREJTAGDEBUG\4.0.100\core\corejtagdebug_uj_jtag.v (2026-01-03 19:25:09)
+7        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Actel\DirectCore\COREJTAGDEBUG\4.0.100\core\corejtagdebug_ujtag_wrapper.v (2026-01-03 19:25:09)
+8        C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v (2026-01-08 17:45:52)
+10       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microchip\MiV\MIV_APB3\2.0.100\rtl\vlog\core\miv_apb3.v (2026-01-12 14:08:06)
+11       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microchip\MiV\MIV_APB3\2.0.100\rtl\vlog\core\miv_apb3_iaddr_reg.v (2026-01-12 14:08:06)
+12       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microchip\MiV\MIV_APB3\2.0.100\rtl\vlog\core\miv_apb3_muxptob3.v (2026-01-12 14:08:06)
+13       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microchip\MiV\MIV_ESS_APB_TO_APB\2.0.100\rtl\MIV_ESS_APB_TO_APB.v (2026-01-12 14:08:06)
+14       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microchip\MiV\MIV_ESS_RESET_CTRL\2.0.101\rtl\MIV_ESS_RESET_CTRL.v (2026-01-12 14:08:06)
+15       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microchip\MiV\MIV_ESS_RESET_CTRL\2.0.101\rtl\RESET_CTRL.v (2026-01-12 14:08:06)
+55       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microchip\MiV\MIV_PLIC\2.0.100\core\apb_interface.v (2026-01-16 00:18:00)
+56       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microchip\MiV\MIV_PLIC\2.0.100\core\interrupt_claim_complete.v (2026-01-16 00:18:00)
+57       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microchip\MiV\MIV_PLIC\2.0.100\core\interrupt_enable_register.v (2026-01-16 00:18:00)
+58       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microchip\MiV\MIV_PLIC\2.0.100\core\interrupt_pending_register.v (2026-01-16 00:18:00)
+59       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microchip\MiV\MIV_PLIC\2.0.100\core\miv_plic.v (2026-01-16 00:18:00)
+60       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microchip\MiV\MIV_PLIC\2.0.100\core\plic_gateway.v (2026-01-16 00:18:00)
+16       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microsemi\MiV\MIV_RV32\3.1.200\hart_merged\miv_rv32_hart_merged.v (2026-01-12 14:07:40)
+17       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microsemi\MiV\MIV_RV32\3.1.200\memory\miv_rv32_ram_singleport_lp.v (2026-01-12 14:07:40)
+18       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microsemi\MiV\MIV_RV32\3.1.200\memory\miv_rv32_ram_singleport_lp_ecc.v (2026-01-12 14:07:40)
+19       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microsemi\MiV\MIV_RV32\3.1.200\pkg\miv_rv32_hart_cfg_pkg.v (2026-01-12 14:07:40)
+20       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microsemi\MiV\MIV_RV32\3.1.200\pkg\miv_rv32_pkg.v (2026-01-12 14:07:40)
+21       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microsemi\MiV\MIV_RV32\3.1.200\pkg\miv_rv32_subsys_pkg.v (2026-01-12 14:07:40)
+22       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microsemi\MiV\MIV_RV32\3.1.200\subsys_merged\miv_rv32_subsys_merged.v (2026-01-12 14:07:40)
+25       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\CORERESET_PF_C0\CORERESET_PF_C0.v (2026-01-05 16:05:27)
+26       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\CORERESET_PF_C0\CORERESET_PF_C0_0\core\corereset_pf.v (2026-01-05 16:05:27)
+27       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\CoreJTAGDebug_TRSTN_C0\CoreJTAGDebug_TRSTN_C0.v (2026-01-05 16:05:27)
+28       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\CoreTimer_C0\CoreTimer_C0.v (2026-01-16 00:04:36)
+30       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\MIV_ESS_C0\CoreGPIO_0\rtl\vlog\core\coregpio.v (2026-01-18 23:06:57)
+31       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\MIV_ESS_C0\CoreUARTapb_0\rtl\vlog\core\Clock_gen.v (2026-01-18 23:06:57)
+32       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\MIV_ESS_C0\CoreUARTapb_0\rtl\vlog\core\CoreUART.v (2026-01-18 23:06:57)
+33       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\MIV_ESS_C0\CoreUARTapb_0\rtl\vlog\core\CoreUARTapb.v (2026-01-18 23:06:57)
+34       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\MIV_ESS_C0\CoreUARTapb_0\rtl\vlog\core\Rx_async.v (2026-01-18 23:06:57)
+35       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\MIV_ESS_C0\CoreUARTapb_0\rtl\vlog\core\Tx_async.v (2026-01-18 23:06:57)
+36       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\MIV_ESS_C0\CoreUARTapb_0\rtl\vlog\core\fifo_256x8_g5.v (2026-01-18 23:06:57)
+37       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\MIV_ESS_C0\MIV_ESS_C0.v (2026-01-18 23:06:58)
+38       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\MIV_RV32_CFG1_C0\MIV_RV32_CFG1_C0.v (2026-01-16 18:22:43)
+39       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\MIV_RV32_CFG1_C0\MIV_RV32_CFG1_C0_0\rtl\miv_rv32.v (2026-01-16 18:22:43)
+40       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\PF_CCC_C0\PF_CCC_C0.v (2026-01-14 17:44:22)
+41       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v (2026-01-14 17:44:22)
+61       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\PF_DPSRAM_C0\PF_DPSRAM_C0.v (2026-01-19 02:06:10)
+62       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\PF_DPSRAM_C0\PF_DPSRAM_C0_0\PF_DPSRAM_C0_PF_DPSRAM_C0_0_PF_DPSRAM.v (2026-01-19 02:06:10)
+42       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\PF_INIT_MONITOR_C0\PF_INIT_MONITOR_C0.v (2026-01-05 16:05:52)
+43       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\PF_INIT_MONITOR_C0\PF_INIT_MONITOR_C0_0\PF_INIT_MONITOR_C0_PF_INIT_MONITOR_C0_0_PFSOC_INIT_MONITOR.v (2026-01-05 16:05:52)
+44       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\PF_SRAM_AHB_C0\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram.v (2026-01-16 14:24:27)
+45       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\PF_SRAM_AHB_C0\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_ECC.v (2026-01-16 14:24:27)
+53       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\PF_SRAM_AHB_C0\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_ECC_RT.v (2026-01-16 14:24:27)
+54       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\PF_SRAM_AHB_C0\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_RT.v (2026-01-16 14:24:27)
+46       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\PF_SRAM_AHB_C0\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_PF.v (2026-01-16 14:24:27)
+47       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\PF_SRAM_AHB_C0\PF_SRAM_AHB_C0.v (2026-01-16 14:24:30)
+48       C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\PF_SRAM_AHB_C0\PF_TPSRAM_AHB_AXI_0\PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v (2026-01-16 14:24:30)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

@@ -1,0 +1,50 @@
+{
+	"title": "Memory Map Report",
+	"date": "Wed Jan  7 18:12:13 2026",
+	"project_name": "MPFS_DISCOVERY_MIV_RV32_CFG1",
+	"project_location": "C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1",
+	"SmartDesign name": "BaseDesign",
+	"Initiator/Bus/Bridge/Target OffsetAddress Range HighAddress":[
+	{"Node name":"MIV_RV32_CFG1_C0_0:APB_INITIATOR",
+	"Component name":"MIV_RV32_CFG1_C0",
+	"Type":"Initiator",
+		"Connected Node":[
+			{"Node name":"MIV_ESS_C0_0/MIV_APB3_0:APB3mmaster",
+			"Component name":"MIV_APB3",
+			"Type":"Bus",
+				"Connected Node":[
+			{"Node name":"MIV_ESS_C0_0/CoreUARTapb_0:APB_bif",
+			"Component name":"CoreUARTapb",
+			"Offset Address":"0x7000_0000",
+			"Range":"0B",
+			"High Address":"0x6FFF_FFFF",
+			"DRC":"Error: Target 'MIV_ESS_C0_0/CoreUARTapb_0:APB_bif' with address space 0x7000_0000 - 0x6FFF_FFFF cannot be accessed by Initiator address space 0x7000_0000 - 0x7FFF_FFFF",
+			"Type":"Target"
+			},
+			{"Node name":"MIV_ESS_C0_0/CoreUARTapb_0:APB_bif",
+			"Component name":"CoreTimer_C0",
+			"Offset Address":"0x7000_0000",
+			"Range":"0B",
+			"High Address":"0x6FFF_FFFF",
+			"DRC":"Error: Target 'CoreTimer_C0_0:APBslave' with address space 0x7000_0000 - 0x6FFF_FFFF cannot be accessed by Initiator address space 0x7000_0000 - 0x7FFF_FFFF",
+			"Type":"Target"
+			},
+			{"Node name":"MIV_ESS_C0_0/CoreUARTapb_0:APB_bif",
+			"Component name":"CoreTimer_C1",
+			"Offset Address":"0x7000_0000",
+			"Range":"0B",
+			"High Address":"0x6FFF_FFFF",
+			"DRC":"Error: Target 'CoreTimer_C1_0:APBslave' with address space 0x7000_0000 - 0x6FFF_FFFF cannot be accessed by Initiator address space 0x7000_0000 - 0x7FFF_FFFF",
+			"Type":"Target"
+			},
+			{"Node name":"MIV_ESS_C0_0/CoreUARTapb_0:APB_bif",
+			"Component name":"CoreGPIO",
+			"Offset Address":"0x7000_0000",
+			"Range":"0B",
+			"High Address":"0x6FFF_FFFF",
+			"DRC":"Error: Target 'MIV_ESS_C0_0/CoreGPIO_0:APB_bif' with address space 0x7000_0000 - 0x6FFF_FFFF cannot be accessed by Initiator address space 0x7000_0000 - 0x7FFF_FFFF",
+			"Type":"Target"
+			}				]			}		]
+	}
+	]
+}

@@ -1,0 +1,5 @@
+Library, Design Unit ,Compile time , Hardware Gen ,Optimization Stg1 ,Optimization Stg2 , Peak Mem Usage, Incr Mem Usage, Hardware Gen ,Optimization Stg1 ,Optimization Stg2
+work, miv_rv32_debug_sba,0h:00m:01s,0h:00m:00s,0h:00m:00s,0h:00m:01s,   347 MB,    19 MB,     0 MB,     3 MB,    16 MB
+work, miv_rv32_ipcore_Z11,0h:00m:03s,0h:00m:03s,0h:00m:00s,0h:00m:00s,   348 MB,    23 MB,    23 MB,     0 MB,     0 MB
+work, miv_rv32_expipe_Z8,0h:00m:01s,0h:00m:00s,0h:00m:00s,0h:00m:01s,   357 MB,     2 MB,     0 MB,     2 MB,     0 MB
+work, miv_rv32_exu_1s_1s_1s_1s_2s_0s_0s_1_1_0,0h:00m:02s,0h:00m:00s,0h:00m:00s,0h:00m:01s,   375 MB,    50 MB,     0 MB,    26 MB,    23 MB

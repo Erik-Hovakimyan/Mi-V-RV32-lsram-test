@@ -1,0 +1,26 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.2 (Version 2025.2.0.14)
+
+Date      :  Fri Jan 16 00:04:37 2026
+Project   :  C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1
+Component :  CoreTimer_C0
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/component/Actel/DirectCore/CoreTimer/2.0.103/rtl/vlog/core/coretimer.v
+    C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/component/work/CoreTimer_C0/CoreTimer_C0.v
+
+Stimulus files for all Simulation tools:
+    C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/component/Actel/DirectCore/CoreTimer/2.0.103/mti/bfmtovec.exe
+    C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/component/Actel/DirectCore/CoreTimer/2.0.103/mti/bfmtovec.lin
+    C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/component/Actel/DirectCore/CoreTimer/2.0.103/mti/bfmtovec_compile.do
+    C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/component/Actel/DirectCore/CoreTimer/2.0.103/mti/wave.do
+    C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/component/Actel/DirectCore/CoreTimer/2.0.103/rtl/vlog/test/user_tb.bfm
+
+    C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/component/Actel/DirectCore/CoreTimer/2.0.103/rtl/vlog/amba_bfm/bfm_ahbtoapb.v
+    C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/component/Actel/DirectCore/CoreTimer/2.0.103/rtl/vlog/amba_bfm/bfm_apb.v
+    C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/component/Actel/DirectCore/CoreTimer/2.0.103/rtl/vlog/amba_bfm/bfm_apbtoapb.v
+    C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/component/Actel/DirectCore/CoreTimer/2.0.103/rtl/vlog/amba_bfm/bfm_main.v
+    C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/component/Actel/DirectCore/CoreTimer/2.0.103/rtl/vlog/amba_bfm/bfm_package.v
+    C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/component/Actel/DirectCore/CoreTimer/2.0.103/rtl/vlog/test/testbench.v
+

@@ -1,0 +1,19 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.2 (Version 2025.2.0.14)
+
+Date      :  Fri Jan 16 18:22:44 2026
+Project   :  C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1
+Component :  MIV_RV32_CFG1_C0
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/component/Microsemi/MiV/MIV_RV32/3.1.200/pkg/miv_rv32_hart_cfg_pkg.v
+    C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/component/Microsemi/MiV/MIV_RV32/3.1.200/pkg/miv_rv32_pkg.v
+    C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/component/Microsemi/MiV/MIV_RV32/3.1.200/pkg/miv_rv32_subsys_pkg.v
+    C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/component/Microsemi/MiV/MIV_RV32/3.1.200/subsys_merged/miv_rv32_subsys_merged.v
+    C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/component/Microsemi/MiV/MIV_RV32/3.1.200/hart_merged/miv_rv32_hart_merged.v
+    C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/component/Microsemi/MiV/MIV_RV32/3.1.200/memory/miv_rv32_ram_singleport_lp.v
+    C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/component/Microsemi/MiV/MIV_RV32/3.1.200/memory/miv_rv32_ram_singleport_lp_ecc.v
+    C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/component/work/MIV_RV32_CFG1_C0/MIV_RV32_CFG1_C0_0/rtl/miv_rv32.v
+    C:/polarfire-soc-discovery-kit-reference-design_REPO_N2/MPFS_DISCOVERY_MIV_RV32_CFG1/component/work/MIV_RV32_CFG1_C0/MIV_RV32_CFG1_C0.v
+

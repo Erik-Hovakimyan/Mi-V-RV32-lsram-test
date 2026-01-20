@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Compile Report</title>
+<text>Microchip Technology Inc. - Microchip Libero Software Release 2025.2 (Version 2025.2.0.14)</text>
+<text>Date: Mon Jan 19 02:48:49 2026
+</text>
+<section><name>Device Selection</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Family</cell>
+ <cell>PolarFireSoC</cell>
+</row>
+<row>
+ <cell>Device</cell>
+ <cell>MPFS095T</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>FCSG325</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>-1</cell>
+</row>
+<row>
+ <cell>Core Voltage</cell>
+ <cell>1.0V</cell>
+</row>
+<row>
+ <cell>Part Range</cell>
+ <cell>EXT</cell>
+</row>
+<row>
+ <cell>Default I/O technology</cell>
+ <cell>LVCMOS 1.8V</cell>
+</row>
+</table>
+<section><name>Source Files</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Topcell</cell>
+ <cell>BaseDesign</cell>
+</row>
+<row>
+ <cell>Format</cell>
+ <cell>Verilog</cell>
+</row>
+<row>
+ <cell>Source</cell>
+ <cell>C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\synthesis\BaseDesign.vm</cell>
+</row>
+</table>
+<section><name>Options</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Limit the number of high fanout nets to display to</cell>
+ <cell>10</cell>
+</row>
+</table>
+<section><name>Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>Used</cell>
+ <cell>Total</cell>
+ <cell>Percentage</cell>
+</header>
+<row>
+ <cell>4LUT</cell>
+ <cell>11385</cell>
+ <cell>93516</cell>
+ <cell>12.17</cell>
+</row>
+<row>
+ <cell>DFF</cell>
+ <cell>5638</cell>
+ <cell>93516</cell>
+ <cell>6.03</cell>
+</row>
+<row>
+ <cell>User I/O</cell>
+ <cell>9</cell>
+ <cell>80</cell>
+ <cell>11.25</cell>
+</row>
+<row>
+ <cell>-- Single-ended I/O</cell>
+ <cell>9</cell>
+ <cell>80</cell>
+ <cell>11.25</cell>
+</row>
+<row>
+ <cell>-- Differential I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>40</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>-- I/Os using I/O Registers</cell>
+ <cell>0</cell>
+ <cell>80</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>I/O Register Flip-Flops </cell>
+ <cell>0</cell>
+ <cell>240</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>-- Input  I/O Flip-Flops </cell>
+ <cell>0</cell>
+ <cell>80</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>-- Output I/O Flip-Flops </cell>
+ <cell>0</cell>
+ <cell>80</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>-- Enable I/O Flip-Flops </cell>
+ <cell>0</cell>
+ <cell>80</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>uSRAM</cell>
+ <cell>7</cell>
+ <cell>876</cell>
+ <cell>0.80</cell>
+</row>
+<row>
+ <cell>LSRAM</cell>
+ <cell>81</cell>
+ <cell>308</cell>
+ <cell>26.30</cell>
+</row>
+<row>
+ <cell>Math</cell>
+ <cell>4</cell>
+ <cell>292</cell>
+ <cell>1.37</cell>
+</row>
+<row>
+ <cell>H-Chip Global</cell>
+ <cell>3</cell>
+ <cell>48</cell>
+ <cell>6.25</cell>
+</row>
+<row>
+ <cell>PLL</cell>
+ <cell>1</cell>
+ <cell>8</cell>
+ <cell>12.50</cell>
+</row>
+<row>
+ <cell>DLL</cell>
+ <cell>0</cell>
+ <cell>8</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>UJTAG</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+ <cell>100.00</cell>
+</row>
+<row>
+ <cell>INIT</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+ <cell>100.00</cell>
+</row>
+<row>
+ <cell>Transceiver Lanes</cell>
+ <cell>0</cell>
+ <cell>2</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>Transceiver PCIe</cell>
+ <cell>0</cell>
+ <cell>2</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>ICB_CLKINT</cell>
+ <cell>2</cell>
+ <cell>68</cell>
+ <cell>2.94</cell>
+</row>
+<row>
+ <cell>MSS</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+ <cell>0.00</cell>
+</row>
+</table>
+<section><name>Detailed Logic Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>4LUT</cell>
+ <cell>DFF</cell>
+</header>
+<row>
+ <cell>Fabric Logic</cell>
+ <cell>8241</cell>
+ <cell>2494</cell>
+</row>
+<row>
+ <cell>uSRAM Interface Logic</cell>
+ <cell>84</cell>
+ <cell>84</cell>
+</row>
+<row>
+ <cell>LSRAM Interface Logic</cell>
+ <cell>2916</cell>
+ <cell>2916</cell>
+</row>
+<row>
+ <cell>Math Interface Logic</cell>
+ <cell>144</cell>
+ <cell>144</cell>
+</row>
+<row>
+ <cell>Total Used</cell>
+ <cell>11385</cell>
+ <cell>5638</cell>
+</row>
+</table>
+<section><name>Detailed Carry Chains Resource Usage</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Length</cell>
+ <cell>Used</cell>
+</row>
+<row>
+ <cell>6</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>11</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>14</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>17</cell>
+ <cell>4</cell>
+</row>
+<row>
+ <cell>20</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>30</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>32</cell>
+ <cell>6</cell>
+</row>
+<row>
+ <cell>33</cell>
+ <cell>5</cell>
+</row>
+<row>
+ <cell>64</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>65</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>Total</cell>
+ <cell>26</cell>
+</row>
+</table>
+<section><name>Detailed 4LUT Groups Resource Usage</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Length</cell>
+ <cell>Used</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>145</cell>
+</row>
+<row>
+ <cell>5</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>Total</cell>
+ <cell>146</cell>
+</row>
+</table>
+<section><name>Detailed Math Chains Resource Usage</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Length</cell>
+ <cell>Used</cell>
+</row>
+<row>
+ <cell>4</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>Total</cell>
+ <cell>1</cell>
+</row>
+</table>
+<section><name>I/O Function</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>w/o register</cell>
+ <cell>w/ register</cell>
+ <cell>w/ DDR register</cell>
+</header>
+<row>
+ <cell>Input I/O</cell>
+ <cell>4</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Output I/O</cell>
+ <cell>5</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Bidirectional I/O</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Input I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Output I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+</table>
+<section><name>Nets assigned to chip global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>2493</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_CCC_C0_0_OUT0_FABCLK_0_1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>205</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/TGT_TCK_GLB</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/genblk3.genblk1.TGT_TCK_GLB/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>18</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/iUDRCK</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CoreJTAGDebug_TRSTN_C0_0/CoreJTAGDebug_TRSTN_C0_0/N_2_inferred_clock_RNIMQNI2/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+</table>
+<section><name>Nets assigned to row global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+</table>
+<section><name>High fanout nets</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>784</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CORERESET_PF_C0_0_CORERESET_PF_C0_0_dff</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_15[0]</cell>
+</row>
+<row>
+ <cell>398</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/subsys_resetn_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/subsys_resetn</cell>
+</row>
+<row>
+ <cell>228</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/cpu_debug_mode_net</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_csr_privarch_0/gen_debug.debug_mode</cell>
+</row>
+<row>
+ <cell>166</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_fetch_unit_0/u_miv_rv32_ifu_iab_0/buff_resp_rd_ptr_Z[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_fetch_unit_0/u_miv_rv32_ifu_iab_0/buff_resp_rd_ptr[1]</cell>
+</row>
+<row>
+ <cell>157</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MIV_ESS_C0_0/ESS_SYS_RESETN</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MIV_ESS_C0_0/MIV_ESS_RESET_CTRL_0/ESS_SYS_RESETN</cell>
+</row>
+<row>
+ <cell>142</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/N_2738_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_idecode_0/instr_accepted_ex_6</cell>
+</row>
+<row>
+ <cell>133</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_operand0_mux_sel_ex_Z[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_operand0_mux_sel_ex[0]</cell>
+</row>
+<row>
+ <cell>128</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_SRAM_AHB_C0_0/ahbsram_addr_t[10]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_SRAM_AHB_C0_0/COREAHBLSRAM_PF_0/genblk1.genblk1.U_PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_AHBLSram/ahbsram_addr_t_cZ[10]</cell>
+</row>
+<row>
+ <cell>128</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_SRAM_AHB_C0_0/ahbsram_addr_t[9]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_SRAM_AHB_C0_0/COREAHBLSRAM_PF_0/genblk1.genblk1.U_PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_AHBLSram/ahbsram_addr_t_cZ[9]</cell>
+</row>
+<row>
+ <cell>128</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_SRAM_AHB_C0_0/ahbsram_addr_t[8]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_SRAM_AHB_C0_0/COREAHBLSRAM_PF_0/genblk1.genblk1.U_PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_AHBLSram/ahbsram_addr_t_cZ[8]</cell>
+</row>
+</table>
+<section><name>High fanout nets (through buffer trees)</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>784</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CORERESET_PF_C0_0_CORERESET_PF_C0_0_dff</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_15[0]</cell>
+</row>
+<row>
+ <cell>398</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/subsys_resetn_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/subsys_resetn</cell>
+</row>
+<row>
+ <cell>228</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/cpu_debug_mode_net</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_csr_privarch_0/gen_debug.debug_mode</cell>
+</row>
+<row>
+ <cell>166</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_fetch_unit_0/u_miv_rv32_ifu_iab_0/buff_resp_rd_ptr_Z[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_fetch_unit_0/u_miv_rv32_ifu_iab_0/buff_resp_rd_ptr[1]</cell>
+</row>
+<row>
+ <cell>157</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MIV_ESS_C0_0/ESS_SYS_RESETN</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MIV_ESS_C0_0/MIV_ESS_RESET_CTRL_0/ESS_SYS_RESETN</cell>
+</row>
+<row>
+ <cell>142</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/N_2738_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/u_idecode_0/instr_accepted_ex_6</cell>
+</row>
+<row>
+ <cell>133</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_operand0_mux_sel_ex_Z[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MIV_RV32_CFG1_C0_0/MIV_RV32_CFG1_C0_0/u_ipcore_0/u_hart_0/u_expipe_0/de_ex_pipe_operand0_mux_sel_ex[0]</cell>
+</row>
+<row>
+ <cell>128</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_SRAM_AHB_C0_0/ahbsram_addr_t[10]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_SRAM_AHB_C0_0/COREAHBLSRAM_PF_0/genblk1.genblk1.U_PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_AHBLSram/ahbsram_addr_t_cZ[10]</cell>
+</row>
+<row>
+ <cell>128</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_SRAM_AHB_C0_0/ahbsram_addr_t[9]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_SRAM_AHB_C0_0/COREAHBLSRAM_PF_0/genblk1.genblk1.U_PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_AHBLSram/ahbsram_addr_t_cZ[9]</cell>
+</row>
+<row>
+ <cell>128</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_SRAM_AHB_C0_0/ahbsram_addr_t[8]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_SRAM_AHB_C0_0/COREAHBLSRAM_PF_0/genblk1.genblk1.U_PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_AHBLSram/ahbsram_addr_t_cZ[8]</cell>
+</row>
+</table>
+</doc>

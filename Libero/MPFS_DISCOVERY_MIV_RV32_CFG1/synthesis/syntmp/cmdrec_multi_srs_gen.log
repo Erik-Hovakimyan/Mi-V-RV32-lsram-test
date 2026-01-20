@@ -1,0 +1,7 @@
+C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\bin64\syn_nfilter.exe  -link  -top  BaseDesign  -multisrs  C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\synthesis\synwork\BaseDesign_comp.srs  -osyn  C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\synthesis\synwork\BaseDesign_mult.srs  -log  C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\synthesis\synlog\BaseDesign_multi_srs_gen.srr 
+relcom:..\..\..\..\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\bin64\syn_nfilter.exe -link -top BaseDesign -multisrs ..\synwork\BaseDesign_comp.srs -osyn ..\synwork\BaseDesign_mult.srs -log ..\synlog\BaseDesign_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\basedesign_comp.srs|io:i|time:1768776473|size:486570|exec:0|csum:5BFFD12D86081E0B31BBFA4E81E0F595
+file:..\synwork\basedesign_mult.srs|io:o|time:1768776475|size:10292|exec:0|csum:
+file:..\synlog\basedesign_multi_srs_gen.srr|io:o|time:1768776475|size:1229|exec:0|csum:
+file:..\..\..\..\microchip\libero_soc_2025.2\libero_soc\synplify_pro\bin64\syn_nfilter.exe|io:i|time:1763486150|size:10805248|exec:1|csum:DD061854CD136B38774287DB8598CC64

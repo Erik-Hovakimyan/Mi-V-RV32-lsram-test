@@ -1,0 +1,15 @@
+Software Version: 2025.2.0.14
+Opened 'C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\designer\BaseDesign\BaseDesign_fp\BaseDesign.pro'
+PDB file 'C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\designer\BaseDesign\BaseDesign.pdb' has been loaded successfully.
+DESIGN : BaseDesign;  CHECKSUM : 7584;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+Info: Design version: 0
+File/Folder 'C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\designer\BaseDesign\BaseDesign.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\designer\BaseDesign\BaseDesign.ppd'; file programs Fabric and sNVM.
+Fabric component bitstream digest: cd9f13644c96f483ea2c60c2b6136da9806b82efeebbf32505653b52b2790241
+sNVM component bitstream digest: b779f82bfea3368dc3448b22ae33d3793d43c589bc6febcf270bc4ffc49cbb1d
+Entire bitstream digest: 0a4bf41147c95600cbc9e07f005a806dd4cf1801e2666c71f06814d1c5673c57
+Finished: Tue Jan 20 15:58:24 2026 (Elapsed time 00:00:34)
+
+Project saved.
+Project closed.

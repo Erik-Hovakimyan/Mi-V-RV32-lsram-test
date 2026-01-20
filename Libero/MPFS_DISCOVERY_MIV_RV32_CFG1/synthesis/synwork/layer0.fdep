@@ -1,0 +1,482 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\synthesis\\synwork\\BaseDesign_comp.srs|-top|BaseDesign|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\synthesis\\|-I|C:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib|-sysv|-devicelib|C:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\generic\\acg5.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|COREJTAGDEBUG_LIB|-lib|COREJTAGDEBUG_LIB|-lib|COREJTAGDEBUG_LIB|-lib|COREJTAGDEBUG_LIB|-lib|work|-lib|CORETIMER_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|MIV_APB3_LIB|-lib|MIV_APB3_LIB|-lib|MIV_APB3_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\bin64\\c_ver.exe":1763485870
+#CUR:"C:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\generic\\acg5.v":1763475222
+#CUR:"C:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vlog\\hypermods.v":1763485104
+#CUR:"C:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vlog\\scemi_objects.v":1763485104
+#CUR:"C:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vlog\\scemi_pipes.svh":1763485104
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\syn_comps.v":1768776402
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\work\\CORERESET_PF_C0\\CORERESET_PF_C0_0\\core\\corereset_pf.v":1767614727
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\work\\CORERESET_PF_C0\\CORERESET_PF_C0.v":1767614727
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\Actel\\DirectCore\\COREJTAGDEBUG\\4.0.100\\core\\corejtagdebug_bufd.v":1767453909
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\Actel\\DirectCore\\COREJTAGDEBUG\\4.0.100\\core\\corejtagdebug_uj_jtag.v":1767453909
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\Actel\\DirectCore\\COREJTAGDEBUG\\4.0.100\\core\\corejtagdebug_ujtag_wrapper.v":1767453909
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\Actel\\DirectCore\\COREJTAGDEBUG\\4.0.100\\core\\corejtagdebug.v":1767453909
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\work\\CoreJTAGDebug_TRSTN_C0\\CoreJTAGDebug_TRSTN_C0.v":1767614727
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\Actel\\DirectCore\\CoreTimer\\2.0.103\\rtl\\vlog\\core\\coretimer.v":1767879952
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\work\\CoreTimer_C0\\CoreTimer_C0.v":1768507476
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\Microchip\\MiV\\MIV_ESS_APB_TO_APB\\2.0.100\\rtl\\MIV_ESS_APB_TO_APB.v":1768212486
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\work\\MIV_ESS_C0\\CoreGPIO_0\\rtl\\vlog\\core\\coregpio.v":1768763217
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\work\\MIV_ESS_C0\\CoreUARTapb_0\\rtl\\vlog\\core\\Clock_gen.v":1768763217
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\work\\MIV_ESS_C0\\CoreUARTapb_0\\rtl\\vlog\\core\\Rx_async.v":1768763217
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\work\\MIV_ESS_C0\\CoreUARTapb_0\\rtl\\vlog\\core\\Tx_async.v":1768763217
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\work\\MIV_ESS_C0\\CoreUARTapb_0\\rtl\\vlog\\core\\fifo_256x8_g5.v":1768763217
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\work\\MIV_ESS_C0\\CoreUARTapb_0\\rtl\\vlog\\core\\CoreUART.v":1768763217
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\work\\MIV_ESS_C0\\CoreUARTapb_0\\rtl\\vlog\\core\\CoreUARTapb.v":1768763217
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\Microchip\\MiV\\MIV_ESS_RESET_CTRL\\2.0.101\\rtl\\RESET_CTRL.v":1768212486
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\Microchip\\MiV\\MIV_ESS_RESET_CTRL\\2.0.101\\rtl\\MIV_ESS_RESET_CTRL.v":1768212486
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\Microchip\\MiV\\MIV_PLIC\\2.0.100\\core\\apb_interface.v":1768508280
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\Microchip\\MiV\\MIV_PLIC\\2.0.100\\core\\interrupt_claim_complete.v":1768508280
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\Microchip\\MiV\\MIV_PLIC\\2.0.100\\core\\interrupt_enable_register.v":1768508280
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\Microchip\\MiV\\MIV_PLIC\\2.0.100\\core\\interrupt_pending_register.v":1768508280
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\Microchip\\MiV\\MIV_PLIC\\2.0.100\\core\\plic_gateway.v":1768508280
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\Microchip\\MiV\\MIV_PLIC\\2.0.100\\core\\miv_plic.v":1768508280
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\Microchip\\MiV\\MIV_APB3\\2.0.100\\rtl\\vlog\\core\\miv_apb3_muxptob3.v":1768212486
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\Microchip\\MiV\\MIV_APB3\\2.0.100\\rtl\\vlog\\core\\miv_apb3_iaddr_reg.v":1768212486
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\Microchip\\MiV\\MIV_APB3\\2.0.100\\rtl\\vlog\\core\\miv_apb3.v":1768212486
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\work\\MIV_ESS_C0\\MIV_ESS_C0.v":1768763218
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\Microsemi\\MiV\\MIV_RV32\\3.1.200\\pkg\\miv_rv32_hart_cfg_pkg.v":1768212460
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\Microsemi\\MiV\\MIV_RV32\\3.1.200\\pkg\\miv_rv32_pkg.v":1768212460
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\Microsemi\\MiV\\MIV_RV32\\3.1.200\\hart_merged\\miv_rv32_hart_merged.v":1768212460
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\Microsemi\\MiV\\MIV_RV32\\3.1.200\\pkg\\miv_rv32_subsys_pkg.v":1768212460
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\Microsemi\\MiV\\MIV_RV32\\3.1.200\\subsys_merged\\miv_rv32_subsys_merged.v":1768212460
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\Microsemi\\MiV\\MIV_RV32\\3.1.200\\memory\\miv_rv32_ram_singleport_lp_ecc.v":1768212460
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\Microsemi\\MiV\\MIV_RV32\\3.1.200\\memory\\miv_rv32_ram_singleport_lp.v":1768212460
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\work\\MIV_RV32_CFG1_C0\\MIV_RV32_CFG1_C0_0\\rtl\\miv_rv32.v":1768573363
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\work\\MIV_RV32_CFG1_C0\\MIV_RV32_CFG1_C0.v":1768573363
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\work\\PF_CCC_C0\\PF_CCC_C0_0\\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v":1768398262
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\work\\PF_CCC_C0\\PF_CCC_C0.v":1768398262
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\work\\PF_DPSRAM_C0\\PF_DPSRAM_C0_0\\PF_DPSRAM_C0_PF_DPSRAM_C0_0_PF_DPSRAM.v":1768773970
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\work\\PF_DPSRAM_C0\\PF_DPSRAM_C0.v":1768773970
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\work\\PF_INIT_MONITOR_C0\\PF_INIT_MONITOR_C0_0\\PF_INIT_MONITOR_C0_PF_INIT_MONITOR_C0_0_PFSOC_INIT_MONITOR.v":1767614752
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\work\\PF_INIT_MONITOR_C0\\PF_INIT_MONITOR_C0.v":1767614752
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\work\\PF_SRAM_AHB_C0\\PF_TPSRAM_AHB_AXI_0\\PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v":1768559070
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\work\\PF_SRAM_AHB_C0\\COREAHBLSRAM_PF_0\\rtl\\vlog\\core\\CoreAHBLSRAM_AHBLSram_ECC_RT.v":1768559067
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\work\\PF_SRAM_AHB_C0\\COREAHBLSRAM_PF_0\\rtl\\vlog\\core\\CoreAHBLSRAM_AHBLSram_ECC.v":1768559067
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\work\\PF_SRAM_AHB_C0\\COREAHBLSRAM_PF_0\\rtl\\vlog\\core\\CoreAHBLSRAM_AHBLSram_RT.v":1768559067
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\work\\PF_SRAM_AHB_C0\\COREAHBLSRAM_PF_0\\rtl\\vlog\\core\\CoreAHBLSRAM_AHBLSram.v":1768559067
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\work\\PF_SRAM_AHB_C0\\COREAHBLSRAM_PF_0\\rtl\\vlog\\core\\CoreAHBLSRAM_PF.v":1768559067
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\work\\PF_SRAM_AHB_C0\\PF_SRAM_AHB_C0.v":1768559070
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\hdl\\sram_test_module.v":1768776267
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\work\\BaseDesign\\BaseDesign.v":1768776318
+#CUR:"C:\\polarfire-soc-discovery-kit-reference-design_REPO_N2\\MPFS_DISCOVERY_MIV_RV32_CFG1\\component\\MSS_syn_comps.v":1768776402
+#CUR:"miv_rv32_ifu_iab_32s_2s_3s_2s_0s_buff_entry_addr_req_32888_initial_block":1768776431
+#CUR:"miv_rv32_ifu_iab_32s_2s_3s_2s_0s_buff_entry_addr_req_32888_initial_block":1768776431
+#CUR:"miv_rv32_ifu_iab_32s_2s_3s_2s_0s_buff_entry_addr_req_32888_initial_block":1768776431
+#CUR:"miv_rv32_buffer_6s_2s_1s_1s_buff_data_32888_initial_block":1768776438
+#CUR:"miv_rv32_buffer_6s_2s_1s_1s_buff_data_32888_initial_block":1768776438
+#CUR:"miv_rv32_buffer_11s_2s_1s_1s_buff_data_32888_initial_block":1768776439
+#CUR:"miv_rv32_buffer_11s_2s_1s_1s_buff_data_32888_initial_block":1768776439
+#CUR:"miv_rv32_buffer_7s_2s_1s_1s_buff_data_32888_initial_block":1768776439
+#CUR:"miv_rv32_buffer_7s_2s_1s_1s_buff_data_32888_initial_block":1768776439
+#numinternalfiles:4
+#defaultlanguage:verilog
+0			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\syn_comps.v" verilog
+1			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\CORERESET_PF_C0\CORERESET_PF_C0_0\core\corereset_pf.v" verilog
+2			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\CORERESET_PF_C0\CORERESET_PF_C0.v" verilog
+3			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Actel\DirectCore\COREJTAGDEBUG\4.0.100\core\corejtagdebug_bufd.v" verilog
+4			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Actel\DirectCore\COREJTAGDEBUG\4.0.100\core\corejtagdebug_uj_jtag.v" verilog
+5			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Actel\DirectCore\COREJTAGDEBUG\4.0.100\core\corejtagdebug_ujtag_wrapper.v" verilog
+6			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Actel\DirectCore\COREJTAGDEBUG\4.0.100\core\corejtagdebug.v" verilog
+7			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\CoreJTAGDebug_TRSTN_C0\CoreJTAGDebug_TRSTN_C0.v" verilog
+8			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v" verilog
+9			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\CoreTimer_C0\CoreTimer_C0.v" verilog
+10			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microchip\MiV\MIV_ESS_APB_TO_APB\2.0.100\rtl\MIV_ESS_APB_TO_APB.v" verilog
+11			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\MIV_ESS_C0\CoreGPIO_0\rtl\vlog\core\coregpio.v" verilog
+12			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\MIV_ESS_C0\CoreUARTapb_0\rtl\vlog\core\Clock_gen.v" verilog
+13			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\MIV_ESS_C0\CoreUARTapb_0\rtl\vlog\core\Rx_async.v" verilog
+14			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\MIV_ESS_C0\CoreUARTapb_0\rtl\vlog\core\Tx_async.v" verilog
+15			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\MIV_ESS_C0\CoreUARTapb_0\rtl\vlog\core\fifo_256x8_g5.v" verilog
+16			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\MIV_ESS_C0\CoreUARTapb_0\rtl\vlog\core\CoreUART.v" verilog
+17			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\MIV_ESS_C0\CoreUARTapb_0\rtl\vlog\core\CoreUARTapb.v" verilog
+18			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microchip\MiV\MIV_ESS_RESET_CTRL\2.0.101\rtl\RESET_CTRL.v" verilog
+19			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microchip\MiV\MIV_ESS_RESET_CTRL\2.0.101\rtl\MIV_ESS_RESET_CTRL.v" verilog
+20			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microchip\MiV\MIV_PLIC\2.0.100\core\apb_interface.v" verilog
+21			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microchip\MiV\MIV_PLIC\2.0.100\core\interrupt_claim_complete.v" verilog
+22			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microchip\MiV\MIV_PLIC\2.0.100\core\interrupt_enable_register.v" verilog
+23			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microchip\MiV\MIV_PLIC\2.0.100\core\interrupt_pending_register.v" verilog
+24			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microchip\MiV\MIV_PLIC\2.0.100\core\plic_gateway.v" verilog
+25			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microchip\MiV\MIV_PLIC\2.0.100\core\miv_plic.v" verilog
+26			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microchip\MiV\MIV_APB3\2.0.100\rtl\vlog\core\miv_apb3_muxptob3.v" verilog
+27			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microchip\MiV\MIV_APB3\2.0.100\rtl\vlog\core\miv_apb3_iaddr_reg.v" verilog
+28			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microchip\MiV\MIV_APB3\2.0.100\rtl\vlog\core\miv_apb3.v" verilog
+29			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\MIV_ESS_C0\MIV_ESS_C0.v" verilog
+30			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microsemi\MiV\MIV_RV32\3.1.200\pkg\miv_rv32_hart_cfg_pkg.v" verilog
+31			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microsemi\MiV\MIV_RV32\3.1.200\pkg\miv_rv32_pkg.v" verilog
+32			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microsemi\MiV\MIV_RV32\3.1.200\hart_merged\miv_rv32_hart_merged.v" verilog
+33			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microsemi\MiV\MIV_RV32\3.1.200\pkg\miv_rv32_subsys_pkg.v" verilog
+34			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microsemi\MiV\MIV_RV32\3.1.200\subsys_merged\miv_rv32_subsys_merged.v" verilog
+35			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microsemi\MiV\MIV_RV32\3.1.200\memory\miv_rv32_ram_singleport_lp_ecc.v" verilog
+36			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microsemi\MiV\MIV_RV32\3.1.200\memory\miv_rv32_ram_singleport_lp.v" verilog
+37			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\MIV_RV32_CFG1_C0\MIV_RV32_CFG1_C0_0\rtl\miv_rv32.v" verilog
+38			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\MIV_RV32_CFG1_C0\MIV_RV32_CFG1_C0.v" verilog
+39			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v" verilog
+40			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\PF_CCC_C0\PF_CCC_C0.v" verilog
+41			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\PF_DPSRAM_C0\PF_DPSRAM_C0_0\PF_DPSRAM_C0_PF_DPSRAM_C0_0_PF_DPSRAM.v" verilog
+42			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\PF_DPSRAM_C0\PF_DPSRAM_C0.v" verilog
+43			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\PF_INIT_MONITOR_C0\PF_INIT_MONITOR_C0_0\PF_INIT_MONITOR_C0_PF_INIT_MONITOR_C0_0_PFSOC_INIT_MONITOR.v" verilog
+44			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\PF_INIT_MONITOR_C0\PF_INIT_MONITOR_C0.v" verilog
+45			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\PF_SRAM_AHB_C0\PF_TPSRAM_AHB_AXI_0\PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v" verilog
+46			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\PF_SRAM_AHB_C0\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_ECC_RT.v" verilog
+47			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\PF_SRAM_AHB_C0\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_ECC.v" verilog
+48			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\PF_SRAM_AHB_C0\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_RT.v" verilog
+49			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\PF_SRAM_AHB_C0\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram.v" verilog
+50			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\PF_SRAM_AHB_C0\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_PF.v" verilog
+51			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\PF_SRAM_AHB_C0\PF_SRAM_AHB_C0.v" verilog
+52			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\hdl\sram_test_module.v" verilog
+53			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\work\BaseDesign\BaseDesign.v" verilog
+54			"C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\MSS_syn_comps.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 1
+3 -1
+4 3
+5 -1
+6 3 4 5
+7 6
+8 -1
+9 8
+10 -1
+11 -1
+12 -1
+13 -1
+14 -1
+15 -1
+16 12 14 13 15
+17 16
+18 -1
+19 18
+20 -1
+21 -1
+22 -1
+23 -1
+24 -1
+25 20 21 22 23 24
+26 -1
+27 -1
+28 26 27
+29 11 17 28 10 19 25
+30 -1
+31 -1
+32 31 30
+33 -1
+34 33 32 35 36
+35 -1
+36 -1
+37 34
+38 37
+39 0
+40 39
+41 -1
+42 41
+43 0
+44 43
+45 -1
+46 -1
+47 -1
+48 -1
+49 -1
+50 49 47 48 46
+51 50 45
+52 -1
+53 7 2 9 29 38 40 42 44 51 52
+54 -1
+#Dependency Lists(Users Of)
+0 39 43
+1 2
+2 53
+3 4 6
+4 6
+5 6
+6 7
+7 53
+8 9
+9 53
+10 29
+11 29
+12 16
+13 16
+14 16
+15 16
+16 17
+17 29
+18 19
+19 29
+20 25
+21 25
+22 25
+23 25
+24 25
+25 29
+26 28
+27 28
+28 29
+29 53
+30 32
+31 32
+32 34
+33 34
+34 37
+35 34
+36 34
+37 38
+38 53
+39 40
+40 53
+41 42
+42 53
+43 44
+44 53
+45 51
+46 50
+47 50
+48 50
+49 50
+50 51
+51 53
+52 53
+53 -1
+54 -1
+#Design Unit to File Association
+module work APBM 0
+module work APBS 0
+module work BANKCTRLM 0
+module work BANKCTRL_GPIO 0
+module work BANKCTRL_HSIO 0
+module work BANKEN 0
+module work CRN_COMMON 0
+module work CRN_INT 0
+module work CRYPTO 0
+module work CRYPTO_SOC 0
+module work DEBUG 0
+module work DLL 0
+module work DRI 0
+module work ENFORCE 0
+module work GLITCHDETECT 0
+module work GPSS_COMMON 0
+module work HS_IO_CLK 0
+module work ICB_BANKCLK 0
+module work ICB_CLKDIVDELAY 0
+module work ICB_CLKDIV 0
+module work ICB_CLKINT 0
+module work ICB_CLKSTOP_EN 0
+module work ICB_CLKSTOP 0
+module work ICB_INT 0
+module work ICB_MUXING 0
+module work ICB_NGMUX 0
+module work INIT 0
+module work IOD 0
+module work LANECTRL 0
+module work LANERST 0
+module work OSC_RC160MHZ 0
+module work OSC_RC200MHZ 0
+module work OSC_RC2MHZ 0
+module work PCIE_COMMON 0
+module work PCIE 0
+module work PF_SPI 0
+module work PLL 0
+module work QUADRST_PCIE 0
+module work QUADRST 0
+module work SCB 0
+module work SYSCTRL_RESET_STATUS 0
+module work SYSRESET 0
+module work SYS_SERVICES 0
+module work TAMPER 0
+module work TVS 0
+module work TX_PLL 0
+module work UPROM 0
+module work USPI 0
+module work VOLTAGEDETECT 0
+module work VREFBANKDYN 0
+module work VREFCTRL 0
+module work XCVR_64B6XB 0
+module work XCVR_8B10B 0
+module work XCVR_APB_LINK 0
+module work XCVR_APB_LINK_V 0
+module work XCVR_APB_LINK_V2 0
+module work XCVR_DUAL_PCS 0
+module work XCVR_PIPE_AXI0 0
+module work XCVR_PIPE_AXI1 0
+module work XCVR_PIPE 0
+module work XCVR_PMA 0
+module work XCVR_REF_CLK_N 0
+module work XCVR_REF_CLK_P 0
+module work XCVR_REF_CLK 0
+module work XCVR_TEST 0
+module work XCVR_VV 0
+module work XCVR 0
+module work CORELNKTMR_V 0
+module work PFSOC_SCSM 0
+module work MCHP_BLIC 0
+module work CLKBUF_DIFF 0
+module work CLKBUF_DIFF_ODT 0
+module work CORERESET_PF_C0_CORERESET_PF_C0_0_CORERESET_PF 1
+module work CORERESET_PF_C0 2
+module work CoreJTAGDebug_TRSTN_C0 7
+module work CoreTimer_C0 9
+module work MIV_ESS_APB_TO_APB 10
+module work MIV_ESS_C0_CoreGPIO_0_CoreGPIO 11
+module work MIV_ESS_C0_CoreUARTapb_0_Clock_gen 12
+module work MIV_ESS_C0_CoreUARTapb_0_Rx_async 13
+module work MIV_ESS_C0_CoreUARTapb_0_Tx_async 14
+module work MIV_ESS_C0_CoreUARTapb_0_fifo_256x8 15
+module work MIV_ESS_C0_CoreUARTapb_0_fifo_ctrl_256 15
+module work MIV_ESS_C0_CoreUARTapb_0_ram256x8_g5 15
+module work MIV_ESS_C0_CoreUARTapb_0_COREUART 16
+module work MIV_ESS_C0_CoreUARTapb_0_CoreUARTapb 17
+module work RESET_CTRL 18
+module work MIV_ESS_RESET_CTRL 19
+module work apb_interface 20
+module work interrupt_claim_complete 21
+module work interrupt_enable_register 22
+module work interrupt_pending_register 23
+module work plic_gateway 24
+module work MIV_PLIC 25
+module work MIV_ESS_C0 29
+package work miv_rv32_hart_cfg_pkg 30
+package work miv_rv32_pkg 31
+module work miv_rv32_common_buffer_behav 32
+package work work_C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microsemi\MiV\MIV_RV32\3.1.200\hart_merged\miv_rv32_hart_merged.v_unit 32
+module work miv_rv32_bcu 32
+module work miv_rv32_hart 32
+module work miv_rv32_fetch_unit 32
+module work miv_rv32_lsu 32
+module work miv_rv32_expipe 32
+module work miv_rv32_csr_decode 32
+module work miv_rv32_csr_privarch 32
+module work miv_rv32_priv_irq 32
+module work miv_rv32_csr_gpr_state_reg 32
+module work miv_rv32_gpr 32
+module work miv_rv32_gpr_ram 32
+module work miv_rv32_gpr_ram_init 32
+module work miv_rv32_gpr_ram_mux 32
+module work miv_rv32_gpr_ecc_enc_dec 32
+module work miv_rv32_gpr_ram_array 32
+module work miv_rv32_irq_reg 32
+module work miv_rv32_idecode 32
+module work miv_rv32_exu 32
+module work miv_rv32_mul 32
+module work miv_rv32_fpnew_top 32
+module work miv_rv32_ifu_iab 32
+module work miv_rv32_bistdualdata_behav 32
+module work miv_rv32_bistmux 32
+module work miv_rv32_bistdual_behav 32
+module work miv_rv32_bistdual_eccw 32
+module work miv_rv32_bist_err_inject 32
+module work miv_rv32_bist_ecc 32
+module work miv_rv32_bistdual_err_mask 32
+module work miv_rv32_bistdual_pl_enable 32
+module work miv_rv32_bistdual_ram_init 32
+module work miv_rv32_bistdual_ram_stabilizer 32
+module work miv_rv32_logic_mux_behav_v2 32
+module work miv_rv32_bist_decode 32
+module work miv_rv32_bist_ecc_empty 32
+module work miv_rv32_bist_ecc_core 32
+module work miv_rv32_bist_ecc_write 32
+module work miv_rv32_bist_ecc_read 32
+module work miv_rv32_bist_pipeline 32
+module work miv_rv32_bist_template_dual_behav 32
+module work miv_rv32_ram_dport_reg 32
+module work miv_rv32_dpr_hqa_dual_storage_bistw_behav 32
+module work miv_rv32_dpr_hqa_dual_storage_rbcw 32
+module work miv_rv32_gpr_ecc_bist_template 32
+module work miv_rv32_gpr_ecc_enc_dec_bistw_behav 32
+module work miv_rv32_fpnew_opgroup_block 32
+module work miv_rv32_rr_arb_tree 32
+module work miv_rv32_control_mvp 32
+module work miv_rv32_iteration_div_sqrt_mvp 32
+module work miv_rv32_div_sqrt_top_mvp 32
+module work miv_rv32_preprocess_mvp 32
+module work miv_rv32_nrbd_nrsc_mvp 32
+module work miv_rv32_norm_div_sqrt_mvp 32
+module work miv_rv32_fpnew_sdotp_multi_wrapper 32
+module work miv_rv32_fpnew_sdotp_multi 32
+module work miv_rv32_fpnew_classifier 32
+module work miv_rv32_lzc 32
+module work miv_rv32_fpnew_rounding 32
+module work miv_rv32_fpnew_cast_multi 32
+module work miv_rv32_fpnew_divsqrt_multi 32
+module work miv_rv32_fpnew_fma 32
+module work miv_rv32_fpnew_fma_multi 32
+module work miv_rv32_fpnew_noncomp 32
+module work miv_rv32_fpnew_opgroup_fmt_slice 32
+module work miv_rv32_fpnew_opgroup_multifmt_slice 32
+module work miv_rv32_fpnew_divsqrt_th_32 32
+module work miv_rv32_popcount 32
+module work miv_rv32_pa_fdsu_top 32
+module work miv_rv32_pa_fpu_dp 32
+module work miv_rv32_pa_fpu_frbus 32
+module work miv_rv32_gated_clk_cell 32
+module work miv_rv32_pa_fdsu_ctrl 32
+module work miv_rv32_pa_fdsu_ff1 32
+module work miv_rv32_pa_fdsu_pack_single 32
+module work miv_rv32_pa_fdsu_prepare 32
+module work miv_rv32_pa_fdsu_round_single 32
+module work miv_rv32_pa_fdsu_special 32
+module work miv_rv32_pa_fdsu_srt_single 32
+module work miv_rv32_pa_fpu_src_type 32
+package work miv_rv32_subsys_pkg 33
+package work work_C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1\component\Microsemi\MiV\MIV_RV32\3.1.200\subsys_merged\miv_rv32_subsys_merged.v_unit 34
+module work miv_rv32_ipcore 34
+module work miv_rv32_subsys_debug 34
+module work miv_rv32_subsys_interconnect 34
+module work miv_rv32_subsys_apb_initiator 34
+module work miv_rv32_subsys_tcm_tas_apb_target 34
+module work miv_rv32_subsys_tcm 34
+module work miv_rv32_subsys_axi_initiator 34
+module work miv_rv32_subsys_ahb_initiator 34
+module work miv_rv32_subsys_udma 34
+module work miv_rv32_subsys_mtime_irq 34
+module work miv_rv32_subsys_icache 34
+module work miv_rv32_buffer 34
+module work miv_rv32_subsys_regs 34
+module work miv_rv32_rr_pri_arb 34
+module work miv_rv32_strb_to_addr 34
+module work miv_rv32_axi_rchan 34
+module work miv_rv32_axi_wchan 34
+module work miv_rv32_axi_egress_buffer 34
+module work miv_rv32_axi_egress_slip_buffer 34
+module work miv_rv32_axi_ingress_buffer 34
+module work miv_rv32_axi_xaddr_buffer 34
+module work miv_rv32_axi_xaddr_buffer_slot 34
+module work miv_rv32_fixed_arb 34
+module work miv_rv32_ram_singleport_addreg 34
+module work miv_rv32_ram_singleport_lp_ecc 35
+module work miv_rv32_ram_singleport_lp 36
+module work miv_rv32_bootrom 34
+module work miv_rv32_icache_ram_init 34
+module work miv_rv32_icache_ram_mux 34
+module work miv_rv32_icache_array 34
+module work miv_rv32_debug_dtm_jtag 34
+module work miv_rv32_debug_fifo 34
+module work miv_rv32_debug_du 34
+module work miv_rv32_debug_sba 34
+module work MIV_RV32_CFG1_C0_MIV_RV32_CFG1_C0_0_MIV_RV32 37
+module work MIV_RV32_CFG1_C0 38
+module work PF_CCC_C0_PF_CCC_C0_0_PF_CCC 39
+module work PF_CCC_C0 40
+module work PF_DPSRAM_C0_PF_DPSRAM_C0_0_PF_DPSRAM 41
+module work PF_DPSRAM_C0 42
+module work PF_INIT_MONITOR_C0_PF_INIT_MONITOR_C0_0_PFSOC_INIT_MONITOR 43
+module work PF_INIT_MONITOR_C0 44
+module work PF_SRAM_AHB_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM 45
+module work PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_ECC_RT 46
+module work PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_ECC 47
+module work PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_RT 48
+module work PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram 49
+module work PF_SRAM_AHB_C0_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF 50
+module work PF_SRAM_AHB_C0 51
+module work sram_test_module 52
+module work BaseDesign 53
+module work MSS 54
+module COREJTAGDEBUG_LIB corejtagdebug_bufd 3
+module COREJTAGDEBUG_LIB COREJTAGDEBUG_UJ_JTAG 4
+module COREJTAGDEBUG_LIB UJTAG_WRAPPER 5
+module COREJTAGDEBUG_LIB COREJTAGDEBUG 6
+module CORETIMER_LIB CoreTimer 8
+module MIV_APB3_LIB MIV_APB3_MUXPTOB3 26
+module MIV_APB3_LIB miv_apb3_iaddr_reg 27
+module MIV_APB3_LIB MIV_APB3 28
+
+#identified top module
+top_module BaseDesign
