@@ -32,7 +32,7 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "EXT"
 KEY VendorTechnology_VCCI_2.5_VOLTR "EXT"
 KEY VendorTechnology_VCCI_3.3_VOLTR "EXT"
 KEY VendorTechnology_VOLTR "EXT"
-KEY ProjectLocation "C:\polarfire-soc-discovery-kit-reference-design_REPO_N2\MPFS_DISCOVERY_MIV_RV32_CFG1"
+KEY ProjectLocation "C:\Mi-V-RV32-lsram-test_REPO\Libero\MPFS_DISCOVERY_MIV_RV32_CFG1"
 KEY ProjectDescription ""
 KEY UseRootLocationForLinkedFiles "FALSE"
 KEY RootLocationENVForLinkedFiles ""
@@ -618,15 +618,6 @@ SIZE="29298"
 PARENT="<project>\component\work\MIV_ESS_C0\CoreGPIO_0\MIV_ESS_C0_CoreGPIO_0_CoreGPIO.cxf"
 IS_READONLY="TRUE"
 ENDFILE
-VALUE "<project>\component\work\MIV_ESS_C0\CoreGPIO_0\rtl\vlog\test\user\testbench.v,tb_hdl"
-STATE="utd"
-TIME="1768763217"
-SIZE="13854"
-PARENT="<project>\component\work\MIV_ESS_C0\CoreGPIO_0\MIV_ESS_C0_CoreGPIO_0_CoreGPIO.cxf"
-MODULE_UNDER_TEST="testbench"
-SIMULATION_TIME="-all"
-IS_READONLY="TRUE"
-ENDFILE
 VALUE "<project>\component\work\MIV_ESS_C0\CoreGPIO_0\wave_vlog.do,do"
 STATE="utd"
 TIME="1768763217"
@@ -772,15 +763,6 @@ STATE="utd"
 TIME="1768763217"
 SIZE="8863"
 PARENT="<project>\component\work\MIV_ESS_C0\CoreUARTapb_0\MIV_ESS_C0_CoreUARTapb_0_CoreUARTapb.cxf"
-IS_READONLY="TRUE"
-ENDFILE
-VALUE "<project>\component\work\MIV_ESS_C0\CoreUARTapb_0\rtl\vlog\test\user\testbench.v,tb_hdl"
-STATE="utd"
-TIME="1768763217"
-SIZE="8969"
-PARENT="<project>\component\work\MIV_ESS_C0\CoreUARTapb_0\MIV_ESS_C0_CoreUARTapb_0_CoreUARTapb.cxf"
-MODULE_UNDER_TEST="testbench"
-SIMULATION_TIME="-all"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\MIV_ESS_C0\MIV_ESS_C0.cxf,actgen_cxf"
@@ -1409,22 +1391,22 @@ PARENT="<project>\component\Actel\DirectCore\CoreTimer\2.0.103\CoreTimer.cxf"
 ENDFILE
 VALUE "<project>\synthesis\BaseDesign.so,so"
 STATE="utd"
-TIME="1768479971"
+TIME="1768776514"
 SIZE="279"
 ENDFILE
 VALUE "<project>\synthesis\BaseDesign.vm,syn_vm"
 STATE="utd"
-TIME="1768479969"
-SIZE="3434509"
+TIME="1768776513"
+SIZE="3444016"
 ENDFILE
 VALUE "<project>\synthesis\BaseDesign_syn.prj,prj"
 STATE="utd"
-TIME="1768504847"
-SIZE="10038"
+TIME="1769591714"
+SIZE="11050"
 ENDFILE
 VALUE "<project>\synthesis\BaseDesign_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1768479969"
+TIME="1768776513"
 SIZE="1607"
 ENDFILE
 ENDLIST
@@ -1458,6 +1440,9 @@ ENDLIST
 Used_File_List
 ENDUsed_File_List
 ENDLIST
+ENDLIST
+LIST synthesis_implementations
+VALUE "synthesis"
 ENDLIST
 ENDLIST
 LIST "CORERESET_PF_C0_CORERESET_PF_C0_0_CORERESET_PF::work"
@@ -1872,8 +1857,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\bin\synplify_pro.exe"
-PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
-BATCH=1
+PARAM=""
+BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -1942,6 +1927,7 @@ SmartDesign;BaseDesign;0
 HDL;hdl\sram_test_module.v;0
 HDL;component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v;0
 HDL;constraint\io\RV32_IO.pdc;0
+StartPage;StartPage;0
 ACTIVEVIEW;BaseDesign
 ENDLIST
 LIST ModuleSubBlockList
@@ -2591,10 +2577,6 @@ LIST "MIV_ESS_C0_CoreUARTapb_0_BFMA1l1OII::work","component\work\MIV_ESS_C0\Core
 ENDLIST
 LIST "testbench::work","component\Microchip\MiV\MIV_PLIC\2.0.100\test\miv_plic_tb.v","FALSE","TRUE"
 SUBBLOCK "MIV_PLIC::work","component\Microchip\MiV\MIV_PLIC\2.0.100\core\miv_plic.v","FALSE","FALSE"
-ENDLIST
-LIST "testbench::work","component\work\MIV_ESS_C0\CoreGPIO_0\rtl\vlog\test\user\testbench.v","FALSE","TRUE"
-ENDLIST
-LIST "testbench::work","component\work\MIV_ESS_C0\CoreUARTapb_0\rtl\vlog\test\user\testbench.v","FALSE","TRUE"
 ENDLIST
 LIST "COREJTAGDEBUG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\4.0.100\core\corejtagdebug.v","FALSE","FALSE"
 SUBBLOCK "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\4.0.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
